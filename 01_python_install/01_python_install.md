@@ -15,8 +15,10 @@ root@42ff601ded9a:~# apt-get update
 
 root@42ff601ded9a:~# apt-get install wget
 ...
+```
 
 # [Install python2.7]
+```
 root@42ff601ded9a:~# wget https://repo.continuum.io/archive/Anaconda2-4.2.0-Linux-x86_64.sh
 ...
 
