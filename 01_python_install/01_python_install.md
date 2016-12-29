@@ -8,14 +8,17 @@ root@42ff601ded9a:~# uname -a
 Linux 42ff601ded9a 4.4.27-moby #1 SMP Wed Oct 26 14:21:29 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
 ```
 
-# [Install python2.7]
+# [Install wget]
 ```
 root@42ff601ded9a:~# apt-get update
 ...
 
 root@42ff601ded9a:~# apt-get install wget
 ...
+```
 
+# [Install python2.7]
+```
 root@42ff601ded9a:~# wget https://repo.continuum.io/archive/Anaconda2-4.2.0-Linux-x86_64.sh
 ...
 
