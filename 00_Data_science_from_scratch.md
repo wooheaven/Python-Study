@@ -17,3 +17,5 @@
 [02_chp/02.01.10_defaultdict : dict + add new element if key is not exists in dict](02_Data_Science_from_Scratch/02_chp/02.01.10_defaultdict.md)
 
 [02_chp/02.01.10_counter : same like defaultdict](02_Data_Science_from_Scratch/02_chp/02.01.10_Counter.md)
+
+[02_chp/02.01.10_wordcount : examples](02_Data_Science_from_scratch/02_chp/02.01.10_wordcount_examples.md)
