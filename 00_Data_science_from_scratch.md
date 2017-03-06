@@ -10,10 +10,12 @@
 
 # 02_Data_Science_from_Scratch
 
-[02_chp/dict : key-value data structure](02_Data_Science_from_Scratch/02_chp/02.01.10_dict.md)
+[02_chp/02.01.07_string](02_Data_Science_from_Scratch/02_chp/02.01.07_string.md)
 
-[02_chp/defaultdict : dict + add new element if key is not exists in dict](02_Data_Science_from_Scratch/02_chp/02.01.10_defaultdict.md)
+[02_chp/02.01.10_dict : key-value data structure](02_Data_Science_from_Scratch/02_chp/02.01.10_dict.md)
 
-[02_chp/counter : same like defaultdict](02_Data_Science_from_Scratch/02_chp/02.01.10_Counter.md)
+[02_chp/02.01.10_defaultdict : dict + add new element if key is not exists in dict](02_Data_Science_from_Scratch/02_chp/02.01.10_defaultdict.md)
 
-[02_chp/string](02_Data_Science_from_Scratch/02_chp/02.01.07_string.md)
+[02_chp/02.01.10_counter : same like defaultdict](02_Data_Science_from_Scratch/02_chp/02.01.10_Counter.md)
+
+[02_chp/02.01.10_wordcount : examples](02_Data_Science_from_Scratch/02_chp/02.01.10_wordcount_examples.md)
