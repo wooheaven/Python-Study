@@ -20,4 +20,4 @@
 
 [02_chp/02.01.10_wordcount : examples](02_Data_Science_from_Scratch/02_chp/02.01.10_wordcount_examples.md)
 
-[02_chp/02.01.11_set : in operation is quick, reduce duplication]((02_Data_Science_from_Scratch/02_chp/02.01.11_set.md)
+[02_chp/02.01.11_set : in operation is quick, reduce duplication](02_Data_Science_from_Scratch/02_chp/02.01.11_set.md)
