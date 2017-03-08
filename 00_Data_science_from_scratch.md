@@ -29,3 +29,5 @@
 [02_chp/02.01.11_set : in operation is quick, reduce duplication](02_Data_Science_from_Scratch/02_chp/02.01.11_set.md)
 
 [02_chp/02.01.12_control_statement : for, if-elif-else, continue, break](02_Data_Science_from_Scratch/02_chp/02.01.12_control_statement.md)
+
+[02_chp/02.01.13_Boolean : True, False, and, or, all, any](02_Data_Science_from_Scratch/02_chp/02.01.13_Boolean.md)
