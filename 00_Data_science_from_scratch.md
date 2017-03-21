@@ -34,8 +34,8 @@
 
 [02_chp/02.02.01_sort : sort list](02_Data_Science_from_Scratch/02_chp/02.02.01_sort.md)
 
-[02_chp/02.02.01_list : list comprehension](02_Data_Science_from_Scratch/02_chp/02.02.02_list_comprehension.md)
+[02_chp/02.02.02_list : list comprehension](02_Data_Science_from_Scratch/02_chp/02.02.02_list_comprehension.md)
 
 [02_chp/02.02.03_Generator_Iterator : Use temparary and lazy index by Generator](02_Data_Science_from_Scratch/02_chp/02.02.03_Generator_Iterator.md)
 
-[02_chp/02.02.04_random_numbers : Use random(), seed(9), randrange(1,9), shuffle(range(10)), choice(range(10)), sample(range(10),5) of random package](02_Data_Science_from_Scratch/02_chp/02.02.04_random_numbers.md)
+[02_chp/02.02.04_random : Use random(), seed(9), randrange(1,9), shuffle(range(10)), choice(range(10)), sample(range(10),5) of random package](02_Data_Science_from_Scratch/02_chp/02.02.04_random_numbers.md)
