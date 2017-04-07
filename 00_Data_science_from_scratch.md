@@ -40,4 +40,4 @@
 
 [02_chp/02.02.04_random : Use random(), seed(9), randrange(1,9), shuffle(range(10)), choice(range(10)), sample(range(10),5) of random package](02_Data_Science_from_Scratch/02_chp/02.02.04_random_numbers.md)
 
-[02_chp/02.02.05_ragular_expression : match, search, split, sub of re package](02_Data_Science_from_Scratch/02_chp/02.02.05_ragular_expression.md)
+[02_chp/02.02.05_ragular_expression : match, search, split, sub of re package](02_Data_Science_from_Scratch/02_chp/02.02.05_regular_expression.md)
