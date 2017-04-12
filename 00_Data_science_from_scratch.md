@@ -43,3 +43,5 @@
 [02_chp/02.02.05_ragular_expression : match, search, split, sub of re package](02_Data_Science_from_Scratch/02_chp/02.02.05_regular_expression.md)
 
 [02_chp/02.02.06_Object-Oriented_Programming : Implement of Set](02_Data_Science_from_Scratch/02_chp/02.02.06_object-oriented_programming.md)
+
+[02_chp/02.02.07_functional_tool : Merge a function as a argument to another function](02_Data_Science_from_Scratch/02_chp/02.02.07_functional_tool.md)
