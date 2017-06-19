@@ -51,3 +51,5 @@
 [02_chp/02.02.08_enumerate : Use index and elements of list at the same time](02_Data_Science_from_Scratch/02_chp/02.02.08_enumerate.md)
 
 [02_chp/02.02.09_zip_argument_unpacking : Use zip and unzip for list](02_Data_Science_from_Scratch/02_chp/02.02.09_zip_argument_unpacking.ipynb)
+
+[02_chp/02.02.10_args_kwargs : Unnamed args tuple and KeyWord args dict](02_Data_Science_from_Scratch/02_chp/02.02.10_args_kwargs.ipynb)
