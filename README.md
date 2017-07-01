@@ -53,3 +53,5 @@
 [02_chp/02.02.09_zip_argument_unpacking : Use zip and unzip for list](02_Data_Science_from_Scratch/02_chp/02.02.09_zip_argument_unpacking.ipynb)
 
 [02_chp/02.02.10_args_kwargs : Unnamed args tuple and KeyWord args dict](02_Data_Science_from_Scratch/02_chp/02.02.10_args_kwargs.ipynb)
+
+[03_chp/03.01_matplotlib : simple bar graph, line graph, scatter plot](02_Data_Science_from_Scratch/03_chp/03.01_matplotlib.ipynb)
