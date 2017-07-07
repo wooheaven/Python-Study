@@ -57,3 +57,5 @@
 [03_chp/03.01_matplotlib : simple bar graph, line graph, scatter plot](02_Data_Science_from_Scratch/03_chp/03.01_matplotlib.ipynb)
 
 [03_chp/03.02_bar charts : bar charts, historgram](02_Data_Science_from_Scratch/03_chp/03.02_bar_charts.ipynb)
+
+[03_chp/03.03_line charts : line charts](02_Data_Science_from_Scratch/03_chp/03.03_line_charts.ipynb)
