@@ -62,4 +62,8 @@
 
 [03_Ch/03.04_scatter plots : scatter plots](02_Data_Science_from_Scratch/03_Ch/03.04_scatter_plots.ipynb)
 
-[04_ch/04.01 Linear Algebra](02_Data_Science_from_Scratch/04_Ch/04.01_Linear_Algebra.ipynb)
+[04_Ch/04.01 Linear Algebra](02_Data_Science_from_Scratch/04_Ch/04.01_Linear_Algebra.ipynb)
+
+| Ch | Part | Contents |
+|---|---|---|
+| 04 | 02 | [Matrix](02_Data_Science_from_Scratch/04_Ch/04.02_Matrix.ipynb) |
