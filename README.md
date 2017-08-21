@@ -54,15 +54,11 @@
 
 [02_Ch/02.02.10_args_kwargs : Unnamed args tuple and KeyWord args dict](02_Data_Science_from_Scratch/02_Ch/02.02.10_args_kwargs.ipynb)
 
-[03_Ch/03.01_matplotlib : simple bar graph, line graph, scatter plot](02_Data_Science_from_Scratch/03_Ch/03.01_matplotlib.ipynb)
-
-[03_Ch/03.02_bar charts : bar charts, historgram](02_Data_Science_from_Scratch/03_Ch/03.02_bar_charts.ipynb)
-
-[03_Ch/03.03_line charts : line charts](02_Data_Science_from_Scratch/03_Ch/03.03_line_charts.ipynb)
-
-[03_Ch/03.04_scatter plots : scatter plots](02_Data_Science_from_Scratch/03_Ch/03.04_scatter_plots.ipynb)
-
 | Ch | Part | Contents |
 |---|---|---|
+| 03 | 01 | [matplotlib : simple bar graph, line graph, scatter plot](02_Data_Science_from_Scratch/03_Ch/03.01_matplotlib.ipynb) |
+| | 02 | [bar charts, historgram](02_Data_Science_from_Scratch/03_Ch/03.02_bar_charts.ipynb) |
+| | 03 | [Line charts](02_Data_Science_from_Scratch/03_Ch/03.03_line_charts.ipynb) |
+| | 04 | [Scatter plots](02_Data_Science_from_Scratch/03_Ch/03.04_scatter_plots.ipynb) |
 | 04 | 01 | [Linear Algebra](02_Data_Science_from_Scratch/04_Ch/04.01_Linear_Algebra.ipynb) |
 | | 02 | [Matrix](02_Data_Science_from_Scratch/04_Ch/04.02_Matrix.ipynb) |
