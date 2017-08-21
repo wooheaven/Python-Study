@@ -17,45 +17,25 @@
 [01/05 Jupyter Notebook ShortCuts](01_Install_and_Use_python2.7/05_Jupyter_notebook_shortcuts/01_Jupyter_notebook_shortcuts.md)
 
 # 02_Data_Science_from_Scratch
-
-[02_Ch/02.01.07_string](02_Data_Science_from_Scratch/02_Ch/02.01.07_string.md)
-
-[02_Ch/02.01.10_dict : key-value data structure](02_Data_Science_from_Scratch/02_Ch/02.01.10_dict.md)
-
-[02_Ch/02.01.10_defaultdict : dict + add new element if key is not exists in dict](02_Data_Science_from_Scratch/02_Ch/02.01.10_defaultdict.md)
-
-[02_Ch/02.01.10_counter : same like defaultdict](02_Data_Science_from_Scratch/02_Ch/02.01.10_Counter.md)
-
-[02_Ch/02.01.10_wordcount : examples](02_Data_Science_from_Scratch/02_Ch/02.01.10_wordcount_examples.md)
-
-[02_Ch/02.01.11_set : in operation is quick, reduce duplication](02_Data_Science_from_Scratch/02_Ch/02.01.11_set.md)
-
-[02_Ch/02.01.12_control_statement : for, if-elif-else, continue, break](02_Data_Science_from_Scratch/02_Ch/02.01.12_control_statement.md)
-
-[02_Ch/02.01.13_Boolean : True, False, and, or, all, any](02_Data_Science_from_Scratch/02_Ch/02.01.13_Boolean.md)
-
-[02_Ch/02.02.01_sort : sort list](02_Data_Science_from_Scratch/02_Ch/02.02.01_sort.md)
-
-[02_Ch/02.02.02_list : list comprehension](02_Data_Science_from_Scratch/02_Ch/02.02.02_list_comprehension.md)
-
-[02_Ch/02.02.03_Generator_Iterator : Use temparary and lazy index by Generator](02_Data_Science_from_Scratch/02_Ch/02.02.03_Generator_Iterator.md)
-
-[02_Ch/02.02.04_random : Use random(), seed(9), randrange(1,9), shuffle(range(10)), choice(range(10)), sample(range(10),5) of random package](02_Data_Science_from_Scratch/02_Ch/02.02.04_random_numbers.md)
-
-[02_Ch/02.02.05_ragular_expression : match, search, split, sub of re package](02_Data_Science_from_Scratch/02_Ch/02.02.05_regular_expression.md)
-
-[02_Ch/02.02.06_Object-Oriented_Programming : Implement of Set](02_Data_Science_from_Scratch/02_Ch/02.02.06_object-oriented_programming.md)
-
-[02_Ch/02.02.07_functional_tool : Merge a function as a argument to another function](02_Data_Science_from_Scratch/02_Ch/02.02.07_functional_tool.md)
-
-[02_Ch/02.02.08_enumerate : Use index and elements of list at the same time](02_Data_Science_from_Scratch/02_Ch/02.02.08_enumerate.md)
-
-[02_Ch/02.02.09_zip_argument_unpacking : Use zip and unzip for list](02_Data_Science_from_Scratch/02_Ch/02.02.09_zip_argument_unpacking.ipynb)
-
-[02_Ch/02.02.10_args_kwargs : Unnamed args tuple and KeyWord args dict](02_Data_Science_from_Scratch/02_Ch/02.02.10_args_kwargs.ipynb)
-
 | Ch | Part | Contents |
 |---|---|---|
+| 02 | 01 | [sort list](02_Data_Science_from_Scratch/02_Ch/02.02.01_sort.md) |
+| | 02 | [list comprehension](02_Data_Science_from_Scratch/02_Ch/02.02.02_list_comprehension.md) |
+| | 03 | [Generator_Iterator : Use temparary and lazy index by Generator](02_Data_Science_from_Scratch/02_Ch/02.02.03_Generator_Iterator.md) |
+| | 04 | [random : Use random(), seed(9), randrange(1,9), shuffle(range(10)), choice(range(10)), sample(range(10),5) of random package](02_Data_Science_from_Scratch/02_Ch/02.02.04_random_numbers.md) |
+| | 05 | [ragular_expression : match, search, split, sub of re package](02_Data_Science_from_Scratch/02_Ch/02.02.05_regular_expression.md) |
+| | 06 | [Object-Oriented_Programming : Implement of Set](02_Data_Science_from_Scratch/02_Ch/02.02.06_object-oriented_programming.md) |
+| | 07 | [string](02_Data_Science_from_Scratch/02_Ch/02.01.07_string.md)
+| | 07 | [functional_tool : Merge a function as a argument to another function](02_Data_Science_from_Scratch/02_Ch/02.02.07_functional_tool.md) |
+| | 08 | [enumerate : Use index and elements of list at the same time](02_Data_Science_from_Scratch/02_Ch/02.02.08_enumerate.md) |
+| | 09 | [zip_argument_unpacking : Use zip and unzip for list](02_Data_Science_from_Scratch/02_Ch/02.02.09_zip_argument_unpacking.ipynb) |
+| | 10 | [args_kwargs : Unnamed args tuple and KeyWord args dict](02_Data_Science_from_Scratch/02_Ch/02.02.10_args_kwargs.ipynb) |
+| | 10 | [dict : key-value data structure](02_Data_Science_from_Scratch/02_Ch/02.01.10_dict.md)
+| | 10 | <ul><li>[defaultdict : dict + add new element if key is not exists in dict](02_Data_Science_from_Scratch/02_Ch/02.01.10_defaultdict.md) |</li><li>[counter : same like defaultdict](02_Data_Science_from_Scratch/02_Ch/02.01.10_Counter.md) </li></ul> |
+| | 10 | [wordcount : examples](02_Data_Science_from_Scratch/02_Ch/02.01.10_wordcount_examples.md) |
+| | 11 | [set : in operation is quick, reduce duplication](02_Data_Science_from_Scratch/02_Ch/02.01.11_set.md) |
+| | 12 | [control_statement : for, if-elif-else, continue, break](02_Data_Science_from_Scratch/02_Ch/02.01.12_control_statement.md) |
+| | 13 | [Boolean : True, False, and, or, all, any](02_Data_Science_from_Scratch/02_Ch/02.01.13_Boolean.md) |
 | 03 | 01 | [matplotlib : simple bar graph, line graph, scatter plot](02_Data_Science_from_Scratch/03_Ch/03.01_matplotlib.ipynb) |
 | | 02 | [bar charts, historgram](02_Data_Science_from_Scratch/03_Ch/03.02_bar_charts.ipynb) |
 | | 03 | [Line charts](02_Data_Science_from_Scratch/03_Ch/03.03_line_charts.ipynb) |
