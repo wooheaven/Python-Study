@@ -25,8 +25,7 @@
 | | 04 | [random : Use random(), seed(9), randrange(1,9), shuffle(range(10)), choice(range(10)), sample(range(10),5) of random package](02_Data_Science_from_Scratch/02_Ch/02.02.04_random_numbers.md) |
 | | 05 | [ragular_expression : match, search, split, sub of re package](02_Data_Science_from_Scratch/02_Ch/02.02.05_regular_expression.md) |
 | | 06 | [Object-Oriented_Programming : Implement of Set](02_Data_Science_from_Scratch/02_Ch/02.02.06_object-oriented_programming.md) |
-| | 07 | [string](02_Data_Science_from_Scratch/02_Ch/02.01.07_string.md)
-| | 07 | [functional_tool : Merge a function as a argument to another function](02_Data_Science_from_Scratch/02_Ch/02.02.07_functional_tool.md) |
+| | 07 | <ul><li>[string](02_Data_Science_from_Scratch/02_Ch/02.01.07_string.md)</li><li>[functional_tool : Merge a function as a argument to another function](02_Data_Science_from_Scratch/02_Ch/02.02.07_functional_tool.md)</li></ul>|
 | | 08 | [enumerate : Use index and elements of list at the same time](02_Data_Science_from_Scratch/02_Ch/02.02.08_enumerate.md) |
 | | 09 | [zip_argument_unpacking : Use zip and unzip for list](02_Data_Science_from_Scratch/02_Ch/02.02.09_zip_argument_unpacking.ipynb) |
 | | 10 | <ul><li>[args_kwargs : Unnamed args tuple and KeyWord args dict](02_Data_Science_from_Scratch/02_Ch/02.02.10_args_kwargs.ipynb)</li><li>[dict : key-value data structure](02_Data_Science_from_Scratch/02_Ch/02.01.10_dict.md)</li><li>[defaultdict : dict + add new element if key is not exists in dict](02_Data_Science_from_Scratch/02_Ch/02.01.10_defaultdict.md)</li><li>[counter : same like defaultdict](02_Data_Science_from_Scratch/02_Ch/02.01.10_Counter.md)</li><li>[wordcount : examples](02_Data_Science_from_Scratch/02_Ch/02.01.10_wordcount_examples.md)</li></ul>|
