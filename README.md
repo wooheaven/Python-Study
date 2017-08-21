@@ -29,10 +29,7 @@
 | | 07 | [functional_tool : Merge a function as a argument to another function](02_Data_Science_from_Scratch/02_Ch/02.02.07_functional_tool.md) |
 | | 08 | [enumerate : Use index and elements of list at the same time](02_Data_Science_from_Scratch/02_Ch/02.02.08_enumerate.md) |
 | | 09 | [zip_argument_unpacking : Use zip and unzip for list](02_Data_Science_from_Scratch/02_Ch/02.02.09_zip_argument_unpacking.ipynb) |
-| | 10 | [args_kwargs : Unnamed args tuple and KeyWord args dict](02_Data_Science_from_Scratch/02_Ch/02.02.10_args_kwargs.ipynb) |
-| | 10 | [dict : key-value data structure](02_Data_Science_from_Scratch/02_Ch/02.01.10_dict.md)
-| | 10 | <ul><li>[defaultdict : dict + add new element if key is not exists in dict](02_Data_Science_from_Scratch/02_Ch/02.01.10_defaultdict.md)</li><li>[counter : same like defaultdict](02_Data_Science_from_Scratch/02_Ch/02.01.10_Counter.md) </li></ul> |
-| | 10 | [wordcount : examples](02_Data_Science_from_Scratch/02_Ch/02.01.10_wordcount_examples.md) |
+| | 10 | <ul><li>[args_kwargs : Unnamed args tuple and KeyWord args dict](02_Data_Science_from_Scratch/02_Ch/02.02.10_args_kwargs.ipynb)</li><li>[dict : key-value data structure](02_Data_Science_from_Scratch/02_Ch/02.01.10_dict.md)</li><li>[defaultdict : dict + add new element if key is not exists in dict](02_Data_Science_from_Scratch/02_Ch/02.01.10_defaultdict.md)</li><li>[counter : same like defaultdict](02_Data_Science_from_Scratch/02_Ch/02.01.10_Counter.md)</li><li>[wordcount : examples](02_Data_Science_from_Scratch/02_Ch/02.01.10_wordcount_examples.md)</li></ul>|
 | | 11 | [set : in operation is quick, reduce duplication](02_Data_Science_from_Scratch/02_Ch/02.01.11_set.md) |
 | | 12 | [control_statement : for, if-elif-else, continue, break](02_Data_Science_from_Scratch/02_Ch/02.01.12_control_statement.md) |
 | | 13 | [Boolean : True, False, and, or, all, any](02_Data_Science_from_Scratch/02_Ch/02.01.13_Boolean.md) |
