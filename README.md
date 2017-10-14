@@ -32,3 +32,4 @@
 | | 04 | [Scatter plots](02_Data_Science_from_Scratch/03_Ch/03.04_scatter_plots.ipynb) |
 | 04 | 01 | [Linear Algebra](02_Data_Science_from_Scratch/04_Ch/04.01_Linear_Algebra.ipynb) |
 | | 02 | [Matrix](02_Data_Science_from_Scratch/04_Ch/04.02_Matrix.ipynb) |
+| 05 | 01 | [Explain DataSet](02_Data_Science_from_Scratch/05_Ch/05.01_Explain_DataSet.ipynb) |
