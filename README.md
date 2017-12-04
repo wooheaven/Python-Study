@@ -1,9 +1,9 @@
 # 01 Introduce
 | Title | Contents |
 |---|---|
-| Install | [01/01 Install_anaconda](01_Install_and_Use_python2.7/01_Install_python/01_Install_anaconda.md) |
-| | [01/01 conda create envs](01_Install_and_Use_python2.7/01_Install_python/02_conda_create_envs.md) |
-| | [01/01 Install package of PyPi](01_Install_and_Use_python2.7/01_Install_python/03_Install_package_by_pip.md)|
+| Install | [01/01 Install_anaconda](01_Install_and_Use_python2.7/01_conda/01_Install_anaconda.md) |
+| | [01/01 conda create envs](01_Install_and_Use_python2.7/01_conda/02_conda_create_envs.md) |
+| | [01/01 Install package of PyPi](01_Install_and_Use_python2.7/01_conda/03_Install_package_by_pip.md)|
 | Use | [01/02 Use_python2.7 : on host web with docker and port forwarding](01_Install_and_Use_python2.7/02_Use_python2.7/01_ipython_on_docker_host_web.md)|
 | | [01/02 Use_python2.7 : on python shell in docker](01_Install_and_Use_python2.7/02_Use_python2.7/02_python_shell_on_docker.md)|
 | | [01/02 Use_python2.7 : on host web](01_Install_and_Use_python2.7/02_Use_python2.7/03_ipython_on_host_web.md)|
