@@ -12,6 +12,8 @@ $ sudo chown -R rwoo:rwoo /usr/local/anaconda
 
 $ cd /usr/local/anaconda
 
+$ chmod +x Anaconda2-4.3.0-Linux-x86_64.sh
+
 $ bash Anaconda2-4.3.0-Linux-x86_64.sh
 ...
 Anaconda2 will now be installed into this location:
