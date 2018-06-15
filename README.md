@@ -1,16 +1,17 @@
 # 01 Introduce
-| Title   | Contents                                                                                                                  |
-|---------|---------------------------------------------------------------------------------------------------------------------------|
-| conda   | [install conda](01_Install_and_Use_python2.7/01_conda/01_Install_anaconda.md)                                             |
-|         | [conda create envs](01_Install_and_Use_python2.7/01_conda/02_conda_create_envs.md)                                        |
-|         | [pip install package](01_Install_and_Use_python2.7/01_conda/03_pip_install_package.md)                                    |
-| jupyter | [jupyter with docker and port forwarding](01_Install_and_Use_python2.7/02_jupyter/01_ipython_on_docker_host_web.md)       |
-|         | [jupyter on host web](01_Install_and_Use_python2.7/02_jupyter/02_ipython_on_host_web.md)                                  |
-|         | [convert jupyter notebook to markdown](01_Install_and_Use_python2.7/02_jupyter/03_convert_jupyter_notebook_to_markdown.md)|
-|         | [Jupyter Notebook ShortCuts](01_Install_and_Use_python2.7/02_jupyter/04_Jupyter_notebook_shortcuts.md)                    |
-|         | [jupyter notebook passwd](01_Install_and_Use_python2.7/02_jupyter/05_jupyter_notebook_passwd.md)                          |
-| etc     | [python shell in docker container](01_Install_and_Use_python2.7/03_etc/03_python_shell_on_docker.md)                      |
-|         | [Zen of Python](01_Install_and_Use_python2.7/03_etc/02_Zen_of_Python_English_Korean.md)                                   |
+| Title   | Contents                                                                                                                |
+|---------|-------------------------------------------------------------------------------------------------------------------------|
+| conda   | [install conda](01_Install_and_Use_python/01_conda/01_Install_anaconda.md)                                              |
+|         | [conda create envs](01_Install_and_Use_python/01_conda/02_conda_create_envs.md)                                         |
+|         | [conda remove envs](01_Install_and_Use_python/01_conda/03_conda_remove_envs.md)                                         |
+|         | [pip install package](01_Install_and_Use_python/01_conda/04_pip_install_package.md)                                     |
+| jupyter | [jupyter with docker and port forwarding](01_Install_and_Use_python/02_jupyter/01_ipython_on_docker_host_web.md)        |
+|         | [jupyter on host web](01_Install_and_Use_python/02_jupyter/02_ipython_on_host_web.md)                                   |
+|         | [convert jupyter notebook to markdown](01_Install_and_Use_python/02_jupyter/03_convert_jupyter_notebook_to_markdown.md) |
+|         | [Jupyter Notebook ShortCuts](01_Install_and_Use_python/02_jupyter/04_Jupyter_notebook_shortcuts.md)                     |
+|         | [jupyter notebook passwd](01_Install_and_Use_python/02_jupyter/05_jupyter_notebook_passwd.md)                           |
+| etc     | [python shell in docker container](01_Install_and_Use_python/03_etc/03_python_shell_on_docker.md)                       |
+|         | [Zen of Python](01_Install_and_Use_python/03_etc/02_Zen_of_Python_English_Korean.md)                                    |
 
 # 02_Data_Science_from_Scratch
 | Ch | Part | Contents                                                                                                                                                                                      |
