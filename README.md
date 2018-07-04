@@ -46,3 +46,8 @@
 | Title | Contents                                                                      |
 |-------|-------------------------------------------------------------------------------|
 | Issue | [Unresolved reference warning](03_PyCharm/01_unresolved_reference_warning.md) |
+
+# 04_Everyday_Programming
+| Question | Contents                                                                   |
+|----------|----------------------------------------------------------------------------|
+| 01       | [bigger_continue_sum](04_Everyday_Programming/01_Q/bigger_continue_sum.py) |
