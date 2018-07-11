@@ -51,3 +51,8 @@
 | Question | Contents                                                                   |
 |----------|----------------------------------------------------------------------------|
 | 01       | [bigger_continue_sum](04_Everyday_Programming/01_Q/bigger_continue_sum.py) |
+
+# 05_Tmp
+| Title       | Contents                                                            |
+|-------------|---------------------------------------------------------------------|
+| defaultdict | [defaultdict in defaultdict](05_Tmp/01_dictionary_in_dictionary.py) |
