@@ -57,3 +57,9 @@
 | Title       | Contents                                                            |
 |-------------|---------------------------------------------------------------------|
 | defaultdict | [defaultdict in defaultdict](05_Tmp/01_dictionary_in_dictionary.py) |
+
+# 06_Django
+| Title    | Contents                                                                      |
+|----------|-------------------------------------------------------------------------------|
+| Tutorial | [Sample Board - List, Wirte, View](06_Django/01_Sample_Board/djago_study.log) |
+
