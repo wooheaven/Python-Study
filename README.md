@@ -1,11 +1,15 @@
 # 01 Introduce
+Table of Contents  
+&ensp;╠═1. conda  
+&ensp;║&ensp;╠═1.1. [install conda](01_Install_and_Use_python/01_conda/01_Install_anaconda.md)  
+&ensp;║&ensp;╠═1.2. [create envs](01_Install_and_Use_python/01_conda/02_conda_create_envs.md)  
+&ensp;║&ensp;╠═1.3. [remove envs](01_Install_and_Use_python/01_conda/03_conda_remove_envs.md)  
+&ensp;║&ensp;╠═1.4. [pip install package](01_Install_and_Use_python/01_conda/04_pip_install_package.md)  
+&ensp;║&ensp;╚═1.5. [pip install package --upgrade](01_Install_and_Use_python/01_conda/05_pip_install_package_upgrade.md)  
+( ║ ╠ ═ ╚ )  
+
 | Title   | Contents                                                                                                                |
 |---------|-------------------------------------------------------------------------------------------------------------------------|
-| conda   | [install conda](01_Install_and_Use_python/01_conda/01_Install_anaconda.md)                                              |
-|         | [conda create envs](01_Install_and_Use_python/01_conda/02_conda_create_envs.md)                                         |
-|         | [conda remove envs](01_Install_and_Use_python/01_conda/03_conda_remove_envs.md)                                         |
-|         | [pip install package](01_Install_and_Use_python/01_conda/04_pip_install_package.md)                                     |
-|         | [pip install package --upgrade](01_Install_and_Use_python/01_conda/05_pip_install_package_upgrade.md)                   |
 | jupyter | [jupyter with docker and port forwarding](01_Install_and_Use_python/02_jupyter/01_ipython_on_docker_host_web.md)        |
 |         | [jupyter on host web](01_Install_and_Use_python/02_jupyter/02_ipython_on_host_web.md)                                   |
 |         | [convert jupyter notebook to markdown](01_Install_and_Use_python/02_jupyter/03_convert_jupyter_notebook_to_markdown.md) |
@@ -57,3 +61,9 @@
 | Title       | Contents                                                            |
 |-------------|---------------------------------------------------------------------|
 | defaultdict | [defaultdict in defaultdict](05_Tmp/01_dictionary_in_dictionary.py) |
+
+# 06_Django
+| Title    | Contents                                                                      |
+|----------|-------------------------------------------------------------------------------|
+| Tutorial | [Sample Board - List, Wirte, View](06_Django/01_Sample_Board/djago_study.log) |
+

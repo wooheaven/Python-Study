@@ -1,2 +1,5 @@
 # ipython autosave
 *.ipynb_checkpoints
+
+# python
+__pycache__
