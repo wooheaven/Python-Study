@@ -5,6 +5,7 @@
 |         | [conda create envs](01_Install_and_Use_python/01_conda/02_conda_create_envs.md)                                         |
 |         | [conda remove envs](01_Install_and_Use_python/01_conda/03_conda_remove_envs.md)                                         |
 |         | [pip install package](01_Install_and_Use_python/01_conda/04_pip_install_package.md)                                     |
+|         | [pip install package --upgrade](01_Install_and_Use_python/01_conda/05_pip_install_package_upgrade.md)                   |
 | jupyter | [jupyter with docker and port forwarding](01_Install_and_Use_python/02_jupyter/01_ipython_on_docker_host_web.md)        |
 |         | [jupyter on host web](01_Install_and_Use_python/02_jupyter/02_ipython_on_host_web.md)                                   |
 |         | [convert jupyter notebook to markdown](01_Install_and_Use_python/02_jupyter/03_convert_jupyter_notebook_to_markdown.md) |
