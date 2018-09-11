@@ -65,5 +65,5 @@ Table of Contents
 # 06_Django
 | Title    | Contents                                                                      |
 |----------|-------------------------------------------------------------------------------|
-| Tutorial | [Sample Board - List, Wirte, View](06_Django/01_Sample_Board/djago_study.log) |
+| Tutorial | [Django Girls Tutorial](06_Django/01_Django_Girls_Tutorial/memo.md)           |
 
