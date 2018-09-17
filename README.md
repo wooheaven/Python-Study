@@ -13,11 +13,11 @@ Table of Contents
 
 | Title   | Contents                                                                                                                |
 |---------|-------------------------------------------------------------------------------------------------------------------------|
-| jupyter | [convert jupyter notebook to markdown](01_Install_and_Use_python/02_jupyter/03_convert_jupyter_notebook_to_markdown.md) |
-|         | [Jupyter Notebook ShortCuts](01_Install_and_Use_python/02_jupyter/04_Jupyter_notebook_shortcuts.md)                     |
-|         | [jupyter notebook passwd](01_Install_and_Use_python/02_jupyter/05_jupyter_notebook_passwd.md)                           |
-| etc     | [python shell in docker container](01_Install_and_Use_python/03_etc/03_python_shell_on_docker.md)                       |
-|         | [Zen of Python](01_Install_and_Use_python/03_etc/02_Zen_of_Python_English_Korean.md)                                    |
+| jupyter | [convert jupyter notebook to markdown](01_Install_and_Use_python/03_jupyter/03_convert_jupyter_notebook_to_markdown.md) |
+|         | [Jupyter Notebook ShortCuts](01_Install_and_Use_python/03_jupyter/04_Jupyter_notebook_shortcuts.md)                     |
+|         | [jupyter notebook passwd](01_Install_and_Use_python/03_jupyter/05_jupyter_notebook_passwd.md)                           |
+| etc     | [python shell in docker container](01_Install_and_Use_python/04_etc/03_python_shell_on_docker.md)                       |
+|         | [Zen of Python](01_Install_and_Use_python/04_etc/02_Zen_of_Python_English_Korean.md)                                    |
 
 # 02_Data_Science_from_Scratch
 | Ch | Part | Contents                                                                                                                                                                                      |
