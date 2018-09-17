@@ -131,3 +131,63 @@ Django version 1.11.15, using settings 'mysite.settings'
 Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
 ```
+
+# create app blog
+```{bash}
+(myvenv) $ python manage.py startapp blog
+
+(myvenv) $ vi mysite/settings.py
+...
+ 33 INSTALLED_APPS = [$
+ 34     'django.contrib.admin',$
+ 35     'django.contrib.auth',$
+ 36     'django.contrib.contenttypes',$
+ 37     'django.contrib.sessions',$
+ 38     'django.contrib.messages',$
+ 39     'django.contrib.staticfiles',$
+ 40     'blog',$
+ 41 ]$
+
+(myvenv) $ tree  -L 1 -d
+.
+├── blog
+├── mysite
+└── myvenv
+
+3 directories
+```
+
+# blog text model
+```{bash}
+(myvenv) $ vi blog/models.py
+ 1	from django.db import models
+ 2	from django.utils import timezone
+ 3
+ 4
+ 5	class Post(models.Model):
+ 6	    author = models.ForeignKey('auth.User', on_delete=models.CASCADE)
+ 7	    title = models.CharField(max_length=200)
+ 8	    text = models.TextField()
+ 9	    created_date = models.DateTimeField(
+10	            default=timezone.now)
+11	    published_date = models.DateTimeField(
+12	            blank=True, null=True)
+13
+14	    def publish(self):
+15	        self.published_date = timezone.now()
+16	        self.save()
+17
+18	    def __str__(self):
+19	        return self.title
+
+(myvenv) $ python manage.py makemigrations blog
+Migrations for 'blog':
+  blog/migrations/0001_initial.py
+    - Create model Post
+
+(myvenv) $ python manage.py migrate blog
+Operations to perform:
+  Apply all migrations: blog
+Running migrations:
+  Applying blog.0001_initial... OK
+```
