@@ -1,22 +1,23 @@
 # 01 Introduce
 Table of Contents  
-&ensp;╠═1. conda  
-&ensp;║&ensp;╠═1.1. [install conda](01_Install_and_Use_python/01_conda/01_Install_anaconda.md)  
-&ensp;║&ensp;╠═1.2. [create envs](01_Install_and_Use_python/01_conda/02_conda_create_envs.md)  
-&ensp;║&ensp;╠═1.3. [remove envs](01_Install_and_Use_python/01_conda/03_conda_remove_envs.md)  
-&ensp;║&ensp;╠═1.4. [pip install package](01_Install_and_Use_python/01_conda/04_pip_install_package.md)  
-&ensp;║&ensp;╚═1.5. [pip install package --upgrade](01_Install_and_Use_python/01_conda/05_pip_install_package_upgrade.md)  
+╠═1. conda  
+║&ensp;╠═1.1. [install conda](01_Install_and_Use_python/01_conda/01_Install_anaconda.md)  
+║&ensp;╠═1.2. [create envs](01_Install_and_Use_python/01_conda/02_conda_create_envs.md)  
+║&ensp;╠═1.3. [remove envs](01_Install_and_Use_python/01_conda/03_conda_remove_envs.md)  
+║&ensp;╠═1.4. [pip install package](01_Install_and_Use_python/01_conda/04_pip_install_package.md)  
+║&ensp;╠═1.5. [pip install package --upgrade](01_Install_and_Use_python/01_conda/05_pip_install_package_upgrade.md)  
+║&ensp;╚═1.6. [pip install pip --upgrade](01_Install_and_Use_python/01_conda/06_pip_upgrade.md)  
+╠═2. docker  
+║&ensp;╠═2.1. [python3 jupyter by tensorflow official image](01_Install_and_Use_python/02_docker/tensorflow_image.md)  
 ( ║ ╠ ═ ╚ )  
 
 | Title   | Contents                                                                                                                |
 |---------|-------------------------------------------------------------------------------------------------------------------------|
-| jupyter | [jupyter with docker and port forwarding](01_Install_and_Use_python/02_jupyter/01_ipython_on_docker_host_web.md)        |
-|         | [jupyter on host web](01_Install_and_Use_python/02_jupyter/02_ipython_on_host_web.md)                                   |
-|         | [convert jupyter notebook to markdown](01_Install_and_Use_python/02_jupyter/03_convert_jupyter_notebook_to_markdown.md) |
-|         | [Jupyter Notebook ShortCuts](01_Install_and_Use_python/02_jupyter/04_Jupyter_notebook_shortcuts.md)                     |
-|         | [jupyter notebook passwd](01_Install_and_Use_python/02_jupyter/05_jupyter_notebook_passwd.md)                           |
-| etc     | [python shell in docker container](01_Install_and_Use_python/03_etc/03_python_shell_on_docker.md)                       |
-|         | [Zen of Python](01_Install_and_Use_python/03_etc/02_Zen_of_Python_English_Korean.md)                                    |
+| jupyter | [convert jupyter notebook to markdown](01_Install_and_Use_python/03_jupyter/03_convert_jupyter_notebook_to_markdown.md) |
+|         | [Jupyter Notebook ShortCuts](01_Install_and_Use_python/03_jupyter/04_Jupyter_notebook_shortcuts.md)                     |
+|         | [jupyter notebook passwd](01_Install_and_Use_python/03_jupyter/05_jupyter_notebook_passwd.md)                           |
+| etc     | [python shell in docker container](01_Install_and_Use_python/04_etc/03_python_shell_on_docker.md)                       |
+|         | [Zen of Python](01_Install_and_Use_python/04_etc/02_Zen_of_Python_English_Korean.md)                                    |
 
 # 02_Data_Science_from_Scratch
 | Ch | Part | Contents                                                                                                                                                                                      |
