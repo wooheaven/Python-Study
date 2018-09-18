@@ -9,15 +9,15 @@ Table of Contents
 ║&ensp;╚═1.6. [pip install pip --upgrade](01_Install_and_Use_python/01_conda/06_pip_upgrade.md)  
 ╠═2. docker  
 ║&ensp;╠═2.1. [python3 jupyter by tensorflow official image](01_Install_and_Use_python/02_docker/tensorflow_image.md)  
+╠═3. jupyter  
+║&ensp;╠═3.1. [convert jupyter notebook to markdown](01_Install_and_Use_python/03_jupyter/01_convert_jupyter_notebook_to_markdown.md)  
+║&ensp;╠═3.2. [short cuts for jupyter](01_Install_and_Use_python/03_jupyter/02_Jupyter_notebook_shortcuts.md)  
+║&ensp;╠═3.3. [set password by manually](01_Install_and_Use_python/03_jupyter/03_jupyter_notebook_passwd.md)  
 ( ║ ╠ ═ ╚ )  
 
 | Title   | Contents                                                                                                                |
 |---------|-------------------------------------------------------------------------------------------------------------------------|
-| jupyter | [convert jupyter notebook to markdown](01_Install_and_Use_python/03_jupyter/03_convert_jupyter_notebook_to_markdown.md) |
-|         | [Jupyter Notebook ShortCuts](01_Install_and_Use_python/03_jupyter/04_Jupyter_notebook_shortcuts.md)                     |
-|         | [jupyter notebook passwd](01_Install_and_Use_python/03_jupyter/05_jupyter_notebook_passwd.md)                           |
-| etc     | [python shell in docker container](01_Install_and_Use_python/04_etc/03_python_shell_on_docker.md)                       |
-|         | [Zen of Python](01_Install_and_Use_python/04_etc/02_Zen_of_Python_English_Korean.md)                                    |
+| etc     | [Zen of Python](01_Install_and_Use_python/04_etc/02_Zen_of_Python_English_Korean.md)                                    |
 
 # 02_Data_Science_from_Scratch
 | Ch | Part | Contents                                                                                                                                                                                      |
