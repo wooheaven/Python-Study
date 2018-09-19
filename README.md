@@ -1,23 +1,21 @@
 # 01 Introduce
 Table of Contents  
 ╠═1. conda  
-║&ensp;╠═1.1. [install conda](01_Install_and_Use_python/01_conda/01_Install_anaconda.md)  
-║&ensp;╠═1.2. [create envs](01_Install_and_Use_python/01_conda/02_conda_create_envs.md)  
-║&ensp;╠═1.3. [remove envs](01_Install_and_Use_python/01_conda/03_conda_remove_envs.md)  
-║&ensp;╠═1.4. [pip install package](01_Install_and_Use_python/01_conda/04_pip_install_package.md)  
-║&ensp;╠═1.5. [pip install package --upgrade](01_Install_and_Use_python/01_conda/05_pip_install_package_upgrade.md)  
-║&ensp;╚═1.6. [pip install pip --upgrade](01_Install_and_Use_python/01_conda/06_pip_upgrade.md)  
+║&ensp; ╠═1.1. [install conda](01_Install_and_Use_python/01_conda/01_Install_anaconda.md)  
+║&ensp; ╠═1.2. [create envs](01_Install_and_Use_python/01_conda/02_conda_create_envs.md)  
+║&ensp; ╠═1.3. [remove envs](01_Install_and_Use_python/01_conda/03_conda_remove_envs.md)  
+║&ensp; ╠═1.4. [pip install package](01_Install_and_Use_python/01_conda/04_pip_install_package.md)  
+║&ensp; ╠═1.5. [pip install package --upgrade](01_Install_and_Use_python/01_conda/05_pip_install_package_upgrade.md)  
+║&ensp; ╚═1.6. [pip install pip --upgrade](01_Install_and_Use_python/01_conda/06_pip_upgrade.md)  
 ╠═2. docker  
-║&ensp;╠═2.1. [python3 jupyter by tensorflow official image](01_Install_and_Use_python/02_docker/tensorflow_image.md)  
+║&ensp; ╚═2.1. [python3 jupyter by tensorflow official image](01_Install_and_Use_python/02_docker/tensorflow_image.md)  
 ╠═3. jupyter  
-║&ensp;╠═3.1. [convert jupyter notebook to markdown](01_Install_and_Use_python/03_jupyter/01_convert_jupyter_notebook_to_markdown.md)  
-║&ensp;╠═3.2. [short cuts for jupyter](01_Install_and_Use_python/03_jupyter/02_Jupyter_notebook_shortcuts.md)  
-║&ensp;╠═3.3. [set password by manually](01_Install_and_Use_python/03_jupyter/03_jupyter_notebook_passwd.md)  
+║&ensp; ╠═3.1. [convert jupyter notebook to markdown](01_Install_and_Use_python/03_jupyter/01_convert_jupyter_notebook_to_markdown.md)  
+║&ensp; ╠═3.2. [short cuts for jupyter](01_Install_and_Use_python/03_jupyter/02_Jupyter_notebook_shortcuts.md)  
+║&ensp; ╚═3.3. [set password by manually](01_Install_and_Use_python/03_jupyter/03_jupyter_notebook_passwd.md)  
+╠═4. etc  
+║&ensp; ╚═4.1. [Zen of Python](01_Install_and_Use_python/04_etc/02_Zen_of_Python_English_Korean.md)  
 ( ║ ╠ ═ ╚ )  
-
-| Title   | Contents                                                                                                                |
-|---------|-------------------------------------------------------------------------------------------------------------------------|
-| etc     | [Zen of Python](01_Install_and_Use_python/04_etc/02_Zen_of_Python_English_Korean.md)                                    |
 
 # 02_Data_Science_from_Scratch
 | Ch | Part | Contents                                                                                                                                                                                      |

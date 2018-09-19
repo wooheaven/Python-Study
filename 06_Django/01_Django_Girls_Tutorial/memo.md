@@ -191,3 +191,29 @@ Operations to perform:
 Running migrations:
   Applying blog.0001_initial... OK
 ```
+
+# en-us to ko-kr on admin page
+```{bash}
+(myvenv) $ vi mysite/settings.py
+...
+107 LANGUAGE_CODE = 'ko-kr'
+...
+
+# create rwoo as superuser 
+```{bash}
+(myvenv) $ python manage.py createsuperuser
+Username (leave blank to use 'rwoo'): rwoo
+Email address:
+Password:
+Password (again):
+Superuser created successfully.
+```
+
+# register blog model on admin.site
+```{bash}
+(myvenv) $ vi blog/admin.py
+1	from django.contrib import admin
+2	from .models import Post
+3
+4	admin.site.register(Post)
+```
