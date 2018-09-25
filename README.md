@@ -4,9 +4,10 @@ Table of Contents
 ║&ensp; ╠═1.1. [install conda](01_Install_and_Use_python/01_conda/01_Install_anaconda.md)  
 ║&ensp; ╠═1.2. [create envs](01_Install_and_Use_python/01_conda/02_conda_create_envs.md)  
 ║&ensp; ╠═1.3. [remove envs](01_Install_and_Use_python/01_conda/03_conda_remove_envs.md)  
-║&ensp; ╠═1.4. [pip install package](01_Install_and_Use_python/01_conda/04_pip_install_package.md)  
-║&ensp; ╠═1.5. [pip install package --upgrade](01_Install_and_Use_python/01_conda/05_pip_install_package_upgrade.md)  
-║&ensp; ╚═1.6. [pip install pip --upgrade](01_Install_and_Use_python/01_conda/06_pip_upgrade.md)  
+║&ensp; ╠═1.4. [upgrade python on env](01_Install_and_Use_python/01_conda/04_coda_env_upgrade_python.md)  
+║&ensp; ╠═1.5. [pip install package](01_Install_and_Use_python/01_conda/04_pip_install_package.md)  
+║&ensp; ╠═1.6. [pip install package --upgrade](01_Install_and_Use_python/01_conda/05_pip_install_package_upgrade.md)  
+║&ensp; ╚═1.7. [pip install pip --upgrade](01_Install_and_Use_python/01_conda/06_pip_upgrade.md)  
 ╠═2. docker  
 ║&ensp; ╚═2.1. [python3 jupyter by tensorflow official image](01_Install_and_Use_python/02_docker/tensorflow_image.md)  
 ╠═3. jupyter  
