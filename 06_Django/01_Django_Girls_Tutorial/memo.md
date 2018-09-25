@@ -204,7 +204,7 @@ Running migrations:
 (myvenv) $ python manage.py createsuperuser
 Username (leave blank to use 'rwoo'): rwoo
 Email address:
-Password:
+Password: 12qwaszx
 Password (again):
 Superuser created successfully.
 ```
@@ -216,4 +216,36 @@ Superuser created successfully.
 2	from .models import Post
 3
 4	admin.site.register(Post)
+```
+
+# add urls on mysite
+```{bash}
+$ vi mysite/urls.py 
+16  from django.conf.urls import include, url
+17  from django.contrib import admin
+18  
+19  urlpatterns = [
+20      url(r'^admin/', admin.site.urls),
+21      url(r'', include('blog.urls')),
+22  ]
+```
+
+# add urls on blog
+```{bash}
+$ vi blog/urls.py 
+1  from django.conf.urls import url
+2  from . import views
+3  
+4  urlpatterns = [
+5      url(r'^$', views.post_list, name='post_list'),
+6  ]
+```
+
+# add views on blog
+```{bash}
+$ vi blog/views.py 
+1  from django.shortcuts import render
+2  
+3  def post_list(request):
+4      pass
 ```
