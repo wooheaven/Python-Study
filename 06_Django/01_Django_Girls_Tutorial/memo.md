@@ -3,7 +3,7 @@
 $ pwd
 /Users/rwoo/02_WorkSpace/29_Python_WorkSpace/Python-Study/06_Django/01_Django_Girls_Tutorial/djangogirls
 
-$ python3 -m venv myvenv
+$ python3.6 -m venv myvenv
 
 $ tree -d -L 3
 .
@@ -54,7 +54,7 @@ Successfully installed django-1.11.15 pytz-2018.5
 
 # create project mysite 
 ```{bash}
-(myvenv) $ tree -d -L 3
+$ tree -d -L 3
 .
 └── myvenv
     ├── bin
@@ -65,9 +65,9 @@ Successfully installed django-1.11.15 pytz-2018.5
 
 6 directories
 
-(myvenv) $ django-admin startproject mysite .
+$ django-admin startproject mysite .
 
-(myvenv) $ tree -d -L 3
+$ tree -d -L 3
 .
 ├── mysite
 └── myvenv
@@ -79,7 +79,7 @@ Successfully installed django-1.11.15 pytz-2018.5
 
 7 directories
 
-(myvenv) $ ll
+$ ll
 total 8
 -rwxr-xr-x  1 rwoo  staff   804B  9 11 15:16 manage.py*
 drwxr-xr-x  6 rwoo  staff   204B  9 11 15:16 mysite/
@@ -88,7 +88,7 @@ drwxr-xr-x  7 rwoo  staff   238B  9 11 14:25 myvenv/
 
 # configure project mysite
 ```
-(myvenv) $ vi mysite/settings.py
+$ vi mysite/settings.py
 ...
 28 ALLOWED_HOSTS = ['*']
 
@@ -136,7 +136,7 @@ Quit the server with CONTROL-C.
 ```{bash}
 (myvenv) $ python manage.py startapp blog
 
-(myvenv) $ vi mysite/settings.py
+$ vi mysite/settings.py
 ...
  33 INSTALLED_APPS = [$
  34     'django.contrib.admin',$
@@ -148,7 +148,7 @@ Quit the server with CONTROL-C.
  40     'blog',$
  41 ]$
 
-(myvenv) $ tree  -L 1 -d
+$ tree  -L 1 -d
 .
 ├── blog
 ├── mysite
@@ -159,7 +159,7 @@ Quit the server with CONTROL-C.
 
 # blog text model
 ```{bash}
-(myvenv) $ vi blog/models.py
+$ vi blog/models.py
  1	from django.db import models
  2	from django.utils import timezone
  3
@@ -194,7 +194,7 @@ Running migrations:
 
 # en-us to ko-kr on admin page
 ```{bash}
-(myvenv) $ vi mysite/settings.py
+$ vi mysite/settings.py
 ...
 107 LANGUAGE_CODE = 'ko-kr'
 ...
@@ -211,7 +211,7 @@ Superuser created successfully.
 
 # register blog model on admin.site
 ```{bash}
-(myvenv) $ vi blog/admin.py
+$ vi blog/admin.py
 1	from django.contrib import admin
 2	from .models import Post
 3
@@ -248,4 +248,93 @@ $ vi blog/views.py
 2  
 3  def post_list(request):
 4      pass
+```
+
+# create post_list.html
+```{bash}
+$ mkdir blog/templates/blog
+$ touch blog/templates/blog/post_list.html
+$ vi blog/templates/blog/post_list.html
+<html>
+    <head>
+        <title>Django Girls blog</title>
+    </head>
+    <body>
+        <div>
+            <h1><a href="">Django Girls Blog</a></h1>
+        </div>
+
+        <div>
+            <p>published: 14.06.2014, 12:14</p>
+            <h2><a href="">My first post</a></h2>
+            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        </div>
+
+        <div>
+            <p>published: 14.06.2014, 12:14</p>
+            <h2><a href="">My second post</a></h2>
+            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut f.</p>
+        </div>
+    </body>
+</html>
+```
+
+# Django ORM and QuerySets
+```{bash}
+(myvenv) $ pip install ipython # ipython is better than python console 
+(myvenv) $ python manage.py shell
+Python 3.6.7 (default, Oct 25 2018, 09:16:13) 
+[GCC 5.4.0 20160609] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+(InteractiveConsole)
+
+>>> from blog.models import Post
+>>> Post.objects.all()
+<QuerySet [<Post: 1 Title>]>
+
+>>> from django.contrib.auth.models import User
+>>> User.objects.all()
+<QuerySet [<User: rwoo>]>
+
+>>> me = User.objects.get(username='rwoo')
+>>> me
+<User: rwoo>
+
+>>> Post.objects.create(author=me, title='Sample title', text='Test')
+<Post: Sample title>
+
+>>> Post.objects.all()
+<QuerySet [<Post: 1 Title>, <Post: Sample title>]>
+
+>>> Post.objects.filter(author=me)
+<QuerySet [<Post: 1 Title>, <Post: Sample title>, <Post: test Title 2>, <Post: test Title 3>]>
+
+>>> Post.objects.filter(title__contains='title')
+<QuerySet [<Post: 1 Title>, <Post: Sample title>, <Post: test Title 2>, <Post: test Title 3>]>
+
+>>> Post.objects.filter(title__contains='test')
+<QuerySet [<Post: test Title 2>, <Post: test Title 3>]>
+
+>>> from django.utils import timezone
+>>> Post.objects.filter(published_date__lte=timezone.now())
+<QuerySet [<Post: 1 Title>, <Post: test Title 2>, <Post: test Title 3>]>
+
+>>> timezone.now()
+datetime.datetime(2018, 10, 31, 6, 35, 37, 225872, tzinfo=<UTC>)
+
+>>> post = Post.objects.get(title="Sample title")
+>>> post.publish()
+>>> Post.objects.filter(published_date__lte=timezone.now())
+<QuerySet [<Post: 1 Title>, <Post: Sample title>, <Post: test Title 2>, <Post: test Title 3>]>
+
+>>> Post.objects.order_by('created_date')
+<QuerySet [<Post: 1 Title>, <Post: Sample title>, <Post: test Title 2>, <Post: test Title 3>]>
+
+>>> Post.objects.order_by('-created_date')
+<QuerySet [<Post: test Title 3>, <Post: test Title 2>, <Post: Sample title>, <Post: 1 Title>]>
+
+>>> Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
+<QuerySet [<Post: 1 Title>, <Post: test Title 2>, <Post: test Title 3>, <Post: Sample title>]>
+
+>>> exit()
 ```
