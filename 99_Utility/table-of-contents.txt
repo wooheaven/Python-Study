@@ -1,16 +1,84 @@
-1
-1.1
-1.2
-1.3
-1.4
-1.5
-1.6
-1.7
-2
-2.1
-3
-3.1
-3.2
-3.3
-4
-4.1
+.
+├── 01_Install_and_Use_python
+│   ├── 01_conda
+│   │   ├── 01_Install_anaconda.md
+│   │   ├── 02_conda_create_envs.md
+│   │   ├── 03_conda_remove_envs.md
+│   │   ├── 04_coda_env_upgrade_python.md
+│   │   ├── 05_pip_install_package.md
+│   │   └── 07_pip_upgrade.md
+│   ├── 02_docker
+│   │   ├── notebooks
+│   │   │   └── 01_Python_Version.ipynb
+│   │   └── tensorflow_image.md
+│   ├── 03_jupyter
+│   │   ├── 01_convert_jupyter_notebook_to_markdown.md
+│   │   ├── 02_Jupyter_notebook_shortcuts.md
+│   │   └── 03_jupyter_notebook_passwd.md
+│   └── 04_etc
+│       └── 02_Zen_of_Python_English_Korean.md
+├── 02_Data_Science_from_Scratch
+│   ├── 02_Ch
+│   │   ├── 02.01.07_string.ipynb
+│   │   ├── 02.01.07_string.md
+│   │   ├── 02.01.10_Counter.ipynb
+│   │   ├── 02.01.10_Counter.md
+│   │   ├── 02.01.10_defaultdict.ipynb
+│   │   ├── 02.01.10_defaultdict.md
+│   │   ├── 02.01.10_dict.ipynb
+│   │   ├── 02.01.10_dict.md
+│   │   ├── 02.01.10_sample.txt
+│   │   ├── 02.01.10_wordcount_examples.ipynb
+│   │   ├── 02.01.10_wordcount_examples.md
+│   │   ├── 02.01.11_set.ipynb
+│   │   ├── 02.01.11_set.md
+│   │   ├── 02.01.12_control_statement.ipynb
+│   │   ├── 02.01.12_control_statement.md
+│   │   ├── 02.01.13_Boolean.ipynb
+│   │   ├── 02.01.13_Boolean.md
+│   │   ├── 02.02.01_sort.ipynb
+│   │   ├── 02.02.01_sort.md
+│   │   ├── 02.02.02_list_comprehension.ipynb
+│   │   ├── 02.02.02_list_comprehension.md
+│   │   ├── 02.02.03_Generator_Iterator.ipynb
+│   │   ├── 02.02.03_Generator_Iterator.md
+│   │   ├── 02.02.04_random_numbers.ipynb
+│   │   ├── 02.02.04_random_numbers.md
+│   │   ├── 02.02.05_regular_expression.ipynb
+│   │   ├── 02.02.05_regular_expression.md
+│   │   ├── 02.02.06_object-oriented_programming.ipynb
+│   │   ├── 02.02.06_object-oriented_programming.md
+│   │   ├── 02.02.07_functional_tool.ipynb
+│   │   ├── 02.02.07_functional_tool.md
+│   │   ├── 02.02.08_enumerate.ipynb
+│   │   ├── 02.02.08_enumerate.md
+│   │   ├── 02.02.09_zip_argument_unpacking.ipynb
+│   │   └── 02.02.10_args_kwargs.ipynb
+│   ├── 03_Ch
+│   │   ├── 03.01_matplotlib.ipynb
+│   │   ├── 03.02_bar_charts.ipynb
+│   │   ├── 03.03_line_charts.ipynb
+│   │   └── 03.04_scatter_plots.ipynb
+│   ├── 04_Ch
+│   │   ├── 04.01_Linear_Algebra.ipynb
+│   │   └── 04.02_Matrix.ipynb
+│   └── 05_Ch
+│       └── 05.01_Explain_DataSet.ipynb
+├── 03_PyCharm
+│   └── 01_unresolved_reference_warning.md
+├── 04_Everyday_Programming
+│   └── 01_Q
+│       └── bigger_continue_sum.py
+├── 05_Tmp
+│   └── 01_dictionary_in_dictionary.py
+├── 99_Utility
+│   ├── 01_add_Space_with_lineNum.py
+│   ├── 02_ci_conda_info.sh
+│   ├── 03_sa_source_activate_python27.sh
+│   ├── 04_sa_source_activate_python364.sh
+│   ├── 05_jn_jupyter_notebook.sh
+│   ├── modify_README.sh
+│   ├── readme-align.py
+│   └── table-of-contents.txt
+├── change_A_to_B.txt
+└── README.md
