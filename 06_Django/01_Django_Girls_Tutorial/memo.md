@@ -338,3 +338,52 @@ datetime.datetime(2018, 10, 31, 6, 35, 37, 225872, tzinfo=<UTC>)
 
 >>> exit()
 ```
+
+# modify blog's view between model, template
+```{bash}
+$ vi blog/views.py 
+from django.shortcuts import render
+from django.utils import timezone
+from .models import Post
+
+def post_list(request):
+	post_list = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
+	return render(request, 'blog/post_list.html', {'post_list': post_list})
+```
+
+# modify blog's template
+```{bash}
+$ vi blog/templates/blog/post_list.html 
+<html>
+    <head>
+        <title>Django Girls blog</title>
+    </head>
+    <body>
+        <div>
+            <h1><a href="">Django Girls Blog</a></h1>
+        </div>
+
+        <hr/>
+        {% for post in post_list %}
+            <div>
+                <p>published: {{ post.published_date }}</p>
+                <h2><a href="">{{ post.title }}</a></h2>
+                <p>{{ post.text|linebreaks }}</p>
+            </div>
+        {% endfor %}
+        <hr/>
+
+        <div>
+            <p>published: 14.06.2014, 12:14</p>
+            <h2><a href="">My first post</a></h2>
+            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        </div>
+
+        <div>
+            <p>published: 14.06.2014, 12:14</p>
+            <h2><a href="">My second post</a></h2>
+            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut f.</p>
+        </div>
+    </body>
+</html>
+```
