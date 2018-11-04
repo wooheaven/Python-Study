@@ -29,10 +29,10 @@ Table of Contents
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 02.01.13_Boolean.md  
 ║&ensp;&ensp;&nbsp;╠══ 2.2 ch2  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 2.2.1 [sort list](02_Data_Science_from_Scratch/02_Ch/02.02.01_sort.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 02.02.02_list_comprehension.md  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 02.02.03_Generator_Iterator.md  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 02.02.04_random_numbers.md  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 02.02.05_regular_expression.md  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 2.2.2 [list comprehension](02_Data_Science_from_Scratch/02_Ch/02.02.02_list_comprehension.md)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 2.2.3 [Generator_Iterator : Use temparary and lazy index by Generator](02_Data_Science_from_Scratch/02_Ch/02.02.03_Generator_Iterator.md)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 2.2.4 [random numbers: Use random(), seed(9), randrange(1,9), shuffle(range(10)), choice(range(10)), sample(range(10),5) of random package](02_Data_Science_from_Scratch/02_Ch/02.02.04_random_numbers.md)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 02.02.05 [ragular_expression : match, search, split, sub of re package](02_Data_Science_from_Scratch/02_Ch/02.02.05_regular_expression.md)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 02.02.06_object-oriented_programming.md  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 02.02.07_functional_tool.md  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 02.02.08_enumerate.md  
@@ -71,10 +71,6 @@ Table of Contents
 # 02_Data_Science_from_Scratch
 | Ch | Part | Contents                                                                                                                                                                                      |
 |----|------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|    | 02   | [list comprehension](02_Data_Science_from_Scratch/02_Ch/02.02.02_list_comprehension.md)                                                                                                       |
-|    | 03   | [Generator_Iterator : Use temparary and lazy index by Generator](02_Data_Science_from_Scratch/02_Ch/02.02.03_Generator_Iterator.md)                                                           |
-|    | 04   | [random : Use random(), seed(9), randrange(1,9), shuffle(range(10)), choice(range(10)), sample(range(10),5) of random package](02_Data_Science_from_Scratch/02_Ch/02.02.04_random_numbers.md) |
-|    | 05   | [ragular_expression : match, search, split, sub of re package](02_Data_Science_from_Scratch/02_Ch/02.02.05_regular_expression.md)                                                             |
 |    | 06   | [Object-Oriented_Programming : Implement of Set](02_Data_Science_from_Scratch/02_Ch/02.02.06_object-oriented_programming.md)                                                                  |
 |    | 07   | [string](02_Data_Science_from_Scratch/02_Ch/02.01.07_string.md)                                                                                                                               |
 |    |      | [functional_tool : Merge a function as a argument to another function](02_Data_Science_from_Scratch/02_Ch/02.02.07_functional_tool.md)                                                        |
