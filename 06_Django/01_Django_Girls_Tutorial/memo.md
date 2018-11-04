@@ -387,3 +387,131 @@ $ vi blog/templates/blog/post_list.html
     </body>
 </html>
 ```
+
+# modify blog's css
+```{bash}
+$ vi blog/static/blog/blog.css
+.page-header {
+    background-color: #ff9400;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #ffffff;
+    font-size: 36pt;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 40px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Lobster', cursive;
+}
+
+.date {
+    /* color: #828282; */
+    color: green;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+.post {
+    margin-bottom: 70px;
+}
+
+.post h1 a, .post h1 a:visited {
+    color: #000000;
+}
+```
+
+# modify 
+```{bash}
+$ cat blog/templates/blog/post_list.html 
+{% load staticfiles %}
+
+<html>
+	<head>
+		<title>Django Girls blog</title>
+	</head>
+<!--
+	<style>
+		body {
+			background-color: lightyellow;
+		}
+		a { 
+			color: #3333ff;
+		}
+	</style>
+-->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" type="text/css">
+<!--
+	<link rel="stylesheet" href="/static/blog/blog.css">
+-->
+	<link rel="stylesheet" href="{% static "blog/blog.css" %}" />
+	<body>
+<!--
+		<div>
+-->
+		<div class="page-header">
+			<h1><a href="">Django Girls Blog</a></h1>
+		</div>
+
+		<hr/>
+<!--
+			{% for post in post_list %}
+				<div>
+					<p>published: {{ post.published_date }}</p>
+					<h2><a href="">{{ post.title }}</a></h2>
+					<p>{{ post.text|linebreaks }}</p>
+				</div>
+			{% endfor %}
+-->
+			<div class="content container">
+			    <div class="row">
+			        <div class="col-md-8">
+			            {% for post in post_list %}
+			                <div class="post">
+			                    <div class="date">
+			                        <p>published: {{ post.published_date }}</p>
+			                    </div>
+			                    <h1><a href="">{{ post.title }}</a></h1>
+			                    <p>{{ post.text|linebreaksbr }}</p>
+			                </div>
+			            {% endfor %}
+			        </div>
+			    </div>
+			</div>
+		<hr/>
+
+		<div>
+			<p>published: 14.06.2014, 12:14</p>
+			<h2><a href="">My first post</a></h2>
+			<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+		</div>
+
+		<div>
+			<p>published: 14.06.2014, 12:14</p>
+			<h2><a href="">My second post</a></h2>
+			<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut f.</p>
+		</div>
+	</body>
+</html>
+```
