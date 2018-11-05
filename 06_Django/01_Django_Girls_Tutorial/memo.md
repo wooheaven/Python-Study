@@ -515,3 +515,52 @@ $ cat blog/templates/blog/post_list.html
 	</body>
 </html>
 ```
+
+# ch29 template extending
+```{bash}
+$ cat blog/templates/blog/base.html 
+{% load staticfiles %}
+
+<html>
+	<head>
+		<title>Django Girls blog</title>
+	</head>
+
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" type="text/css">
+	<link rel="stylesheet" href="{% static "blog/blog.css" %}" />
+
+	<body>
+		<div class="page-header">
+			<h1><a href="/">Django Girls Blog</a></h1>
+		</div>
+
+		<hr/>
+			<div class="content container">
+				<div class="row">
+					<div class="col-md-8">
+						{% block content %}
+						{% endblock %}
+					</div>
+				</div>
+			</div>
+		<hr/>
+	</body>
+</html>
+
+$ cat blog/templates/blog/post_list.html 
+{% extends "blog/base.html" %}
+
+{% block content %}
+	{% for post in post_list %}
+		<div class="post">
+			<div class="date">
+			<p>published: {{ post.published_date }}</p>
+			</div>
+			<h1><a href="">{{ post.title }}</a></h1>
+			<p>{{ post.text|linebreaksbr }}</p>
+		</div>
+	{% endfor %}
+{% endblock %}
+```
