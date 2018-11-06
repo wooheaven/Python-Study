@@ -563,4 +563,78 @@ $ cat blog/templates/blog/post_list.html
 		</div>
 	{% endfor %}
 {% endblock %}
+
+# post 상세 페이지 url 만들기
+```{bash}
+$ cat blog/views.py
+from django.shortcuts import render, get_object_or_404
+from django.utils import timezone
+from .models import Post
+
+def post_list(request):
+	post_list = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
+	return render(request, 'blog/post_list.html', {'post_list': post_list})
+
+def post_detail(request, pk):
+	post = get_object_or_404(Post, pk=pk)
+	return render(request, 'blog/post_detail.html', { 'post': post, })
+
+$ cat blog/urls.py
+from django.conf.urls import url
+from . import views
+
+urlpatterns = [
+    url(r'^$', views.post_list, name='post_list'),
+    url(r'post/(?P<pk>\d+)/$', views.post_detail, name='post_detail'),
+]
+
+$ cat blog/templates/blog/post_detail.html
+{% extends "blog/base.html" %}
+
+{% block content %}
+	<h2>{{ post.title }}</h2>
+
+	{{ post.text }}
+{% endblock %}
 ```
+
+# post title's link
+```{bash}
+$ cat blog/templates/blog/post_list.html
+{% extends "blog/base.html" %}
+
+{% block content %}
+	{% for post in post_list %}
+		<div class="post">
+			<div class="date">
+				<p>published: {{ post.published_date }}</p>
+			</div>
+			<h1>
+				<a href="{% url "post_detail" post.pk %}">
+					{{post.title }}
+				</a>
+			</h1>
+			<p>{{ post.text|linebreaksbr }}</p>
+		</div>
+	{% endfor %}
+{% endblock %}
+```
+
+# post detail
+```{bash}
+$ cat blog/templates/blog/post_detail.html
+{% extends "blog/base.html" %}
+
+{% block content %}
+	<div class="post">
+		{% if post.published_date %}
+			<div class="date">
+				{{ post.published_date }}
+			</div>
+		{% endif %}
+		<h1>{{ post.title }}</h1>
+		<p>{{ post.text|linebreaksbr }}</p>
+	</div>
+{% endblock %}
+```
+
