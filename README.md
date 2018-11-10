@@ -53,7 +53,8 @@ Table of Contents
 ║&ensp;&ensp;&nbsp;╚══ 4.1 Q  
 ║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╚══ 4.1.1 [bigger_continue_sum](04_Everyday_Programming/01_Q/bigger_continue_sum.py)  
 ╠══ 5 Tmp  
-║&ensp;&ensp;&nbsp;╚══ 5.1 [defaultdict in defaultdict](05_Tmp/01_dictionary_in_dictionary.py)  
+║&ensp;&ensp;&nbsp;╠══ 5.1 [defaultdict in defaultdict](05_Tmp/01_dictionary_in_dictionary.py)  
+║&ensp;&ensp;&nbsp;╚══ 5.2 [gzip file write and read](05_Tmp/02_gzip_write_read.md)  
 ╠══ 6 Django  
 ║&ensp;&ensp;&nbsp;╚══ 6.1 [Django Girls Tutorial](06_Django/01_Django_Girls_Tutorial/memo.md)  
 ╠══ 99_Utility  
