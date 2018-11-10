@@ -38,22 +38,24 @@ Table of Contents
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 2.2.9 [zip_argument_unpacking : Use zip and unzip for list](02_Data_Science_from_Scratch/02_Ch/02.02.09_zip_argument_unpacking.ipynb)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 2.2.10 [args_kwargs : Unnamed args tuple and KeyWord args dict](02_Data_Science_from_Scratch/02_Ch/02.02.10_args_kwargs.ipynb)  
 ║&ensp;&ensp;&nbsp;╠══ 2.3 Ch3  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 3.1 [matplotlib : simple bar graph, line graph, scatter plot](02_Data_Science_from_Scratch/03_Ch/03.01_matplotlib.ipynb)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 03.02_bar_charts.ipynb  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 03.03_line_charts.ipynb  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 03.04_scatter_plots.ipynb  
-║&ensp;&ensp;&nbsp;╠══ 04_Ch  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 04.01_Linear_Algebra.ipynb  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 04.02_Matrix.ipynb  
-║&ensp;&ensp;&nbsp;╚══ 05_Ch  
-║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╚══ 05.01_Explain_DataSet.ipynb  
-╠══ 03_PyCharm  
-║&ensp;&ensp;&nbsp;╚══ 01_unresolved_reference_warning.md  
-╠══ 04_Everyday_Programming  
-║&ensp;&ensp;&nbsp;╚══ 01_Q  
-║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╚══ bigger_continue_sum.py  
-╠══ 05_Tmp  
-║&ensp;&ensp;&nbsp;╚══ 01_dictionary_in_dictionary.py  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 2.3.1 [matplotlib : simple bar graph, line graph, scatter plot](02_Data_Science_from_Scratch/03_Ch/03.01_matplotlib.ipynb)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 2.3.2 [bar charts, historgram](02_Data_Science_from_Scratch/03_Ch/03.02_bar_charts.ipynb)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 2.3.3 [Line charts](02_Data_Science_from_Scratch/03_Ch/03.03_line_charts.ipynb)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 2.3.4 [Scatter plots](02_Data_Science_from_Scratch/03_Ch/03.04_scatter_plots.ipynb)  
+║&ensp;&ensp;&nbsp;╠══ 2.4 Ch4  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 2.4.1 [Linear Algebra](02_Data_Science_from_Scratch/04_Ch/04.01_Linear_Algebra.ipynb)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 2.4.2 [Matrix](02_Data_Science_from_Scratch/04_Ch/04.02_Matrix.ipynb)  
+║&ensp;&ensp;&nbsp;╚══ 2.5 Ch5  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╚══ 2.5.1 [Explain DataSet](02_Data_Science_from_Scratch/05_Ch/05.01_Explain_DataSet.ipynb)  
+╠══ 3 PyCharm  
+║&ensp;&ensp;&nbsp;╚══ 3.1 [Warning Unresolved reference warning](03_PyCharm/01_unresolved_reference_warning.md)  
+╠══ 4 Everyday_Programming  
+║&ensp;&ensp;&nbsp;╚══ 4.1 Q  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╚══ 4.1.1 [bigger_continue_sum](04_Everyday_Programming/01_Q/bigger_continue_sum.py)  
+╠══ 5 Tmp  
+║&ensp;&ensp;&nbsp;╚══ 5.1 [defaultdict in defaultdict](05_Tmp/01_dictionary_in_dictionary.py)  
+╠══ 6 Django  
+║&ensp;&ensp;&nbsp;╚══ 6.1 [Django Girls Tutorial](06_Django/01_Django_Girls_Tutorial/memo.md)  
 ╠══ 99_Utility  
 ║&ensp;&ensp;&nbsp;╠══ 01_add_Space_with_lineNum.py  
 ║&ensp;&ensp;&nbsp;╠══ 02_ci_conda_info.sh  
@@ -66,34 +68,4 @@ Table of Contents
 ╠══ change_A_to_B.txt  
 ╚══ README.md  
 ( ║ ╠ ═ ╚ )  
-
-# 02_Data_Science_from_Scratch
-| Ch | Part | Contents                                                                                                               |
-|----|------|------------------------------------------------------------------------------------------------------------------------|
-|    | 02   | [bar charts, historgram](02_Data_Science_from_Scratch/03_Ch/03.02_bar_charts.ipynb)                                    |
-|    | 03   | [Line charts](02_Data_Science_from_Scratch/03_Ch/03.03_line_charts.ipynb)                                              |
-|    | 04   | [Scatter plots](02_Data_Science_from_Scratch/03_Ch/03.04_scatter_plots.ipynb)                                          |
-| 04 | 01   | [Linear Algebra](02_Data_Science_from_Scratch/04_Ch/04.01_Linear_Algebra.ipynb)                                        |
-|    | 02   | [Matrix](02_Data_Science_from_Scratch/04_Ch/04.02_Matrix.ipynb)                                                        |
-| 05 | 01   | [Explain DataSet](02_Data_Science_from_Scratch/05_Ch/05.01_Explain_DataSet.ipynb)                                      |
-
-# 03_PyCharm
-| Title | Contents                                                                      |
-|-------|-------------------------------------------------------------------------------|
-| Issue | [Unresolved reference warning](03_PyCharm/01_unresolved_reference_warning.md) |
-
-# 04_Everyday_Programming
-| Question | Contents                                                                   |
-|----------|----------------------------------------------------------------------------|
-| 01       | [bigger_continue_sum](04_Everyday_Programming/01_Q/bigger_continue_sum.py) |
-
-# 05_Tmp
-| Title       | Contents                                                            |
-|-------------|---------------------------------------------------------------------|
-| defaultdict | [defaultdict in defaultdict](05_Tmp/01_dictionary_in_dictionary.py) |
-
-# 06_Django
-| Title    | Contents                                                                      |
-|----------|-------------------------------------------------------------------------------|
-| Tutorial | [Django Girls Tutorial](06_Django/01_Django_Girls_Tutorial/memo.md)           |
 
