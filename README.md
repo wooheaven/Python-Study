@@ -66,7 +66,6 @@ Table of Contents
 ║&ensp;&ensp;&nbsp;╠══ modify_README.sh  
 ║&ensp;&ensp;&nbsp;╠══ readme-align.py  
 ║&ensp;&ensp;&nbsp;╚══ table-of-contents.txt  
-╠══ change_A_to_B.txt  
 ╚══ README.md  
 ( ║ ╠ ═ ╚ )  
 

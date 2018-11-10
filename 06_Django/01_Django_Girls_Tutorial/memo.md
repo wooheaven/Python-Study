@@ -638,3 +638,136 @@ $ cat blog/templates/blog/post_detail.html
 {% endblock %}
 ```
 
+# new post, change post
+```{bash}
+$ cat blog/urls.py 
+from django.conf.urls import url
+from . import views
+
+urlpatterns = [
+    url(r'^$', views.post_list, name='post_list'),
+    url(r'^post/(?P<pk>\d+)/$', views.post_detail, name='post_detail'),
+    url(r'^post/new/$', views.post_new, name='post_new'),
+    url(r'^post/(?P<pk>\d+)/edit/$', views.post_edit, name='post_edit')
+]
+
+$ cat blog/views.py 
+from django.shortcuts import get_object_or_404, render, redirect
+from django.utils import timezone
+from .models import Post
+from .forms import PostForm
+
+
+def post_list(request):
+    post_list = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
+    return render(request, 'blog/post_list.html', { 'post_list': post_list })
+
+def post_detail(request, pk):
+    post = get_object_or_404(Post, pk=pk)
+    return render(request, 'blog/post_detail.html', { 'post': post })
+
+# @Login_required
+def post_new(request):
+    if request.method == 'POST':
+        form = PostForm(request.POST, request.FILES)
+        if form.is_valid():
+            post = form.save(commit=False)
+            post.author = request.user
+            post.published_date = timezone.now()
+            post.save()
+            return redirect('post_detail', post.pk)
+    else:
+        form = PostForm()
+    return render(request, 'blog/post_edit.html', { 'form': form })
+
+def post_edit(request, pk):
+    post = get_object_or_404(Post, pk=pk)
+
+    if request.method == 'POST':
+        form = PostForm(request.POST, request.FILES, instance=post)
+        if form.is_valid():
+            post = form.save(commit=False)
+            post.author = request.user
+            post.published_date = timezone.now()
+            post.save()
+            return redirect('post_detail', post.pk)
+    else:
+        form = PostForm(instance=post)
+
+    return render(request, 'blog/post_edit.html', { 'form': form, } )
+
+$ cat blog/forms.py 
+from django import forms
+from .models import Post
+
+
+class PostForm(forms.ModelForm):
+    class Meta:
+        model = Post
+        fields = ['title', 'text',]
+
+$ cat blog/templates/blog/post_edit.html 
+{% extends "blog/base.html" %}
+
+{% block content %}
+    <h1>New post</h1>
+    <form method="POST" class="post-form">{% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="save btn btn-primary">Save</button>
+    </form>
+{% endblock %}
+
+$ cat blog/templates/blog/post_detail.html 
+{% extends "blog/base.html" %}
+
+{% block content %}
+	<div class="post">
+		{% if post.published_date %}
+			<div class="date">
+				{{ post.published_date }}
+			</div>
+		{% endif %}
+		{% if user.is_authenticated %}
+		<a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}">
+			<span class="glyphicon glyphicon-pencil"></span>
+		</a>
+		{% endif %}
+		<h1>{{ post.title }}</h1>
+		<p>{{ post.text|linebreaksbr }}</p>
+	</div>
+{% endblock %}
+
+$ cat blog/templates/blog/base.html 
+{% load staticfiles %}
+
+<html>
+	<head>
+		<title>Django Girls blog</title>
+	</head>
+
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" type="text/css">
+	<link rel="stylesheet" href="{% static "blog/blog.css" %}" />
+
+	<body>
+		<div class="page-header">
+			{% if user.is_authenticated %}
+            <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+			{% endif %}
+			<h1><a href="/">Django Girls Blog</a></h1>
+		</div>
+
+		<hr/>
+			<div class="content container">
+				<div class="row">
+					<div class="col-md-8">
+						{% block content %}
+						{% endblock %}
+					</div>
+				</div>
+			</div>
+		<hr/>
+	</body>
+</html>
+```
