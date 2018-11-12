@@ -6,10 +6,9 @@
 │   │   ├── 03_conda_remove_envs.md
 │   │   ├── 04_coda_env_upgrade_python.md
 │   │   ├── 05_pip_install_package.md
+│   │   ├── 06_pip_install_package_upgrade.md
 │   │   └── 07_pip_upgrade.md
 │   ├── 02_docker
-│   │   ├── notebooks
-│   │   │   └── 01_Python_Version.ipynb
 │   │   └── tensorflow_image.md
 │   ├── 03_jupyter
 │   │   ├── 01_convert_jupyter_notebook_to_markdown.md
@@ -70,15 +69,46 @@
 │   └── 01_Q
 │       └── bigger_continue_sum.py
 ├── 05_Tmp
-│   └── 01_dictionary_in_dictionary.py
+│   ├── 01_dictionary_in_dictionary.py
+│   └── 02_gzip_write_read.md
+├── 06_Django
+│   └── 01_Django_Girls_Tutorial
+│       ├── djangogirls
+│       │   ├── blog
+│       │   │   ├── admin.py
+│       │   │   ├── apps.py
+│       │   │   ├── forms.py
+│       │   │   ├── migrations
+│       │   │   │   └── 0001_initial.py
+│       │   │   ├── models.py
+│       │   │   ├── static
+│       │   │   │   └── blog
+│       │   │   │       └── blog.css
+│       │   │   ├── templates
+│       │   │   │   └── blog
+│       │   │   │       ├── base.html
+│       │   │   │       ├── post_detail.html
+│       │   │   │       ├── post_edit.html
+│       │   │   │       └── post_list.html
+│       │   │   ├── tests.py
+│       │   │   ├── urls.py
+│       │   │   └── views.py
+│       │   ├── db.sqlite3
+│       │   ├── manage.py
+│       │   └── mysite
+│       │       ├── settings.py
+│       │       ├── urls.py
+│       │       └── wsgi.py
+│       └── memo.md
 ├── 99_Utility
-│   ├── 01_add_Space_with_lineNum.py
-│   ├── 02_ci_conda_info.sh
-│   ├── 03_sa_source_activate_python27.sh
-│   ├── 04_sa_source_activate_python364.sh
-│   ├── 05_jn_jupyter_notebook.sh
-│   ├── modify_README.sh
-│   ├── readme-align.py
+│   ├── 01_tree.sh
+│   ├── 02_readme-align.py
+│   ├── 03_modify_README.sh
+│   ├── 04_ci_conda_info.sh
+│   ├── 05_sa_source_activate_python27.sh
+│   ├── 06_sa_source_activate_python364.sh
+│   ├── 07_jn_jupyter_notebook.sh
+│   ├── 08_sd_source_deactivate.sh
+│   ├── change_A_to_B.txt
 │   └── table-of-contents.txt
-├── change_A_to_B.txt
 └── README.md

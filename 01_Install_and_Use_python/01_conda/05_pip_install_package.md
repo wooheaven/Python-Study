@@ -15,6 +15,8 @@ $ pip search perfplot
 perfplot (0.2.6)  - Performance plots for Python code snippets
 
 $ pip install perfplot
+$ # pip install 'perfplot==0.2.5'
+$ # pip install 'perfplot<=0.2.6>0.2.4'
 
 $ pip list --format columns
 Package         Version
