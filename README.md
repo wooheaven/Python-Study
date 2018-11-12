@@ -58,14 +58,16 @@ Table of Contents
 ╠══ 6 Django  
 ║&ensp;&ensp;&nbsp;╚══ 6.1 [Django Girls Tutorial](06_Django/01_Django_Girls_Tutorial/memo.md)  
 ╠══ 99_Utility  
-║&ensp;&ensp;&nbsp;╠══ 01_add_Space_with_lineNum.py  
-║&ensp;&ensp;&nbsp;╠══ 02_ci_conda_info.sh  
-║&ensp;&ensp;&nbsp;╠══ 03_sa_source_activate_python27.sh  
-║&ensp;&ensp;&nbsp;╠══ 04_sa_source_activate_python364.sh  
-║&ensp;&ensp;&nbsp;╠══ 05_jn_jupyter_notebook.sh  
-║&ensp;&ensp;&nbsp;╠══ modify_README.sh  
-║&ensp;&ensp;&nbsp;╠══ readme-align.py  
-║&ensp;&ensp;&nbsp;╚══ table-of-contents.txt  
+║&ensp;&ensp;&nbsp;╠══ 01_tree.sh  
+║&ensp;&ensp;&nbsp;╠══ 02_readme-align.py  
+║&ensp;&ensp;&nbsp;╠══ 03_modify_README.sh  
+║&ensp;&ensp;&nbsp;╠══ 04_ci_conda_info.sh  
+║&ensp;&ensp;&nbsp;╠══ 05_sa_source_activate_python27.sh  
+║&ensp;&ensp;&nbsp;╠══ 06_sa_source_activate_python364.sh  
+║&ensp;&ensp;&nbsp;╠══ 07_jn_jupyter_notebook.sh  
+║&ensp;&ensp;&nbsp;╠══ 08_sd_source_deactivate.sh  
+║&ensp;&ensp;&nbsp;╠══ change_A_to_B.txt  
+║&ensp;&ensp;&nbsp;╚══ table-of-contents.txt 
 ╚══ README.md  
 ( ║ ╠ ═ ╚ )  
 
