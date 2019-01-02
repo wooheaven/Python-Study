@@ -60,6 +60,9 @@ Table of Contents
 ║&ensp;&ensp;&nbsp;╚══ 5.5 [sys.stdout.write with string.format(variable)](05_Tmp/05_sys_stdout_write_with_string_format.md)  
 ╠══ 6 Django  
 ║&ensp;&ensp;&nbsp;╚══ 6.1 [Django Girls Tutorial](06_Django/01_Django_Girls_Tutorial/memo.md)  
+╠══ 7 Pandas  
+║&ensp;&ensp;&nbsp;╠══ 7.1 [Series : Create](07_Pandas/01_Series_Create.ipynb)  
+║&ensp;&ensp;&nbsp;╚══ 7.2 [DataFrame : Create](07_Pandas/02_DataFrame_Create.ipynb)  
 ╠══ 99_Utility  
 ║&ensp;&ensp;&nbsp;╠══ 01_tree.sh  
 ║&ensp;&ensp;&nbsp;╠══ 02_readme-align.py  
