@@ -50,7 +50,7 @@ Table of Contents
 ╠══ 3 PyCharm  
 ║&ensp;&ensp;&nbsp;╚══ 3.1 [Warning Unresolved reference warning](03_PyCharm/01_unresolved_reference_warning.md)  
 ╠══ 4 Everyday_Programming  
-║&ensp;&ensp;&nbsp;╚══ 4.1 Q  
+║&ensp;&ensp;&nbsp;╚══ 4.1 Question  
 ║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╚══ 4.1.1 [bigger_continue_sum](04_Everyday_Programming/01_Q/bigger_continue_sum.py)  
 ╠══ 5 Tmp  
 ║&ensp;&ensp;&nbsp;╠══ 5.1 [defaultdict in defaultdict](05_Tmp/01_dictionary_in_dictionary.py)  
@@ -62,16 +62,15 @@ Table of Contents
 ║&ensp;&ensp;&nbsp;╚══ 6.1 [Django Girls Tutorial](06_Django/01_Django_Girls_Tutorial/memo.md)  
 ╠══ 7 Pandas  
 ║&ensp;&ensp;&nbsp;╠══ 7.1 [Series : Create](07_Pandas/01_Series_Create.ipynb)  
-║&ensp;&ensp;&nbsp;╚══ 7.2 [DataFrame : Create](07_Pandas/02_DataFrame_Create.ipynb)  
+║&ensp;&ensp;&nbsp;╠══ 7.2 [DataFrame : Create](07_Pandas/02_DataFrame_Create.ipynb)  
+║&ensp;&ensp;&nbsp;╚══ 7.3 [DataFrame : Indexing by Column](07_Pandas/03_DataFrame_Indexing_by_column.ipynb)  
 ╠══ 99_Utility  
 ║&ensp;&ensp;&nbsp;╠══ 01_tree.sh  
 ║&ensp;&ensp;&nbsp;╠══ 02_readme-align.py  
 ║&ensp;&ensp;&nbsp;╠══ 03_modify_README.sh  
 ║&ensp;&ensp;&nbsp;╠══ 04_ci_conda_info.sh  
-║&ensp;&ensp;&nbsp;╠══ 05_sa_source_activate_python27.sh  
-║&ensp;&ensp;&nbsp;╠══ 06_sa_source_activate_python364.sh  
-║&ensp;&ensp;&nbsp;╠══ 07_jn_jupyter_notebook.sh  
-║&ensp;&ensp;&nbsp;╠══ 08_sd_source_deactivate.sh  
+║&ensp;&ensp;&nbsp;╠══ 05_sa_source_activate_my-venv.sh  
+║&ensp;&ensp;&nbsp;╠══ 06_jn_jupyter_notebook.sh  
 ║&ensp;&ensp;&nbsp;╠══ change_A_to_B.txt  
 ║&ensp;&ensp;&nbsp;╚══ table-of-contents.txt  
 ╚══ README.md  
