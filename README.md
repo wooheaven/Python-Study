@@ -66,7 +66,8 @@ Table of Contents
 ╠══ 7 Pandas  
 ║&ensp;&ensp;&nbsp;╠══ 7.1 [Series : Create](07_Pandas/01_Series_Create.ipynb)  
 ║&ensp;&ensp;&nbsp;╠══ 7.2 [DataFrame : Create](07_Pandas/02_DataFrame_Create.ipynb)  
-║&ensp;&ensp;&nbsp;╚══ 7.3 [DataFrame : Indexing by Column](07_Pandas/03_DataFrame_Indexing_by_column.ipynb)  
+║&ensp;&ensp;&nbsp;╠══ 7.3 [DataFrame : Indexing by Column](07_Pandas/03_DataFrame_Indexing_by_column.ipynb)  
+║&ensp;&ensp;&nbsp;╚══ 7.4 [DataFrame : Indexing by Row](07_Pandas/04_DataFrame_Indexing_by_row.ipynb)  
 ╠══ 8 Plotly  
 ║&ensp;&ensp;&nbsp;╚══ 8.3 [Plotly : Time Series Interactive Visualization](08_Plotly/plotly-time-series.ipynb)  
 ╠══ 99_Utility  
