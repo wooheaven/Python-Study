@@ -1,7 +1,5 @@
 #!/bin/bash
 
-cd ..
-
 # for with file
 while read line
 do

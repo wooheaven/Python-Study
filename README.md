@@ -1,21 +1,24 @@
 # 01 Introduce
 Table of Contents  
 ╠══ 1 Python Install and Configure  
-║&ensp;&ensp;&nbsp;╠══ 1.1 conda  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.1.1 [install conda](01_Install_and_Use_python/01_conda/01_Install_anaconda.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.1.2 [create envs](01_Install_and_Use_python/01_conda/02_conda_create_envs.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.1.3 [remove envs](01_Install_and_Use_python/01_conda/03_conda_remove_envs.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.1.4 [upgrade python on env](01_Install_and_Use_python/01_conda/04_coda_env_upgrade_python.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.1.5 [pip install package](01_Install_and_Use_python/01_conda/05_pip_install_package.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.1.6 [pip install package --upgrade](01_Install_and_Use_python/01_conda/06_pip_install_package_upgrade.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 1.1.7 [pip install pip --upgrade](01_Install_and_Use_python/01_conda/07_pip_upgrade.md)  
-║&ensp;&ensp;&nbsp;╠══ 1.2 docker : [python3 jupyter by tensorflow official image](01_Install_and_Use_python/02_docker/tensorflow_image.md)  
-║&ensp;&ensp;&nbsp;╠══ 1.3 jupyter  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.3.1 [convert jupyter notebook to markdown](01_Install_and_Use_python/03_jupyter/01_convert_jupyter_notebook_to_markdown.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.3.2 [short cuts for jupyter](01_Install_and_Use_python/03_jupyter/02_Jupyter_notebook_shortcuts.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 1.3.3 [set password by manually](01_Install_and_Use_python/03_jupyter/03_jupyter_notebook_passwd.md)  
-║&ensp;&ensp;&nbsp;╚══ 1.4 etc  
-║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╚══ 1.4.1 [Zen of Python](01_Install_and_Use_python/04_etc/02_Zen_of_Python_English_Korean.md)  
+║&ensp;&ensp;&nbsp;╠══ 1.1 brew  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.1.1 [linux brew install python](01_Install_and_Use_python/01_brew/01_linux_brew_install_python.md)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 1.1.2 [linux brew python create venv](01_Install_and_Use_python/01_brew/02_linux_brew_python_create_env.md)  
+║&ensp;&ensp;&nbsp;╠══ 1.2 conda  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.2.1 [install conda](01_Install_and_Use_python/02_conda/01_Install_anaconda.md)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.2.2 [create envs](01_Install_and_Use_python/02_conda/02_conda_create_envs.md)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.2.3 [remove envs](01_Install_and_Use_python/02_conda/03_conda_remove_envs.md)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.2.4 [upgrade python on env](01_Install_and_Use_python/02_conda/04_coda_env_upgrade_python.md)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.2.5 [pip install package](01_Install_and_Use_python/02_conda/05_pip_install_package.md)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.2.6 [pip install package --upgrade](01_Install_and_Use_python/02_conda/06_pip_install_package_upgrade.md)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 1.2.7 [pip install pip --upgrade](01_Install_and_Use_python/02_conda/07_pip_upgrade.md)  
+║&ensp;&ensp;&nbsp;╠══ 1.3 docker : [python3 jupyter by tensorflow official image](01_Install_and_Use_python/03_docker/tensorflow_image.md)  
+║&ensp;&ensp;&nbsp;╠══ 1.4 jupyter  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.4.1 [convert jupyter notebook to markdown](01_Install_and_Use_python/04_jupyter/01_convert_jupyter_notebook_to_markdown.md)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.4.2 [short cuts for jupyter](01_Install_and_Use_python/04_jupyter/02_Jupyter_notebook_shortcuts.md)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 1.4.3 [set password by manually](01_Install_and_Use_python/04_jupyter/03_jupyter_notebook_passwd.md)  
+║&ensp;&ensp;&nbsp;╚══ 1.5 etc  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╚══ 1.5.1 [Zen of Python](01_Install_and_Use_python/05_etc/02_Zen_of_Python_English_Korean.md)  
 ╠══ 2 Data Science from Scratch  
 ║&ensp;&ensp;&nbsp;╠══ 2.1 ch1  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 2.1.7 [string](02_Data_Science_from_Scratch/02_Ch/02.01.07_string.md)  
@@ -64,6 +67,8 @@ Table of Contents
 ║&ensp;&ensp;&nbsp;╠══ 7.1 [Series : Create](07_Pandas/01_Series_Create.ipynb)  
 ║&ensp;&ensp;&nbsp;╠══ 7.2 [DataFrame : Create](07_Pandas/02_DataFrame_Create.ipynb)  
 ║&ensp;&ensp;&nbsp;╚══ 7.3 [DataFrame : Indexing by Column](07_Pandas/03_DataFrame_Indexing_by_column.ipynb)  
+╠══ 8 Plotly  
+║&ensp;&ensp;&nbsp;╚══ 8.3 [Plotly : Time Series Interactive Visualization](08_Plotly/plotly-time-series.ipynb)  
 ╠══ 99_Utility  
 ║&ensp;&ensp;&nbsp;╠══ 01_tree.sh  
 ║&ensp;&ensp;&nbsp;╠══ 02_readme-align.py  
