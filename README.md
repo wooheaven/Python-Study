@@ -68,16 +68,16 @@ Table of Contents
 ║&ensp;&ensp;&nbsp;╠══ 7.2 [DataFrame : Create](07_Pandas/02_DataFrame_Create.ipynb)  
 ║&ensp;&ensp;&nbsp;╠══ 7.3 [DataFrame : Indexing by Column](07_Pandas/03_DataFrame_Indexing_by_column.ipynb)  
 ║&ensp;&ensp;&nbsp;╠══ 7.4 [DataFrame : Indexing by Row](07_Pandas/04_DataFrame_Indexing_by_row.ipynb)  
-║&ensp;&ensp;&nbsp;╚══ 7.5 [DataFrame : NaN](07_Pandas/05_DataFrame_NaN.ipynb)  
+║&ensp;&ensp;&nbsp;╠══ 7.5 [DataFrame : NaN](07_Pandas/05_DataFrame_NaN.ipynb)  
+║&ensp;&ensp;&nbsp;╚══ 7.6 [DataFrame : Statistics Functions](07_Pandas/06_DataFrame_statistics_function.ipynb)  
 ╠══ 8 Plotly  
 ║&ensp;&ensp;&nbsp;╚══ 8.3 [Plotly : Time Series Interactive Visualization](08_Plotly/plotly-time-series.ipynb)  
 ╠══ 99_Utility  
-║&ensp;&ensp;&nbsp;╠══ 01_tree.sh  
+║&ensp;&ensp;&nbsp;╠══ [01_tree.sh](99_Utility/01_tree.sh)  
 ║&ensp;&ensp;&nbsp;╠══ 02_readme-align.py  
 ║&ensp;&ensp;&nbsp;╠══ 03_modify_README.sh  
-║&ensp;&ensp;&nbsp;╠══ 04_ci_conda_info.sh  
-║&ensp;&ensp;&nbsp;╠══ 05_sa_source_activate_my-venv.sh  
-║&ensp;&ensp;&nbsp;╠══ 06_jn_jupyter_notebook.sh  
+║&ensp;&ensp;&nbsp;╠══ 04_sa_source_activate_my-venv.sh  
+║&ensp;&ensp;&nbsp;╠══ 05_jn_jupyter_notebook.sh  
 ║&ensp;&ensp;&nbsp;╠══ change_A_to_B.txt  
 ║&ensp;&ensp;&nbsp;╚══ table-of-contents.txt  
 ╚══ README.md  
