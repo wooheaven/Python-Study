@@ -1,6 +1,9 @@
 .
 ├── 01_Install_and_Use_python
-│   ├── 01_conda
+│   ├── 01_brew
+│   │   ├── 01_linux_brew_install_python.md
+│   │   └── 02_linux_brew_python_create_env.md
+│   ├── 02_conda
 │   │   ├── 01_Install_anaconda.md
 │   │   ├── 02_conda_create_envs.md
 │   │   ├── 03_conda_remove_envs.md
@@ -8,14 +11,15 @@
 │   │   ├── 05_pip_install_package.md
 │   │   ├── 06_pip_install_package_upgrade.md
 │   │   └── 07_pip_upgrade.md
-│   ├── 02_docker
+│   ├── 03_docker
 │   │   └── tensorflow_image.md
-│   ├── 03_jupyter
+│   ├── 04_jupyter
 │   │   ├── 01_convert_jupyter_notebook_to_markdown.md
 │   │   ├── 02_Jupyter_notebook_shortcuts.md
 │   │   └── 03_jupyter_notebook_passwd.md
-│   └── 04_etc
-│       └── 02_Zen_of_Python_English_Korean.md
+│   ├── 05_etc
+│   │   └── 02_Zen_of_Python_English_Korean.md
+│   └── reNumberFolder.sh
 ├── 02_Data_Science_from_Scratch
 │   ├── 02_Ch
 │   │   ├── 02.01.07_string.ipynb
@@ -70,7 +74,12 @@
 │       └── bigger_continue_sum.py
 ├── 05_Tmp
 │   ├── 01_dictionary_in_dictionary.py
-│   └── 02_gzip_write_read.md
+│   ├── 02_gzip_write_read.md
+│   ├── 03_create_and_visualize_data_approximating_the_cubic_equation.py
+│   ├── 04_create_and_visualize_data_approximation_the_k-means.py
+│   ├── 05_sys_stdout_write_with_string_format.md
+│   ├── 06_datetime_now_strftime.ipynb
+│   └── 06_float_to_str_with_a_fixed_number_of_digits.ipynb
 ├── 06_Django
 │   └── 01_Django_Girls_Tutorial
 │       ├── djangogirls
@@ -93,22 +102,35 @@
 │       │   │   ├── tests.py
 │       │   │   ├── urls.py
 │       │   │   └── views.py
-│       │   ├── db.sqlite3
 │       │   ├── manage.py
 │       │   └── mysite
 │       │       ├── settings.py
 │       │       ├── urls.py
 │       │       └── wsgi.py
 │       └── memo.md
+├── 07_Pandas
+│   ├── 01_Series_Create.ipynb
+│   ├── 02_DataFrame_Create.ipynb
+│   ├── 03_DataFrame_Indexing_by_column.ipynb
+│   ├── 04_DataFrame_Indexing_by_row.ipynb
+│   ├── 05_DataFrame_NaN.ipynb
+│   ├── 06_DataFrame_statistics_function.ipynb
+│   ├── 07_DataFrame_sort_index_and_sort_values.ipynb
+│   ├── 08_unique_value_counts.ipynb
+│   ├── 09_isin.ipynb
+│   └── 10_user_defined_func.ipynb
+├── 08_Plotly
+│   ├── 01_plotly-time-series.ipynb
+│   └── building_one.csv
+├── 09_MultiProcessing
+│   ├── 01_SIMD_by_multiprocessing.ipynb
+│   └── cumulative_sum_3d.html
 ├── 99_Utility
-│   ├── 01_tree.sh
-│   ├── 02_readme-align.py
-│   ├── 03_modify_README.sh
-│   ├── 04_ci_conda_info.sh
-│   ├── 05_sa_source_activate_python27.sh
-│   ├── 06_sa_source_activate_python364.sh
-│   ├── 07_jn_jupyter_notebook.sh
-│   ├── 08_sd_source_deactivate.sh
+│   ├── 01_tree_to_contents.sh
+│   ├── 02_modify_contents.py
+│   ├── 03_modify_number_of_file_on_README.sh
 │   ├── change_A_to_B.txt
-│   └── table-of-contents.txt
+│   ├── contents.txt
+│   ├── jn_jupyter_notebook.sh
+│   └── sa_source_activate.sh
 └── README.md

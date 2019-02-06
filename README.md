@@ -61,7 +61,8 @@ Table of Contents
 ║&ensp;&ensp;&nbsp;╠══ 5.3 [create and visualize data approximating Y = a + bX + cX^2 + dX^3](05_Tmp/03_create_and_visualize_data_approximating_the_cubic_equation.py)  
 ║&ensp;&ensp;&nbsp;╠══ 5.4 [create and visualize data approximating K-Means](05_Tmp/04_create_and_visualize_data_approximation_the_k-means.py)  
 ║&ensp;&ensp;&nbsp;╠══ 5.5 [sys.stdout.write with string.format(variable)](05_Tmp/05_sys_stdout_write_with_string_format.md)  
-║&ensp;&ensp;&nbsp;╚══ 5.6 [datetime now() strftime](05_Tmp/06_datetime_now_strftime.ipynb)  
+║&ensp;&ensp;&nbsp;╠══ 5.6 [datetime now() strftime](05_Tmp/06_datetime_now_strftime.ipynb)  
+║&ensp;&ensp;&nbsp;╚══ 5.7 [convert float to str with a fixed number of digits](05_Tmp/06_float_to_str_with_a_fixed_number_of_digits.ipynb)  
 ╠══ 6 Django  
 ║&ensp;&ensp;&nbsp;╚══ 6.1 [Django Girls Tutorial](06_Django/01_Django_Girls_Tutorial/memo.md)  
 ╠══ 7 Pandas  
@@ -80,13 +81,13 @@ Table of Contents
 ╠══ 9 MultiProcessing  
 ║&ensp;&ensp;&nbsp;╚══ 9.1 [multiprocessing : Cumulative Sum with SIMD, multiprocessing](09_MultiProcessing/01_SIMD_by_multiprocessing.ipynb)  
 ╠══ 99_Utility  
-║&ensp;&ensp;&nbsp;╠══ [01_tree.sh](99_Utility/01_tree.sh)  
-║&ensp;&ensp;&nbsp;╠══ [02_readme-align.py](99_Utility/02_readme-align.py)  
-║&ensp;&ensp;&nbsp;╠══ [03_modify_README.sh](99_Utility/03_modify_README.sh)  
+║&ensp;&ensp;&nbsp;╠══ [01_tree_to_contents.sh](99_Utility/01_tree_to_contents.sh)  
+║&ensp;&ensp;&nbsp;╠══ [02_modify_contents.py](99_Utility/02_modify_contents.py)  
+║&ensp;&ensp;&nbsp;╠══ [03_modify_README.sh](99_Utility/03_modify_number_of_file_on_README.sh)  
 ║&ensp;&ensp;&nbsp;╠══ [change_A_to_B](99_Utility/change_A_to_B.txt)  
+║&ensp;&ensp;&nbsp;╠══ [contents](99_Utility/contents.txt)  
 ║&ensp;&ensp;&nbsp;╠══ [jupyter notebook](99_Utility/jn_jupyter_notebook.sh)  
-║&ensp;&ensp;&nbsp;╠══ [source activate](99_Utility/sa_source_activate.sh)  
-║&ensp;&ensp;&nbsp;╚══ table-of-contents.txt  
+║&ensp;&ensp;&nbsp;╚══ [source activate](99_Utility/sa_source_activate.sh)  
 ╚══ README.md  
 ( ║ ╠ ═ ╚ )  
 
