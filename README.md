@@ -60,7 +60,8 @@ Table of Contents
 ║&ensp;&ensp;&nbsp;╠══ 5.2 [gzip file write and read](05_Tmp/02_gzip_write_read.md)  
 ║&ensp;&ensp;&nbsp;╠══ 5.3 [create and visualize data approximating Y = a + bX + cX^2 + dX^3](05_Tmp/03_create_and_visualize_data_approximating_the_cubic_equation.py)  
 ║&ensp;&ensp;&nbsp;╠══ 5.4 [create and visualize data approximating K-Means](05_Tmp/04_create_and_visualize_data_approximation_the_k-means.py)  
-║&ensp;&ensp;&nbsp;╚══ 5.5 [sys.stdout.write with string.format(variable)](05_Tmp/05_sys_stdout_write_with_string_format.md)  
+║&ensp;&ensp;&nbsp;╠══ 5.5 [sys.stdout.write with string.format(variable)](05_Tmp/05_sys_stdout_write_with_string_format.md)  
+║&ensp;&ensp;&nbsp;╚══ 5.6 [datetime now() strftime](05_Tmp/06_datetime_now_strftime.ipynb)  
 ╠══ 6 Django  
 ║&ensp;&ensp;&nbsp;╚══ 6.1 [Django Girls Tutorial](06_Django/01_Django_Girls_Tutorial/memo.md)  
 ╠══ 7 Pandas  
