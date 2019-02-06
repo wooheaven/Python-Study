@@ -72,7 +72,8 @@ Table of Contents
 ║&ensp;&ensp;&nbsp;╠══ 7.5 [DataFrame : NaN](07_Pandas/05_DataFrame_NaN.ipynb)  
 ║&ensp;&ensp;&nbsp;╠══ 7.6 [DataFrame : Statistics Functions](07_Pandas/06_DataFrame_statistics_function.ipynb)  
 ║&ensp;&ensp;&nbsp;╠══ 7.7 [DataFrame : sort index and sort values](07_Pandas/07_DataFrame_sort_index_and_sort_values.ipynb)  
-║&ensp;&ensp;&nbsp;╚══ 7.8 [DataFrame : unique and value_counts](07_Pandas/08_unique_value_counts.ipynb)  
+║&ensp;&ensp;&nbsp;╠══ 7.8 [DataFrame : unique and value_counts](07_Pandas/08_unique_value_counts.ipynb)  
+║&ensp;&ensp;&nbsp;╚══ 7.9 [DataFrame : isin](07_Pandas/09_isin.ipynb)  
 ╠══ 8 Plotly  
 ║&ensp;&ensp;&nbsp;╚══ 8.1 [Plotly : Time Series Interactive Visualization](08_Plotly/01_plotly-time-series.ipynb)  
 ╠══ 9 MultiProcessing  
@@ -81,8 +82,8 @@ Table of Contents
 ║&ensp;&ensp;&nbsp;╠══ [01_tree.sh](99_Utility/01_tree.sh)  
 ║&ensp;&ensp;&nbsp;╠══ [02_readme-align.py](99_Utility/02_readme-align.py)  
 ║&ensp;&ensp;&nbsp;╠══ [03_modify_README.sh](99_Utility/03_modify_README.sh)  
+║&ensp;&ensp;&nbsp;╠══ [jupyter notebook](99_Utility/jn_jupyter_notebook.sh)  
 ║&ensp;&ensp;&nbsp;╠══ [source activate](99_Utility/sa_source_activate.sh)  
-║&ensp;&ensp;&nbsp;╠══ 05_jn_jupyter_notebook.sh  
 ║&ensp;&ensp;&nbsp;╠══ change_A_to_B.txt  
 ║&ensp;&ensp;&nbsp;╚══ table-of-contents.txt  
 ╚══ README.md  
