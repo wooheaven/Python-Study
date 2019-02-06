@@ -1,6 +1,6 @@
 readme = []
 
-with open('99_Utility/table-of-contents.txt', 'r') as file:
+with open('99_Utility/contents.txt', 'r') as file:
     for line in file.readlines():
         readme.append(str(line).replace('\n', "").replace('\r', ""))
 
