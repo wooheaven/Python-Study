@@ -1,4 +1,3 @@
-```{python}
 import gzip
 
 def save_policies(self, policies_file_name):
@@ -16,4 +15,4 @@ def load_policies(self, policies_file_name):
     policies = json.loads(policies_json)
     # with open(file=policies_file_name, mode='r') as read_file:
     #     self.policies = json.load(fp=read_file)
-```
+
