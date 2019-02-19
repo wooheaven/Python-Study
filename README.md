@@ -73,6 +73,14 @@ Table of Contents
 ╠══ 6 Django  
 ║&ensp;&ensp;&nbsp;╚══ 6.1 [Django Girls Tutorial](06_Django/01_Django_Girls_Tutorial/memo.md)  
 ╠══ 7 Pandas  
+║&ensp;&ensp;&nbsp;╠══ 7.0 [documentation](https://pandas.pydata.org/pandas-docs/stable/index.html)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 7.0.6 [API Reference](https://pandas.pydata.org/pandas-docs/stable/reference/index.html)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 7.0.6.1 [Input/Output](https://pandas.pydata.org/pandas-docs/stable/reference/io.html#)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;╠══ 7.0.6.1.11 [SQL](https://pandas.pydata.org/pandas-docs/stable/reference/io.html#sql)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 7.0.6.1.11.4 [read_sql](07_Pandas/00_documentation/06_API_Reference/01_Input_Output/11_SQL/04_read_sql.md)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╚══ 7.0.6.15 [General utility functions](https://pandas.pydata.org/pandas-docs/stable/reference/general_utility_functions.html)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&emsp;╚══ 7.0.6.15.1 [Working with options](https://pandas.pydata.org/pandas-docs/stable/reference/general_utility_functions.html#working-with-options)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;╚══ 7.0.6.15.1.5 [option context : temporarily](07_Pandas/00_documentation/06_API_Reference/15_General_utility_functions/01_Working_with_options/05_option_context.md)  
 ║&ensp;&ensp;&nbsp;╠══ 7.1 [Series : Create](07_Pandas/01_Series_Create.ipynb)  
 ║&ensp;&ensp;&nbsp;╠══ 7.2 [DataFrame : Create](07_Pandas/02_DataFrame_Create.ipynb)  
 ║&ensp;&ensp;&nbsp;╠══ 7.3 [DataFrame : Indexing by Column](07_Pandas/03_DataFrame_Indexing_by_column.ipynb)  
@@ -82,8 +90,7 @@ Table of Contents
 ║&ensp;&ensp;&nbsp;╠══ 7.7 [DataFrame : sort index and sort values](07_Pandas/07_DataFrame_sort_index_and_sort_values.ipynb)  
 ║&ensp;&ensp;&nbsp;╠══ 7.8 [DataFrame : unique and value_counts](07_Pandas/08_unique_value_counts.ipynb)  
 ║&ensp;&ensp;&nbsp;╠══ 7.9 [DataFrame : isin](07_Pandas/09_isin.ipynb)  
-║&ensp;&ensp;&nbsp;╠══ 7.10 [DataFrame : user_defined_func](07_Pandas/10_user_defined_func.ipynb)  
-║&ensp;&ensp;&nbsp;╚══ 7.99 [ETC : Context temporarily](07_Pandas/01_documentation/06_API_Reference/15_General_utility_functions/01_Working_with_options/05_option_context.md)  
+║&ensp;&ensp;&nbsp;╚══ 7.10 [DataFrame : user_defined_func](07_Pandas/10_user_defined_func.ipynb)  
 ╠══ 8 Plotly  
 ║&ensp;&ensp;&nbsp;╚══ 8.1 [Plotly : Time Series Interactive Visualization](08_Plotly/01_plotly-time-series.ipynb)  
 ╠══ 9 MultiProcessing  
