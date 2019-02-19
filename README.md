@@ -90,7 +90,8 @@ Table of Contents
 ║&ensp;&ensp;&nbsp;╠══ 7.7 [DataFrame : sort index and sort values](07_Pandas/07_DataFrame_sort_index_and_sort_values.ipynb)  
 ║&ensp;&ensp;&nbsp;╠══ 7.8 [DataFrame : unique and value_counts](07_Pandas/08_unique_value_counts.ipynb)  
 ║&ensp;&ensp;&nbsp;╠══ 7.9 [DataFrame : isin](07_Pandas/09_isin.ipynb)  
-║&ensp;&ensp;&nbsp;╚══ 7.10 [DataFrame : user_defined_func](07_Pandas/10_user_defined_func.ipynb)  
+║&ensp;&ensp;&nbsp;╠══ 7.10 [DataFrame : user_defined_func](07_Pandas/10_user_defined_func.ipynb)  
+║&ensp;&ensp;&nbsp;╚══ 7.11 [DataFrame : merge](07_Pandas/11_df_merge.ipynb)  
 ╠══ 8 Plotly  
 ║&ensp;&ensp;&nbsp;╚══ 8.1 [Plotly : Time Series Interactive Visualization](08_Plotly/01_plotly-time-series.ipynb)  
 ╠══ 9 MultiProcessing  
