@@ -16,7 +16,8 @@ Table of Contents
 ║&ensp;&ensp;&nbsp;╠══ 1.4 jupyter  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.4.1 [convert jupyter notebook to markdown](01_Install_and_Use_python/04_jupyter/01_convert_jupyter_notebook_to_markdown.md)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.4.2 [short cuts for jupyter](01_Install_and_Use_python/04_jupyter/02_Jupyter_notebook_shortcuts.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 1.4.3 [set password by manually](01_Install_and_Use_python/04_jupyter/03_jupyter_notebook_passwd.md)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.4.3 [set password by manually](01_Install_and_Use_python/04_jupyter/03_jupyter_notebook_passwd.md)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 1.4.4 [change font](01_Install_and_Use_python/04_jupyter/04_change_font.md)  
 ║&ensp;&ensp;&nbsp;╚══ 1.5 etc  
 ║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╚══ 1.5.1 [Zen of Python](01_Install_and_Use_python/05_etc/02_Zen_of_Python_English_Korean.md)  
 ╠══ 2 Data Science from Scratch  
