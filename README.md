@@ -3,7 +3,8 @@ Table of Contents
 ╠══ 1 Python Install and Configure  
 ║&ensp;&ensp;&nbsp;╠══ 1.1 brew  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.1.1 [linux brew install python](01_Install_and_Use_python/01_brew/01_linux_brew_install_python.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 1.1.2 [linux brew python create venv](01_Install_and_Use_python/01_brew/02_linux_brew_python_create_env.md)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.1.2 [linux brew python create venv](01_Install_and_Use_python/01_brew/02_linux_brew_python_create_env.md)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 1.1.3 [brew python3.7 debugging error with multiprocessing](01_Install_and_Use_python/01_brew/03_brew_python3.7_multiprocessing_error.md)  
 ║&ensp;&ensp;&nbsp;╠══ 1.2 conda  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.2.1 [install conda](01_Install_and_Use_python/02_conda/01_Install_anaconda.md)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.2.2 [create envs](01_Install_and_Use_python/02_conda/02_conda_create_envs.md)  
