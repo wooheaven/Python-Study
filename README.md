@@ -99,7 +99,8 @@ Table of Contents
 ╠══ 8 Plotly  
 ║&ensp;&ensp;&nbsp;╚══ 8.1 [Plotly : Time Series Interactive Visualization](08_Plotly/01_plotly-time-series.ipynb)  
 ╠══ 9 MultiProcessing  
-║&ensp;&ensp;&nbsp;╚══ 9.1 [multiprocessing : Cumulative Sum with SIMD, multiprocessing](09_MultiProcessing/01_SIMD_by_multiprocessing.ipynb)  
+║&ensp;&ensp;&nbsp;╠══ 9.1 [multiprocessing : Cumulative Sum with Process as SIMD](09_MultiProcessing/01_cumsum_SIMD_multiprocessing_Process.ipynb)  
+║&ensp;&ensp;&nbsp;╚══ 9.2 [multiprocessing : Cumulative Sum with Pool as SIMD](09_MultiProcessing/02_cumsum_SIMD_multiprocessing_Pool.ipynb)  
 ╠══ 99_Utility  
 ║&ensp;&ensp;&nbsp;╠══ [01_tree_to_contents.sh](99_Utility/01_tree_to_contents.sh)  
 ║&ensp;&ensp;&nbsp;╠══ [02_modify_contents.py](99_Utility/02_modify_contents.py)  
