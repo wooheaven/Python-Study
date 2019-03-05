@@ -103,7 +103,8 @@ Table of Contents
 ║&ensp;&ensp;&nbsp;╠══ 7.10 [DataFrame : user_defined_func](07_Pandas/10_user_defined_func.ipynb)  
 ║&ensp;&ensp;&nbsp;╠══ 7.11 [DataFrame : merge](07_Pandas/11_df_merge.ipynb)  
 ║&ensp;&ensp;&nbsp;╠══ 7.12 [DataFrame : concatenate](07_Pandas/12_df_concatenate.ipynb)  
-║&ensp;&ensp;&nbsp;╚══ 7.13 [DataFrame : hierarchical index](07_Pandas/13_df_hierarchical_index.ipynb)  
+║&ensp;&ensp;&nbsp;╠══ 7.13 [DataFrame : hierarchical index](07_Pandas/13_df_hierarchical_index.ipynb)  
+║&ensp;&ensp;&nbsp;╚══ 7.14 [DataFrame : set_index](07_Pandas/14_df_set_index.ipynb)  
 ╠══ 8 Plotly  
 ║&ensp;&ensp;&nbsp;╚══ 8.1 [Plotly : Time Series Interactive Visualization](08_Plotly/01_plotly-time-series.ipynb)  
 ╠══ 9 MultiProcessing  
