@@ -105,7 +105,8 @@ Table of Contents
 ║&ensp;&ensp;&nbsp;╠══ 7.11 [DataFrame : merge](07_Pandas/11_df_merge.ipynb)  
 ║&ensp;&ensp;&nbsp;╠══ 7.12 [DataFrame : concatenate](07_Pandas/12_df_concatenate.ipynb)  
 ║&ensp;&ensp;&nbsp;╠══ 7.13 [DataFrame : hierarchical index](07_Pandas/13_df_hierarchical_index.ipynb)  
-║&ensp;&ensp;&nbsp;╚══ 7.14 [DataFrame : set_index](07_Pandas/14_df_set_index.ipynb)  
+║&ensp;&ensp;&nbsp;╠══ 7.14 [DataFrame : set_index](07_Pandas/14_df_set_index.ipynb)  
+║&ensp;&ensp;&nbsp;╚══ 7.15 [DataFrame : stack](07_Pandas/15_df_stack.ipynb)  
 ╠══ 8 Plotly  
 ║&ensp;&ensp;&nbsp;╚══ 8.1 [Plotly : Time Series Interactive Visualization](08_Plotly/01_plotly-time-series.ipynb)  
 ╠══ 9 MultiProcessing  
