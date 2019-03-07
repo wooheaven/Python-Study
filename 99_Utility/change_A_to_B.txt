@@ -1,18 +1,2 @@
-On branch 110-pandas-df-values-or-to_numpy
-Your branch is behind 'gitlab/110-pandas-df-values-or-to_numpy' by 1 commit, and can be fast-forwarded.
-  (use "git pull" to update your local branch)
-
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
-	new file:   07_Pandas/00_documentation/06_API_Reference/04_DataFrame/01_DataFrame.md
-	new file:   07_Pandas/00_documentation/06_API_Reference/04_DataFrame/02_DataFrame.to_numpy.md
-	new file:   07_Pandas/00_documentation/06_API_Reference/04_DataFrame/03_DataFrame.values.md
-	modified:   README.md
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	modified:   99_Utility/change_A_to_B.txt
-
+05_packages/06_psycopg2/01_replace_string_with_dictionary.py -> 05_packages/07_psycopg2/01_replace_string_with_dictionary.py
+05_packages/07_sys/01_sys_stdout_write_with_string_format.py -> 05_packages/08_sys/01_sys_stdout_write_with_string_format.py
