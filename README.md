@@ -70,8 +70,9 @@ Table of Contents
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;╠══ 5.4.1.2.1 [code](05_packages/04_matplotlib/01_create_and_visualize_data/02_Approximating_to_kmeans/01_approximating_to_kmeans.py)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;╚══ 5.4.1.2.2 [image](05_packages/04_matplotlib/01_create_and_visualize_data/02_Approximating_to_kmeans/02_kmean_scatter_plot.png)  
 ║&ensp;&ensp;&nbsp;╠══ 5.5 [no package : convert float to str with a fixed number of digits](05_packages/05_no_package/01_float_to_str_with_a_fixed_number_of_digits.ipynb)  
-║&ensp;&ensp;&nbsp;╠══ 5.6 [psycopg2 : string sql replace by dict](05_packages/06_psycopg2/01_replace_string_with_dictionary.py)  
-║&ensp;&ensp;&nbsp;╚══ 5.7 [sys : sys.stdout.write with string.format(variable)](05_packages/07_sys/01_sys_stdout_write_with_string_format.py)  
+║&ensp;&ensp;&nbsp;╠══ 5.6 [numpy : array into fair divided list of arrays](05_packages/06_numpy/01_array_into_fair_divided_list_of_arrays.md)  
+║&ensp;&ensp;&nbsp;╠══ 5.7 [psycopg2 : string sql replace by dict](05_packages/07_psycopg2/01_replace_string_with_dictionary.py)  
+║&ensp;&ensp;&nbsp;╚══ 5.8 [sys : sys.stdout.write with string.format(variable)](05_packages/08_sys/01_sys_stdout_write_with_string_format.py)  
 ╠══ 6 Django  
 ║&ensp;&ensp;&nbsp;╚══ 6.1 [Django Girls Tutorial](06_Django/01_Django_Girls_Tutorial/memo.md)  
 ╠══ 7 Pandas  
