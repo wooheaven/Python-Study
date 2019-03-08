@@ -1,2 +1,1 @@
-05_packages/06_psycopg2/01_replace_string_with_dictionary.py -> 05_packages/07_psycopg2/01_replace_string_with_dictionary.py
-05_packages/07_sys/01_sys_stdout_write_with_string_format.py -> 05_packages/08_sys/01_sys_stdout_write_with_string_format.py
+05_packages/06_numpy/01_array_into_fair_divided_list_of_arrays.md -> 05_packages/06_numpy/00_example/01_array_into_fair_divided_list_of_arrays.md

@@ -1,4 +1,3 @@
-# 01 Introduce
 Table of Contents  
 ╠══ 1 Python Install and Configure  
 ║&ensp;&ensp;&nbsp;╠══ 1.1 brew  
@@ -70,7 +69,10 @@ Table of Contents
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;╠══ 5.4.1.2.1 [code](05_packages/04_matplotlib/01_create_and_visualize_data/02_Approximating_to_kmeans/01_approximating_to_kmeans.py)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;╚══ 5.4.1.2.2 [image](05_packages/04_matplotlib/01_create_and_visualize_data/02_Approximating_to_kmeans/02_kmean_scatter_plot.png)  
 ║&ensp;&ensp;&nbsp;╠══ 5.5 [no package : convert float to str with a fixed number of digits](05_packages/05_no_package/01_float_to_str_with_a_fixed_number_of_digits.ipynb)  
-║&ensp;&ensp;&nbsp;╠══ 5.6 [numpy : array into fair divided list of arrays](05_packages/06_numpy/01_array_into_fair_divided_list_of_arrays.md)  
+║&ensp;&ensp;&nbsp;╠══ 5.6 numpy  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ [example1 : array into fair divided and combiled array of array](05_packages/06_numpy/00_example/01_array_into_fair_divided_list_of_arrays.md)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 5.6.1 [multiply](https://docs.scipy.org/doc/numpy/reference/generated/numpy.multiply.html)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╚══ [example1 : multiply array by array](05_packages/06_numpy/01_multiply/01_multiply_array_by_array.md)  
 ║&ensp;&ensp;&nbsp;╠══ 5.7 [psycopg2 : string sql replace by dict](05_packages/07_psycopg2/01_replace_string_with_dictionary.py)  
 ║&ensp;&ensp;&nbsp;╚══ 5.8 [sys : sys.stdout.write with string.format(variable)](05_packages/08_sys/01_sys_stdout_write_with_string_format.py)  
 ╠══ 6 Django  
@@ -82,7 +84,7 @@ Table of Contents
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;╠══ 7.0.6.1.11 [SQL](https://pandas.pydata.org/pandas-docs/stable/reference/io.html#sql)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 7.0.6.1.11.4 [read_sql](07_Pandas/00_documentation/06_API_Reference/01_Input_Output/11_SQL/04_read_sql.md)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 7.0.6.4 [DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html#pandas.DataFrame)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;╠══ [DataFrame() example](07_Pandas/00_documentation/06_API_Reference/04_DataFrame/01_DataFrame.md)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;╠══ [example1 : create dataframe](07_Pandas/00_documentation/06_API_Reference/04_DataFrame/01_DataFrame.md)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;╠══ 7.0.6.4.1 Attributes  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 7.0.6.4.1.19 [values](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.values.html#pandas.DataFrame.values)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;&ensp;&ensp;&emsp;╚══ [DataFrame.values example](07_Pandas/00_documentation/06_API_Reference/04_DataFrame/03_DataFrame.values.md)  
