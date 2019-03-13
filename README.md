@@ -57,24 +57,27 @@ Table of Contents
 ║&ensp;&ensp;&nbsp;╚══ 4.1 Question  
 ║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╚══ 4.1.1 [bigger_continue_sum](04_Everyday_Programming/01_Q/bigger_continue_sum.py)  
 ╠══ 5 Packages  
-║&ensp;&ensp;&nbsp;╠══ 5.1 [collections defaultdict : defaultdict in defaultdict](05_packages/01_collections/01_defaultdict/01_dictionary_in_dictionary.py)  
-║&ensp;&ensp;&nbsp;╠══ 5.2 [datetime now() strftime](05_packages/02_datetime/01_datetime_now_strftime.py)  
-║&ensp;&ensp;&nbsp;╠══ 5.3 [gzip : file write and read](05_packages/03_gzip/01_gzip_write_read.py)  
-║&ensp;&ensp;&nbsp;╠══ 5.4 matplotlib  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 5.4.1 create and visualize data  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 5.4.1.1 Approximating to user defined equation like Y = a + bX + cX^2 + dX^3  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;╠══ 5.4.1.1.1 [code](05_packages/04_matplotlib/01_create_and_visualize_data/01_Approximating_to_user_defiend_equation/01_approximating_to_user_defined_equation.py)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;╚══ 5.4.1.1.2 [image](05_packages/04_matplotlib/01_create_and_visualize_data/01_Approximating_to_user_defiend_equation/02_user_defined_equation_scatter_plot.png)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╚══ 5.4.1.2 Approximating K-Means  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;╠══ 5.4.1.2.1 [code](05_packages/04_matplotlib/01_create_and_visualize_data/02_Approximating_to_kmeans/01_approximating_to_kmeans.py)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;╚══ 5.4.1.2.2 [image](05_packages/04_matplotlib/01_create_and_visualize_data/02_Approximating_to_kmeans/02_kmean_scatter_plot.png)  
-║&ensp;&ensp;&nbsp;╠══ 5.5 [no package : convert float to str with a fixed number of digits](05_packages/05_no_package/01_float_to_str_with_a_fixed_number_of_digits.ipynb)  
-║&ensp;&ensp;&nbsp;╠══ 5.6 numpy  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ [example1 : array into fair divided and combiled array of array](05_packages/06_numpy/00_example/01_array_into_fair_divided_list_of_arrays.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 5.6.1 [multiply](https://docs.scipy.org/doc/numpy/reference/generated/numpy.multiply.html)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╚══ [example1 : multiply array by array](05_packages/06_numpy/01_multiply/01_multiply_array_by_array.md)  
-║&ensp;&ensp;&nbsp;╠══ 5.7 [psycopg2 : string sql replace by dict](05_packages/07_psycopg2/01_replace_string_with_dictionary.py)  
-║&ensp;&ensp;&nbsp;╚══ 5.8 [sys : sys.stdout.write with string.format(variable)](05_packages/08_sys/01_sys_stdout_write_with_string_format.py)  
+║&ensp;&ensp;&nbsp;╠══ 5.1 [argparse](https://docs.python.org/ko/3/howto/argparse.html)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 5.1.1 [argparse : add sub mul div](05_packages/01_argparse/calculation.py)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 5.1.2 [argparse : sum](05_packages/01_argparse/sum.py)  
+║&ensp;&ensp;&nbsp;╠══ 5.2 [collections defaultdict : defaultdict in defaultdict](05_packages/02_collections/01_defaultdict/01_dictionary_in_dictionary.py)  
+║&ensp;&ensp;&nbsp;╠══ 5.3 [datetime now() strftime](05_packages/03_datetime/01_datetime_now_strftime.py)  
+║&ensp;&ensp;&nbsp;╠══ 5.4 [gzip : file write and read](05_packages/04_gzip/01_gzip_write_read.py)  
+║&ensp;&ensp;&nbsp;╠══ 5.5 matplotlib  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 5.5.1 create and visualize data  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 5.5.1.1 Approximating to user defined equation like Y = a + bX + cX^2 + dX^3  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;╠══ 5.5.1.1.1 [code](05_packages/05_matplotlib/01_create_and_visualize_data/01_Approximating_to_user_defiend_equation/01_approximating_to_user_defined_equation.py)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;╚══ 5.5.1.1.2 [image](05_packages/05_matplotlib/01_create_and_visualize_data/01_Approximating_to_user_defiend_equation/02_user_defined_equation_scatter_plot.png)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╚══ 5.5.1.2 Approximating K-Means  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;╠══ 5.5.1.2.1 [code](05_packages/05_matplotlib/01_create_and_visualize_data/02_Approximating_to_kmeans/01_approximating_to_kmeans.py)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;╚══ 5.5.1.2.2 [image](05_packages/05_matplotlib/01_create_and_visualize_data/02_Approximating_to_kmeans/02_kmean_scatter_plot.png)  
+║&ensp;&ensp;&nbsp;╠══ 5.6 [no package : convert float to str with a fixed number of digits](05_packages/06_no_package/01_float_to_str_with_a_fixed_number_of_digits.ipynb)  
+║&ensp;&ensp;&nbsp;╠══ 5.7 numpy  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ [example1 : array into fair divided and combiled array of array](05_packages/07_numpy/00_example/01_array_into_fair_divided_list_of_arrays.md)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 5.7.1 [multiply](https://docs.scipy.org/doc/numpy/reference/generated/numpy.multiply.html)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╚══ [example1 : multiply array by array](05_packages/07_numpy/01_multiply/01_multiply_array_by_array.md)  
+║&ensp;&ensp;&nbsp;╠══ 5.8 [psycopg2 : string sql replace by dict](05_packages/08_psycopg2/01_replace_string_with_dictionary.py)  
+║&ensp;&ensp;&nbsp;╚══ 5.9 [sys : sys.stdout.write with string.format(variable)](05_packages/09_sys/01_sys_stdout_write_with_string_format.py)  
 ╠══ 6 Django  
 ║&ensp;&ensp;&nbsp;╚══ 6.1 [Django Girls Tutorial](06_Django/01_Django_Girls_Tutorial/memo.md)  
 ╠══ 7 Pandas  
