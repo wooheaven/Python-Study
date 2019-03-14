@@ -1,9 +1,11 @@
+1.0.0 ╠═1 Python_Env_and_ETC  
+1.1.0 ║&nbsp;&nbsp;╠═1.1 brew  
+1.1.1 ║&ensp;&ensp;║&ensp;&ensp;╠═1.1.1 [linux brew install python](01_Install_and_Use_python/01_brew/01_linux_brew_install_python.md)  
+1.1.2 ║&ensp;&ensp;║&ensp;&ensp;╠═1.1.2 [linux brew python create venv](01_Install_and_Use_python/01_brew/02_linux_brew_python_create_env.md)  
+1.1.3 ║&ensp;&ensp;║&ensp;&ensp;╚═1.1.3 [linux brew python3.7 debugging error with multiprocessing](01_Install_and_Use_python/01_brew/03_brew_python3.7_multiprocessing_error.md)  
+
 Table of Contents  
 ╠══ 1 Python Install and Configure  
-║&ensp;&ensp;&nbsp;╠══ 1.1 brew  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.1.1 [linux brew install python](01_Install_and_Use_python/01_brew/01_linux_brew_install_python.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.1.2 [linux brew python create venv](01_Install_and_Use_python/01_brew/02_linux_brew_python_create_env.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 1.1.3 [brew python3.7 debugging error with multiprocessing](01_Install_and_Use_python/01_brew/03_brew_python3.7_multiprocessing_error.md)  
 ║&ensp;&ensp;&nbsp;╠══ 1.2 conda  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.2.1 [install conda](01_Install_and_Use_python/02_conda/01_Install_anaconda.md)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.2.2 [create envs](01_Install_and_Use_python/02_conda/02_conda_create_envs.md)  
@@ -81,19 +83,23 @@ Table of Contents
 ╠══ 6 Django  
 ║&ensp;&ensp;&nbsp;╚══ 6.1 [Django Girls Tutorial](06_Django/01_Django_Girls_Tutorial/memo.md)  
 ╠══ 7 Pandas  
-║&ensp;&ensp;&nbsp;╠══ 7.0 [documentation](https://pandas.pydata.org/pandas-docs/stable/index.html)  
+║&ensp;&ensp;&nbsp;╠══ 7.0 [pandas documentation](https://pandas.pydata.org/pandas-docs/stable/index.html)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 7.0.6 [API Reference](https://pandas.pydata.org/pandas-docs/stable/reference/index.html)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 7.0.6.1 [Input/Output](https://pandas.pydata.org/pandas-docs/stable/reference/io.html#)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;╠══ 7.0.6.1.11 [SQL](https://pandas.pydata.org/pandas-docs/stable/reference/io.html#sql)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 7.0.6.1.11.4 [read_sql](07_Pandas/00_documentation/06_API_Reference/01_Input_Output/11_SQL/04_read_sql.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 7.0.6.4 [DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html#pandas.DataFrame)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;╠══ [example1 : create dataframe](07_Pandas/00_documentation/06_API_Reference/04_DataFrame/01_DataFrame.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;╠══ 7.0.6.4.1 Attributes  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 7.0.6.4.1.19 [values](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.values.html#pandas.DataFrame.values)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;&ensp;&ensp;&emsp;╚══ [DataFrame.values example](07_Pandas/00_documentation/06_API_Reference/04_DataFrame/03_DataFrame.values.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;╠══ 7.0.6.4.2 Methods  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 7.0.6.4.2.181 [to_numpy](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;&ensp;&ensp;&emsp;╚══ [DataFrame.to_numpy() example](07_Pandas/00_documentation/06_API_Reference/04_DataFrame/02_DataFrame.to_numpy.md)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 7.0.6.4 [DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/frame.html)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;╠══ 7.0.6.4.1 Constructor   
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 7.0.6.4.1.1 [DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html#pandas.DataFrame)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;&ensp;&ensp;&emsp;╠══ [example : create df](07_Pandas/00_documentation/06_API_Reference/04_DataFrame/01_Constructor/01_DataFrame/01_DataFrame.md)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;&ensp;&ensp;&emsp;╚══ 7.0.6.4.1.1.2 Methods  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;&ensp;&ensp;&emsp;&ensp;&ensp;&emsp;╚══ 7.0.6.4.1.1.2.76 [idxmin](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.idxmin.html#pandas.DataFrame.idxmin)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;&ensp;&ensp;&emsp;&ensp;&ensp;&emsp;║&ensp;&ensp;&nbsp;╚══ [example : df.idxmin()](07_Pandas/00_documentation/06_API_Reference/04_DataFrame/01_Constructor/01_DataFrame/02_Methods/76_idxmin/01_df.idxmin.ipynb)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;&ensp;&ensp;&emsp;&ensp;&ensp;&emsp;╚══ 7.0.6.4.1.1.2.181 [to_numpy](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;&ensp;&ensp;&emsp;&ensp;&ensp;&emsp;&ensp;&ensp;&emsp;╚══ [example : df.to_numpy(), df.values](07_Pandas/00_documentation/06_API_Reference/04_DataFrame/01_Constructor/01_DataFrame/02_Methods/181_to_numpy/01_df.to_numpy.md)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;╚══ 7.0.6.4.2 Attributes and underlying data  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;&ensp;&ensp;&emsp;╚══ 7.0.6.4.2.19 [values](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.values.html#pandas.DataFrame.values)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;&ensp;&ensp;&emsp;&ensp;&ensp;&emsp;╚══ [example : df.values, df.to_numpy()](07_Pandas/00_documentation/06_API_Reference/04_DataFrame/03_DataFrame.values.md)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╚══ 7.0.6.15 [General utility functions](https://pandas.pydata.org/pandas-docs/stable/reference/general_utility_functions.html)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&emsp;╚══ 7.0.6.15.1 [Working with options](https://pandas.pydata.org/pandas-docs/stable/reference/general_utility_functions.html#working-with-options)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;╚══ 7.0.6.15.1.5 [option context : temporarily](07_Pandas/00_documentation/06_API_Reference/15_General_utility_functions/01_Working_with_options/05_option_context.md)  
