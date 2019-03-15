@@ -29,19 +29,19 @@
 2.1.10 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠══2.1.10 [set : in operation is quick, reduce duplication](02_Data_Science_from_Scratch/02_Ch/02.01.11_set.md)  
 2.1.12 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠══2.1.12 [control_statement : for, if-elif-else, continue, break](02_Data_Science_from_Scratch/02_Ch/02.01.12_control_statement.md)  
 2.1.13 ║&nbsp;&nbsp;║&nbsp;&nbsp;╚══2.1.13 [Boolean : True, False, and, or, all, any](02_Data_Science_from_Scratch/02_Ch/02.01.13_Boolean.md)  
+2.2.00 ║&nbsp;&nbsp;╠═2.2 ch2  
+2.2.01 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠══2.2.1 [sort list](02_Data_Science_from_Scratch/02_Ch/02.02.01_sort.md)  
+2.2.02 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠══2.2.2 [list comprehension](02_Data_Science_from_Scratch/02_Ch/02.02.02_list_comprehension.md)  
+2.2.03 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠══2.2.3 [Generator_Iterator : Use temparary and lazy index by Generator](02_Data_Science_from_Scratch/02_Ch/02.02.03_Generator_Iterator.md)  
+2.2.04 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠══2.2.4 [random : random(), seed(9), randrange(1,9), shuffle(range(10)), choice(range(10)), sample(range(10),5)](02_Data_Science_from_Scratch/02_Ch/02.02.04_random_numbers.md)  
+2.2.05 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠══2.2.5 [ragular_expression : match, search, split, sub of re package](02_Data_Science_from_Scratch/02_Ch/02.02.05_regular_expression.md)  
+2.2.06 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠══2.2.6 [Object-Oriented_Programming : Implement of Set](02_Data_Science_from_Scratch/02_Ch/02.02.06_object-oriented_programming.md)  
+2.2.07 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠══2.2.7 [functional_tool : Merge a function as a argument to another function](02_Data_Science_from_Scratch/02_Ch/02.02.07_functional_tool.md)  
+2.2.08 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠══2.2.8 [enumerate : Use index and elements of list at the same time](02_Data_Science_from_Scratch/02_Ch/02.02.08_enumerate.md)  
+2.2.09 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠══2.2.9 [zip_argument_unpacking : Use zip and unzip for list](02_Data_Science_from_Scratch/02_Ch/02.02.09_zip_argument_unpacking.ipynb)  
+2.2.10 ║&nbsp;&nbsp;║&nbsp;&nbsp;╚══2.2.10 [args_kwargs : Unnamed args tuple and KeyWord args dict](02_Data_Science_from_Scratch/02_Ch/02.02.10_args_kwargs.ipynb)  
 
 Table of Contents  
-║&ensp;&ensp;&nbsp;╠══ 2.2 ch2  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 2.2.1 [sort list](02_Data_Science_from_Scratch/02_Ch/02.02.01_sort.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 2.2.2 [list comprehension](02_Data_Science_from_Scratch/02_Ch/02.02.02_list_comprehension.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 2.2.3 [Generator_Iterator : Use temparary and lazy index by Generator](02_Data_Science_from_Scratch/02_Ch/02.02.03_Generator_Iterator.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 2.2.4 [random : random(), seed(9), randrange(1,9), shuffle(range(10)), choice(range(10)), sample(range(10),5)](02_Data_Science_from_Scratch/02_Ch/02.02.04_random_numbers.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 2.2.5 [ragular_expression : match, search, split, sub of re package](02_Data_Science_from_Scratch/02_Ch/02.02.05_regular_expression.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 2.2.6 [Object-Oriented_Programming : Implement of Set](02_Data_Science_from_Scratch/02_Ch/02.02.06_object-oriented_programming.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 2.2.7 [functional_tool : Merge a function as a argument to another function](02_Data_Science_from_Scratch/02_Ch/02.02.07_functional_tool.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 2.2.8 [enumerate : Use index and elements of list at the same time](02_Data_Science_from_Scratch/02_Ch/02.02.08_enumerate.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 2.2.9 [zip_argument_unpacking : Use zip and unzip for list](02_Data_Science_from_Scratch/02_Ch/02.02.09_zip_argument_unpacking.ipynb)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 2.2.10 [args_kwargs : Unnamed args tuple and KeyWord args dict](02_Data_Science_from_Scratch/02_Ch/02.02.10_args_kwargs.ipynb)  
 ║&ensp;&ensp;&nbsp;╠══ 2.3 Ch3  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 2.3.1 [matplotlib : simple bar graph, line graph, scatter plot](02_Data_Science_from_Scratch/03_Ch/03.01_matplotlib.ipynb)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 2.3.2 [bar charts, historgram](02_Data_Science_from_Scratch/03_Ch/03.02_bar_charts.ipynb)  
@@ -99,6 +99,8 @@ Table of Contents
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;&ensp;&ensp;&ensp;&ensp;&ensp;&emsp;╚══ 7.0.6.4.1.1.2 Methods  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;&ensp;&ensp;&ensp;&ensp;&ensp;&emsp;&ensp;&ensp;&emsp;╠══ 7.0.6.4.1.1.2.76 [idxmin](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.idxmin.html#pandas.DataFrame.idxmin)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;&ensp;&ensp;&ensp;&ensp;&ensp;&emsp;&ensp;&ensp;&emsp;║&ensp;&ensp;&nbsp;╚══ [example : df.idxmin()](07_Pandas/00_documentation/06_API_Reference/04_DataFrame/01_Constructor/01_DataFrame/02_Methods/076_idxmin/01_df.idxmin.ipynb)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;&ensp;&ensp;&ensp;&ensp;&ensp;&emsp;&ensp;&ensp;&emsp;╠══ 7.0.6.4.1.1.2.104 [merge](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.merge.html#pandas.DataFrame.merge)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;&ensp;&ensp;&ensp;&ensp;&ensp;&emsp;&ensp;&ensp;&emsp;║&ensp;&ensp;&nbsp;╚══ [example : df.merge()](07_Pandas/00_documentation/06_API_Reference/04_DataFrame/01_Constructor/01_DataFrame/02_Methods/104_merge/01_df.merge.ipynb)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;&ensp;&ensp;&ensp;&ensp;&ensp;&emsp;&ensp;&ensp;&emsp;╠══ 7.0.6.4.1.1.2.105 [min](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.min.html#pandas.DataFrame.min)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;&ensp;&ensp;&ensp;&ensp;&ensp;&emsp;&ensp;&ensp;&emsp;║&ensp;&ensp;&nbsp;╚══ [example : df.min()](07_Pandas/00_documentation/06_API_Reference/04_DataFrame/01_Constructor/01_DataFrame/02_Methods/105_min/01_df.min.ipynb)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;&ensp;&ensp;&ensp;&ensp;&ensp;&emsp;&ensp;&ensp;&emsp;╚══ 7.0.6.4.1.1.2.181 [to_numpy](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy)  
