@@ -1,27 +1,26 @@
 1.0.0 ╠═1 Python_Env_and_ETC  
 1.1.0 ║&nbsp;&nbsp;╠═1.1 brew  
-1.1.1 ║&ensp;&ensp;║&ensp;&ensp;╠═1.1.1 [linux brew install python](01_Install_and_Use_python/01_brew/01_linux_brew_install_python.md)  
-1.1.2 ║&ensp;&ensp;║&ensp;&ensp;╠═1.1.2 [linux brew python create venv](01_Install_and_Use_python/01_brew/02_linux_brew_python_create_env.md)  
-1.1.3 ║&ensp;&ensp;║&ensp;&ensp;╚═1.1.3 [linux brew python3.7 debugging error with multiprocessing](01_Install_and_Use_python/01_brew/03_brew_python3.7_multiprocessing_error.md)  
+1.1.1 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠═1.1.1 [linux brew install python](01_Python_Env_and_ETC/01_brew/01_linux_brew_install_python.md)  
+1.1.2 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠═1.1.2 [linux brew python create venv](01_Python_Env_and_ETC/01_brew/02_linux_brew_python_create_env.md)  
+1.1.3 ║&nbsp;&nbsp;║&nbsp;&nbsp;╚═1.1.3 [linux brew python3.7 debugging error with multiprocessing](01_Python_Env_and_ETC/01_brew/03_brew_python3.7_multiprocessing_error.md)  
+1.2.0 ║&nbsp;&nbsp;╠═1.2 conda  
+1.2.1 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠══1.2.1 [install conda](01_Python_Env_and_ETC/02_conda/01_Install_anaconda.md)  
+1.2.2 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠══1.2.2 [create envs](01_Python_Env_and_ETC/02_conda/02_conda_create_envs.md)  
+1.2.3 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠══1.2.3 [remove envs](01_Python_Env_and_ETC/02_conda/03_conda_remove_envs.md)  
+1.2.4 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠══1.2.4 [upgrade python on env](01_Python_Env_and_ETC/02_conda/04_coda_env_upgrade_python.md)  
+1.2.5 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠══1.2.5 [pip install package](01_Python_Env_and_ETC/02_conda/05_pip_install_package.md)  
+1.2.6 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠══1.2.6 [pip install package --upgrade](01_Python_Env_and_ETC/02_conda/06_pip_install_package_upgrade.md)  
+1.2.7 ║&nbsp;&nbsp;║&nbsp;&nbsp;╚══1.2.7 [pip install pip --upgrade](01_Python_Env_and_ETC/02_conda/07_pip_upgrade.md)  
+1.3.0 ║&nbsp;&nbsp;╠═1.3 docker : [python3 jupyter by tensorflow official image](01_Python_Env_and_ETC/03_docker/tensorflow_image.md)  
+1.4.0 ║&nbsp;&nbsp;╠═1.4 jupyter  
+1.4.1 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠══1.4.1 [convert jupyter notebook to markdown](01_Python_Env_and_ETC/04_jupyter/01_convert_jupyter_notebook_to_markdown.md)  
+1.4.2 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠══1.4.2 [short cuts for jupyter](01_Python_Env_and_ETC/04_jupyter/02_Jupyter_notebook_shortcuts.md)  
+1.4.3 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠══1.4.3 [set password by manually](01_Python_Env_and_ETC/04_jupyter/03_jupyter_notebook_passwd.md)  
+1.4.4 ║&nbsp;&nbsp;║&nbsp;&nbsp;╚══1.4.4 [change font](01_Python_Env_and_ETC/04_jupyter/04_change_font.md)  
+1.5.0 ║&nbsp;&nbsp;╚═1.5 etc  
+1.5.1 ║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;╚══1.5.1 [Zen of Python](01_Python_Env_and_ETC/05_etc/02_Zen_of_Python_English_Korean.md)  
 
 Table of Contents  
-╠══ 1 Python Install and Configure  
-║&ensp;&ensp;&nbsp;╠══ 1.2 conda  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.2.1 [install conda](01_Install_and_Use_python/02_conda/01_Install_anaconda.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.2.2 [create envs](01_Install_and_Use_python/02_conda/02_conda_create_envs.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.2.3 [remove envs](01_Install_and_Use_python/02_conda/03_conda_remove_envs.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.2.4 [upgrade python on env](01_Install_and_Use_python/02_conda/04_coda_env_upgrade_python.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.2.5 [pip install package](01_Install_and_Use_python/02_conda/05_pip_install_package.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.2.6 [pip install package --upgrade](01_Install_and_Use_python/02_conda/06_pip_install_package_upgrade.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 1.2.7 [pip install pip --upgrade](01_Install_and_Use_python/02_conda/07_pip_upgrade.md)  
-║&ensp;&ensp;&nbsp;╠══ 1.3 docker : [python3 jupyter by tensorflow official image](01_Install_and_Use_python/03_docker/tensorflow_image.md)  
-║&ensp;&ensp;&nbsp;╠══ 1.4 jupyter  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.4.1 [convert jupyter notebook to markdown](01_Install_and_Use_python/04_jupyter/01_convert_jupyter_notebook_to_markdown.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.4.2 [short cuts for jupyter](01_Install_and_Use_python/04_jupyter/02_Jupyter_notebook_shortcuts.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 1.4.3 [set password by manually](01_Install_and_Use_python/04_jupyter/03_jupyter_notebook_passwd.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 1.4.4 [change font](01_Install_and_Use_python/04_jupyter/04_change_font.md)  
-║&ensp;&ensp;&nbsp;╚══ 1.5 etc  
-║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╚══ 1.5.1 [Zen of Python](01_Install_and_Use_python/05_etc/02_Zen_of_Python_English_Korean.md)  
 ╠══ 2 Data Science from Scratch  
 ║&ensp;&ensp;&nbsp;╠══ 2.1 ch1  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 2.1.7 [string](02_Data_Science_from_Scratch/02_Ch/02.01.07_string.md)  
@@ -93,8 +92,10 @@ Table of Contents
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 7.0.6.4.1.1 [DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html#pandas.DataFrame)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;&ensp;&ensp;&emsp;╠══ [example : create df](07_Pandas/00_documentation/06_API_Reference/04_DataFrame/01_Constructor/01_DataFrame/01_DataFrame.md)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;&ensp;&ensp;&emsp;╚══ 7.0.6.4.1.1.2 Methods  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;&ensp;&ensp;&emsp;&ensp;&ensp;&emsp;╚══ 7.0.6.4.1.1.2.76 [idxmin](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.idxmin.html#pandas.DataFrame.idxmin)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;&ensp;&ensp;&emsp;&ensp;&ensp;&emsp;║&ensp;&ensp;&nbsp;╚══ [example : df.idxmin()](07_Pandas/00_documentation/06_API_Reference/04_DataFrame/01_Constructor/01_DataFrame/02_Methods/76_idxmin/01_df.idxmin.ipynb)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;&ensp;&ensp;&emsp;&ensp;&ensp;&emsp;╠══ 7.0.6.4.1.1.2.76 [idxmin](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.idxmin.html#pandas.DataFrame.idxmin)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;&ensp;&ensp;&emsp;&ensp;&ensp;&emsp;║&ensp;&ensp;&nbsp;╚══ [example : df.idxmin()](07_Pandas/00_documentation/06_API_Reference/04_DataFrame/01_Constructor/01_DataFrame/02_Methods/076_idxmin/01_df.idxmin.ipynb)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;&ensp;&ensp;&emsp;&ensp;&ensp;&emsp;╠══ 7.0.6.4.1.1.2.105 [min](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.min.html#pandas.DataFrame.min)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;&ensp;&ensp;&emsp;&ensp;&ensp;&emsp;║&ensp;&ensp;&nbsp;╚══ [example : df.min()](07_Pandas/00_documentation/06_API_Reference/04_DataFrame/01_Constructor/01_DataFrame/02_Methods/105_min/01_df.min.ipynb)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;&ensp;&ensp;&emsp;&ensp;&ensp;&emsp;╚══ 7.0.6.4.1.1.2.181 [to_numpy](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;&ensp;&ensp;&emsp;&ensp;&ensp;&emsp;&ensp;&ensp;&emsp;╚══ [example : df.to_numpy(), df.values](07_Pandas/00_documentation/06_API_Reference/04_DataFrame/01_Constructor/01_DataFrame/02_Methods/181_to_numpy/01_df.to_numpy.md)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;╚══ 7.0.6.4.2 Attributes and underlying data  
