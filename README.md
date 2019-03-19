@@ -12,13 +12,17 @@
 1.2.06 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠═1.2.6 [pip install package --upgrade](01_Python_Env_and_ETC/02_conda/06_pip_install_package_upgrade.md)  
 1.2.07 ║&nbsp;&nbsp;║&nbsp;&nbsp;╚═1.2.7 [pip install pip --upgrade](01_Python_Env_and_ETC/02_conda/07_pip_upgrade.md)  
 1.3.00 ║&nbsp;&nbsp;╠═1.3 docker : [python3 jupyter by tensorflow official image](01_Python_Env_and_ETC/03_docker/tensorflow_image.md)  
-1.4.00 ║&nbsp;&nbsp;╠═1.4 jupyter  
-1.4.01 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠═1.4.1 [convert jupyter notebook to markdown](01_Python_Env_and_ETC/04_jupyter/01_convert_jupyter_notebook_to_markdown.md)  
-1.4.02 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠═1.4.2 [short cuts for jupyter](01_Python_Env_and_ETC/04_jupyter/02_Jupyter_notebook_shortcuts.md)  
-1.4.03 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠═1.4.3 [set password by manually](01_Python_Env_and_ETC/04_jupyter/03_jupyter_notebook_passwd.md)  
-1.4.04 ║&nbsp;&nbsp;║&nbsp;&nbsp;╚═1.4.4 [change font](01_Python_Env_and_ETC/04_jupyter/04_change_font.md)  
-1.5.00 ║&nbsp;&nbsp;╚═1.5 etc  
-1.5.01 ║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;╚═1.5.1 [Zen of Python](01_Python_Env_and_ETC/05_etc/02_Zen_of_Python_English_Korean.md)  
+1.4.00 ║&nbsp;&nbsp;╠═1.4 etc  
+1.4.01 ║&nbsp;&nbsp;║&nbsp;&nbsp;╚═1.4.1 [Zen of Python](01_Python_Env_and_ETC/04_etc/02_Zen_of_Python_English_Korean.md)  
+1.5.00 ║&nbsp;&nbsp;╠═1.5 jupyter  
+1.5.01 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠═1.5.1 [convert jupyter notebook to markdown](01_Python_Env_and_ETC/05_jupyter/01_convert_jupyter_notebook_to_markdown.md)  
+1.5.02 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠═1.5.2 [short cuts for jupyter](01_Python_Env_and_ETC/05_jupyter/02_Jupyter_notebook_shortcuts.md)  
+1.5.03 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠═1.5.3 [set password by manually](01_Python_Env_and_ETC/05_jupyter/03_jupyter_notebook_passwd.md)  
+1.5.04 ║&nbsp;&nbsp;║&nbsp;&nbsp;╚═1.5.4 [change font](01_Python_Env_and_ETC/05_jupyter/04_change_font.md)  
+1.6.00 ║&nbsp;&nbsp;╠═1.6 pip  
+1.6.01 ║&nbsp;&nbsp;║&nbsp;&nbsp;╚═1.6.1 [pip3 : install glob](01_Python_Env_and_ETC/06_pip/01_pip3_install_glob3.md)  
+1.7.00 ║&nbsp;&nbsp;╚═1.7 PyCharm  
+1.7.01 ║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;╚═1.7.1 [Warning Unresolved reference warning](01_Python_Env_and_ETC/07_PyCharm/01_unresolved_reference_warning.md)  
 2.0.00 ╠═2 Data Science from Scratch  
 2.1.00 ║&nbsp;&nbsp;╠═2.1 ch1  
 2.1.07 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠═2.1.7 [string](02_Data_Science_from_Scratch/02_Ch/02.01.07_string.md)  
@@ -52,8 +56,6 @@
 2.5.01 ║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;╚═2.5.1 [Explain DataSet](02_Data_Science_from_Scratch/05_Ch/05.01_Explain_DataSet.ipynb)  
 
 Table of Contents  
-╠══ 3 PyCharm  
-║&ensp;&ensp;&nbsp;╚══ 3.1 [Warning Unresolved reference warning](03_PyCharm/01_unresolved_reference_warning.md)  
 ╠══ 4 Everyday_Programming  
 ║&ensp;&ensp;&nbsp;╚══ 4.1 Question  
 ║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╚══ 4.1.1 [bigger_continue_sum](04_Everyday_Programming/01_Q/bigger_continue_sum.py)  
