@@ -13,7 +13,3 @@ Preferences
 -> Add source roots to PYTHONPATH
 ```
 
-# ref
-```
-https://hyesun03.github.io/2016/10/04/pycharmImportError/
-```

@@ -1,2 +1,1 @@
-07_Pandas/00_documentation/06_API_Reference/04_DataFrame/01_Constructor/01_DataFrame/01_DataFrame.md -> 07_Pandas/00_documentation/06_API_Reference/04_DataFrame/01_Constructor/01_DataFrame/00_DataFrame.md
-07_Pandas/00_documentation/06_API_Reference/04_DataFrame/03_DataFrame.values.md -> 07_Pandas/00_documentation/06_API_Reference/04_DataFrame/01_Constructor/01_DataFrame/01_Attributes/03_DataFrame.values.md
+03_PyCharm/01_unresolved_reference_warning.md -> 01_Python_Env_and_ETC/07_PyCharm/01_unresolved_reference_warning.md
