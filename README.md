@@ -54,11 +54,11 @@
 2.4.02 ║&nbsp;&nbsp;║&nbsp;&nbsp;╚═2.4.2 [Matrix](02_Data_Science_from_Scratch/04_Ch/04.02_Matrix.ipynb)  
 2.5.00 ║&nbsp;&nbsp;╚═2.5 Ch5  
 2.5.01 ║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;╚═2.5.1 [Explain DataSet](02_Data_Science_from_Scratch/05_Ch/05.01_Explain_DataSet.ipynb)  
+3.0.00 ╠═3 Everyday_Programming  
+3.1.00 ║&nbsp;&nbsp;╚═3.1 Question  
+3.1.01 ║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;╚═3.1.1 [bigger_continue_sum](03_Everyday_Programming/01_Q/bigger_continue_sum.py)  
 
 Table of Contents  
-╠══ 4 Everyday_Programming  
-║&ensp;&ensp;&nbsp;╚══ 4.1 Question  
-║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╚══ 4.1.1 [bigger_continue_sum](04_Everyday_Programming/01_Q/bigger_continue_sum.py)  
 ╠══ 5 Packages  
 ║&ensp;&ensp;&nbsp;╠══ 5.1 [argparse](https://docs.python.org/ko/3/howto/argparse.html)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 5.1.1 [argparse : add sub mul div](05_packages/01_argparse/calculation.py)  
@@ -112,21 +112,22 @@ Table of Contents
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╚══ 7.0.6.15 [General utility functions](https://pandas.pydata.org/pandas-docs/stable/reference/general_utility_functions.html)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&emsp;╚══ 7.0.6.15.1 [Working with options](https://pandas.pydata.org/pandas-docs/stable/reference/general_utility_functions.html#working-with-options)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;╚══ 7.0.6.15.1.5 [option context : temporarily](07_Pandas/00_documentation/06_API_Reference/15_General_utility_functions/01_Working_with_options/05_option_context.md)  
-║&ensp;&ensp;&nbsp;╠══ 7.1 [Series : Create](07_Pandas/01_Series_Create.ipynb)  
-║&ensp;&ensp;&nbsp;╠══ 7.2 [DataFrame : Create](07_Pandas/02_DataFrame_Create.ipynb)  
-║&ensp;&ensp;&nbsp;╠══ 7.3 [DataFrame : Indexing by Column](07_Pandas/03_DataFrame_Indexing_by_column.ipynb)  
-║&ensp;&ensp;&nbsp;╠══ 7.4 [DataFrame : Indexing by Row](07_Pandas/04_DataFrame_Indexing_by_row.ipynb)  
-║&ensp;&ensp;&nbsp;╠══ 7.5 [DataFrame : NaN](07_Pandas/05_DataFrame_NaN.ipynb)  
-║&ensp;&ensp;&nbsp;╠══ 7.6 [DataFrame : Statistics Functions](07_Pandas/06_DataFrame_statistics_function.ipynb)  
-║&ensp;&ensp;&nbsp;╠══ 7.7 [DataFrame : sort index and sort values](07_Pandas/07_DataFrame_sort_index_and_sort_values.ipynb)  
-║&ensp;&ensp;&nbsp;╠══ 7.8 [DataFrame : unique and value_counts](07_Pandas/08_unique_value_counts.ipynb)  
-║&ensp;&ensp;&nbsp;╠══ 7.9 [DataFrame : isin](07_Pandas/09_isin.ipynb)  
-║&ensp;&ensp;&nbsp;╠══ 7.10 [DataFrame : user_defined_func](07_Pandas/10_user_defined_func.ipynb)  
-║&ensp;&ensp;&nbsp;╠══ 7.11 [DataFrame : merge](07_Pandas/11_df_merge.ipynb)  
-║&ensp;&ensp;&nbsp;╠══ 7.12 [DataFrame : concatenate](07_Pandas/12_df_concatenate.ipynb)  
-║&ensp;&ensp;&nbsp;╠══ 7.13 [DataFrame : hierarchical index](07_Pandas/13_df_hierarchical_index.ipynb)  
-║&ensp;&ensp;&nbsp;╠══ 7.14 [DataFrame : set_index](07_Pandas/14_df_set_index.ipynb)  
-║&ensp;&ensp;&nbsp;╚══ 7.15 [DataFrame : stack](07_Pandas/15_df_stack.ipynb)  
+║&ensp;&ensp;&nbsp;╠══ 7.1 [Series : Create](07_Pandas/01_Tutorial/01_Series_Create.ipynb)  
+║&ensp;&ensp;&nbsp;╠══ 7.2 [DataFrame : Create](07_Pandas/01_Tutorial/02_DataFrame_Create.ipynb)  
+║&ensp;&ensp;&nbsp;╠══ 7.3 [DataFrame : Indexing by Column](07_Pandas/01_Tutorial/03_DataFrame_Indexing_by_column.ipynb)  
+║&ensp;&ensp;&nbsp;╠══ 7.4 [DataFrame : Indexing by Row](07_Pandas/01_Tutorial/04_DataFrame_Indexing_by_row.ipynb)  
+║&ensp;&ensp;&nbsp;╠══ 7.5 [DataFrame : NaN](07_Pandas/01_Tutorial/05_DataFrame_NaN.ipynb)  
+║&ensp;&ensp;&nbsp;╠══ 7.6 [DataFrame : Statistics Functions](07_Pandas/01_Tutorial/06_DataFrame_statistics_function.ipynb)  
+║&ensp;&ensp;&nbsp;╠══ 7.7 [DataFrame : sort index and sort values](07_Pandas/01_Tutorial/07_DataFrame_sort_index_and_sort_values.ipynb)  
+║&ensp;&ensp;&nbsp;╠══ 7.8 [DataFrame : unique and value_counts](07_Pandas/01_Tutorial/08_unique_value_counts.ipynb)  
+║&ensp;&ensp;&nbsp;╠══ 7.9 [DataFrame : isin](07_Pandas/01_Tutorial/09_isin.ipynb)  
+║&ensp;&ensp;&nbsp;╠══ 7.10 [DataFrame : user_defined_func](07_Pandas/01_Tutorial/10_user_defined_func.ipynb)  
+║&ensp;&ensp;&nbsp;╠══ 7.11 [DataFrame : merge](07_Pandas/01_Tutorial/11_df_merge.ipynb)  
+║&ensp;&ensp;&nbsp;╠══ 7.12 [DataFrame : concatenate](07_Pandas/01_Tutorial/12_df_concatenate.ipynb)  
+║&ensp;&ensp;&nbsp;╠══ 7.13 [DataFrame : hierarchical index](07_Pandas/01_Tutorial/13_df_hierarchical_index.ipynb)  
+║&ensp;&ensp;&nbsp;╠══ 7.14 [DataFrame : set_index](07_Pandas/01_Tutorial/14_df_set_index.ipynb)  
+║&ensp;&ensp;&nbsp;╠══ 7.15 [DataFrame : stack](07_Pandas/01_Tutorial/15_df_stack.ipynb)  
+║&ensp;&ensp;&nbsp;╚══ 7.16 [DataFrame : groupby](07_Pandas/01_Tutorial/17_series_df_groupby.ipynb)  
 ╠══ 8 Plotly  
 ║&ensp;&ensp;&nbsp;╚══ 8.1 [Plotly : Time Series Interactive Visualization](08_Plotly/01_plotly-time-series.ipynb)  
 ╠══ 9 MultiProcessing  

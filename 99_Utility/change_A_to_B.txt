@@ -1,1 +1,1 @@
-03_PyCharm/01_unresolved_reference_warning.md -> 01_Python_Env_and_ETC/07_PyCharm/01_unresolved_reference_warning.md
+04_Everyday_Programming/01_Q/bigger_continue_sum.py -> 03_Everyday_Programming/01_Q/bigger_continue_sum.py
