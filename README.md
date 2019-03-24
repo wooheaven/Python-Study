@@ -20,7 +20,8 @@
 1.5.03.0.0 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠═1.5.3 [set password by manually](01_Python_Env_and_ETC/05_jupyter/03_jupyter_notebook_passwd.md)  
 1.5.04.0.0 ║&nbsp;&nbsp;║&nbsp;&nbsp;╚═1.5.4 [change font](01_Python_Env_and_ETC/05_jupyter/04_change_font.md)  
 1.6.00.0.0 ║&nbsp;&nbsp;╠═1.6 pip  
-1.6.01.0.0 ║&nbsp;&nbsp;║&nbsp;&nbsp;╚═1.6.1 [pip3 : install glob](01_Python_Env_and_ETC/06_pip/01_pip3_install_glob3.md)  
+1.6.01.0.0 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠═1.6.1 [pip3 : install glob](01_Python_Env_and_ETC/06_pip/01_pip3_install_glob3.md)  
+1.6.02.0.0 ║&nbsp;&nbsp;║&nbsp;&nbsp;╚═1.6.2 [pip3 : install pyautogui](01_Python_Env_and_ETC/06_pip/02_pip3_install_pyautogui_python3_xlib.md)  
 1.7.00.0.0 ║&nbsp;&nbsp;╚═1.7 PyCharm  
 1.7.01.0.0 ║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;╚═1.7.1 [Warning Unresolved reference warning](01_Python_Env_and_ETC/07_PyCharm/01_unresolved_reference_warning.md)  
 2.0.00.0.0 ╠═2 Data Science from Scratch  
@@ -72,13 +73,13 @@
 4.5.01.2.0 ║&nbsp;&nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;╚═4.5.1.2 Approximating K-Means  
 4.5.01.2.1 ║&nbsp;&nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;╠═4.5.1.2.1 [code](04_packages/05_matplotlib/01_create_and_visualize_data/02_Approximating_to_kmeans/01_approximating_to_kmeans.py)  
 4.5.01.2.2 ║&nbsp;&nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;╚═4.5.1.2.2 [image](04_packages/05_matplotlib/01_create_and_visualize_data/02_Approximating_to_kmeans/02_kmean_scatter_plot.png)  
+4.6.00.0.0 ║&nbsp;&nbsp;╠═4.6 [no package : convert float to str with a fixed number of digits](04_packages/06_no_package/01_float_to_str_with_a_fixed_number_of_digits.ipynb)  
+4.7.00.0.0 ║&nbsp;&nbsp;╠═4.7 numpy  
+4.7.01.0.0 ║&nbsp;&nbsp;║&nbsp;&nbsp;╠═4.7.1 [example1 : array into fair divided and combiled array of array](04_packages/07_numpy/00_example/01_array_into_fair_divided_list_of_arrays.md)  
+4.7.02.0.0 ║&nbsp;&nbsp;║&nbsp;&nbsp;╚═4.7.2 [multiply](https://docs.scipy.org/doc/numpy/reference/generated/numpy.multiply.html)  
+4.7.02.1.0 ║&nbsp;&nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;╚═4.7.2.1 [example1 : multiply array by array](04_packages/07_numpy/01_multiply/01_multiply_array_by_array.md)  
 
 Table of Contents  
-║&ensp;&ensp;&nbsp;╠══ 5.6 [no package : convert float to str with a fixed number of digits](04_packages/06_no_package/01_float_to_str_with_a_fixed_number_of_digits.ipynb)  
-║&ensp;&ensp;&nbsp;╠══ 5.7 numpy  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ [example1 : array into fair divided and combiled array of array](04_packages/07_numpy/00_example/01_array_into_fair_divided_list_of_arrays.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 5.7.1 [multiply](https://docs.scipy.org/doc/numpy/reference/generated/numpy.multiply.html)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╚══ [example1 : multiply array by array](04_packages/07_numpy/01_multiply/01_multiply_array_by_array.md)  
 ║&ensp;&ensp;&nbsp;╠══ 5.8 [psycopg2 : string sql replace by dict](04_packages/08_psycopg2/01_replace_string_with_dictionary.py)  
 ║&ensp;&ensp;&nbsp;╠══ 5.9 [sys : sys.stdout.write with string.format(variable)](04_packages/09_sys/01_sys_stdout_write_with_string_format.py)  
 ║&ensp;&ensp;&nbsp;╚══ 5.10 [time : sleep](04_packages/10_time/01_sleep.md)  
