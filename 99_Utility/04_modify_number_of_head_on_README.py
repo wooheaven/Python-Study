@@ -14,7 +14,7 @@ class Rename():
         cwd = os.getcwd()
         if cwd.endswith('99_Utility'):
             readme_path = glob.glob(cwd + '/../README.md')
-        elif cwd.endswith('Python-Study'):
+        elif cwd.endswith('-Study'):
             readme_path = glob.glob(cwd + '/README.md')
             print(readme_path)
         else:
@@ -31,8 +31,9 @@ class Rename():
                         continue
                     line = re.sub(r'╠', '', line)
                     line = re.sub(r'═', '', line)
-                    line = re.sub(r'║', '', line)
+                    line = re.sub(r'║ ', '', line)
                     line = re.sub(r'╚', '', line)
+                    line = re.sub(r'- ', '', line)
                     line = re.sub(r'&nbsp; ', '', line)
                     line = re.sub(r'[a-zA-Z]', '', line)
                     line = re.sub(r'[_]', '', line)
@@ -43,7 +44,7 @@ class Rename():
                     full_head = line.split(' ')[0]
                     short_head = line.split(' ')[1]
                     head_list.append([full_head, short_head])
-                    print('  read head', i+1, line, full_head, short_head, sep='\t')
+                    print('  read head', i+1, full_head, short_head, line, sep='\t')
                 for i, line in enumerate(lines):
                     if self.start_num <= i+1 <= end_num:
                         full_head = head_list[i][0]
@@ -89,3 +90,4 @@ if __name__ == "__main__":
     end_num = args.END_NUM
     r = Rename(filed_num, start_num, end_num)
     r.do()
+
