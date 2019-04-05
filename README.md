@@ -68,7 +68,8 @@
 4.05.00.0.00.00 ║ ╠═4.5 [gzip : file write and read](04_packages/05_gzip/01_gzip_write_read.py)  
 4.06.00.0.00.00 ║ ╠═4.6 matplotlib  
 4.06.01.0.00.00 ║ ║ ╠═4.6.1 Tutorial  
-4.06.01.1.00.00 ║ ║ ║ ╚═4.6.1.1 [line plot](04_packages/06_matplotlib/01_Tutorial/01_line_plot.ipynb)  
+4.06.01.1.00.00 ║ ║ ║ ╠═4.6.1.1 [line plot](04_packages/06_matplotlib/01_Tutorial/01_line_plot.ipynb)  
+4.06.01.2.00.00 ║ ║ ║ ╚═4.6.1.2 [bar plot](04_packages/06_matplotlib/01_Tutorial/02_bar_plot.ipynb)  
 4.06.02.0.00.00 ║ ║ ╠═4.6.2 create and visualize data  
 4.06.02.1.00.00 ║ ║ ║ ╠═4.6.2.1 Approximating to user defined equation Y = a + bX + cX^2 + dX^3 : [code](04_packages/06_matplotlib/02_create_and_visualize_data/01_approximating_to_user_defined_equation.py), [image](04_packages/06_matplotlib/02_create_and_visualize_data/02_user_defined_equation_scatter_plot.png)  
 4.06.02.2.00.00 ║ ║ ║ ╚═4.6.2.2 Approximating K-Means : [code](04_packages/06_matplotlib/02_create_and_visualize_data/01_approximating_to_kmeans.py), [image](04_packages/06_matplotlib/02_create_and_visualize_data/02_kmean_scatter_plot.png)  
@@ -132,11 +133,11 @@
 6.02.x.00.00.00 ║ - ╚═6.2.16 [DataFrame : groupby](06_Pandas/02_Tutorial/17_series_df_groupby.ipynb)  
 7.00.0.00.00.00 ╠═7 Plotly  
 7.01.0.00.00.00 ║ ╚═7.1 [Plotly : Time Series Interactive Visualization](08_Plotly/01_plotly-time-series.ipynb)  
+8.00.0.00.00.00 ╠═8 MultiProcessing  
+8.01.0.00.00.00 ║ - ╠═8.1 [multiprocessing : Cumulative Sum with Process as SIMD](09_MultiProcessing/01_cumsum_SIMD_multiprocessing_Process.ipynb)  
+8.02.0.00.00.00 ║ - ╚═8.2 [multiprocessing : Cumulative Sum with Pool as SIMD](09_MultiProcessing/02_cumsum_SIMD_multiprocessing_Pool.ipynb)  
 
 Table of Contents  
-╠══ 9 MultiProcessing  
-║ ╠══ 9.1 [multiprocessing : Cumulative Sum with Process as SIMD](09_MultiProcessing/01_cumsum_SIMD_multiprocessing_Process.ipynb)  
-║ ╚══ 9.2 [multiprocessing : Cumulative Sum with Pool as SIMD](09_MultiProcessing/02_cumsum_SIMD_multiprocessing_Pool.ipynb)  
 ╠══ 99_Utility  
 ║ ╠══ [01_tree_to_contents.sh](99_Utility/01_tree_to_contents.sh)  
 ║ ╠══ [02_modify_contents.py](99_Utility/02_modify_contents.py)  
