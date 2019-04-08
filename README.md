@@ -71,7 +71,8 @@
 04.06.01.1.00.00 ║ ║ ║ ╠═4.6.1.1 [line plot](04_packages/06_matplotlib/01_Tutorial/01_line_plot.ipynb)  
 04.06.01.2.00.00 ║ ║ ║ ╠═4.6.1.2 [bar plot](04_packages/06_matplotlib/01_Tutorial/02_bar_plot.ipynb)  
 04.06.01.3.00.00 ║ ║ ║ ╠═4.6.1.3 [histogram](04_packages/06_matplotlib/01_Tutorial/03_histogram.ipynb)  
-04.06.01.4.00.00 ║ ║ ║ ╚═4.6.1.4 [scatter plot](04_packages/06_matplotlib/01_Tutorial/04_scatter_plot.ipynb)  
+04.06.01.4.00.00 ║ ║ ║ ╠═4.6.1.4 [scatter plot](04_packages/06_matplotlib/01_Tutorial/04_scatter_plot.ipynb)  
+04.06.01.5.00.00 ║ ║ ║ ╚═4.6.1.5 [figure, subplot, axes](04_packages/06_matplotlib/01_Tutorial/05_figure_subplot_axes_with_matplotlib_and_seaborn.ipynb)  
 04.06.02.0.00.00 ║ ║ ╠═4.6.2 create and visualize data  
 04.06.02.1.00.00 ║ ║ ║ ╠═4.6.2.1 Approximating to user defined equation Y = a + bX + cX^2 + dX^3 : [code](04_packages/06_matplotlib/02_create_and_visualize_data/01_approximating_to_user_defined_equation.py), [image](04_packages/06_matplotlib/02_create_and_visualize_data/02_user_defined_equation_scatter_plot.png)  
 04.06.02.2.00.00 ║ ║ ║ ╚═4.6.2.2 Approximating K-Means : [code](04_packages/06_matplotlib/02_create_and_visualize_data/01_approximating_to_kmeans.py), [image](04_packages/06_matplotlib/02_create_and_visualize_data/02_kmean_scatter_plot.png)  
@@ -132,7 +133,8 @@
 06.02.x.00.00.00 ║ - ╠═6.2.13 [DataFrame : hierarchical index](06_Pandas/02_Tutorial/13_df_hierarchical_index.ipynb)  
 06.02.x.00.00.00 ║ - ╠═6.2.14 [DataFrame : set_index](06_Pandas/02_Tutorial/14_df_set_index.ipynb)  
 06.02.x.00.00.00 ║ - ╠═6.2.15 [DataFrame : stack](06_Pandas/02_Tutorial/15_df_stack.ipynb)  
-06.02.x.00.00.00 ║ - ╚═6.2.16 [DataFrame : groupby](06_Pandas/02_Tutorial/17_series_df_groupby.ipynb)  
+06.02.x.00.00.00 ║ - ╠═6.2.16 [DataFrame : groupby](06_Pandas/02_Tutorial/17_series_df_groupby.ipynb)  
+06.02.x.00.00.00 ║ - ╚═6.2.21 [Lecutre 01 Korea SiDo df to plot](06_Pandas/02_Tutorial/21_df_matplotlib_basic_with_korean_sido.ipynb)  
 07.00.0.00.00.00 ╠═7 Plotly  
 07.01.0.00.00.00 ║ ╚═7.1 [Plotly : Time Series Interactive Visualization](08_Plotly/01_plotly-time-series.ipynb)  
 08.00.0.00.00.00 ╠═8 MultiProcessing  
