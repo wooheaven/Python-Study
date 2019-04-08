@@ -70,7 +70,8 @@
 04.06.01.0.00.00 ║ ║ ╠═4.6.1 Tutorial  
 04.06.01.1.00.00 ║ ║ ║ ╠═4.6.1.1 [line plot](04_packages/06_matplotlib/01_Tutorial/01_line_plot.ipynb)  
 04.06.01.2.00.00 ║ ║ ║ ╠═4.6.1.2 [bar plot](04_packages/06_matplotlib/01_Tutorial/02_bar_plot.ipynb)  
-04.06.01.3.00.00 ║ ║ ║ ╚═4.6.1.3 [histogram](04_packages/06_matplotlib/01_Tutorial/03_histogram.ipynb)  
+04.06.01.3.00.00 ║ ║ ║ ╠═4.6.1.3 [histogram](04_packages/06_matplotlib/01_Tutorial/03_histogram.ipynb)  
+04.06.01.4.00.00 ║ ║ ║ ╚═4.6.1.4 [scatter plot](04_packages/06_matplotlib/01_Tutorial/04_scatter_plot.ipynb)  
 04.06.02.0.00.00 ║ ║ ╠═4.6.2 create and visualize data  
 04.06.02.1.00.00 ║ ║ ║ ╠═4.6.2.1 Approximating to user defined equation Y = a + bX + cX^2 + dX^3 : [code](04_packages/06_matplotlib/02_create_and_visualize_data/01_approximating_to_user_defined_equation.py), [image](04_packages/06_matplotlib/02_create_and_visualize_data/02_user_defined_equation_scatter_plot.png)  
 04.06.02.2.00.00 ║ ║ ║ ╚═4.6.2.2 Approximating K-Means : [code](04_packages/06_matplotlib/02_create_and_visualize_data/01_approximating_to_kmeans.py), [image](04_packages/06_matplotlib/02_create_and_visualize_data/02_kmean_scatter_plot.png)  
@@ -139,14 +140,12 @@
 08.02.0.00.00.00 ║ - ╚═8.2 [multiprocessing : Cumulative Sum with Pool as SIMD](09_MultiProcessing/02_cumsum_SIMD_multiprocessing_Pool.ipynb)  
 99.00.0.00.00.00 ╠═99 Utility  
 99.01.0.00.00.00 ║ - ╠═99.1 [01_tree_to_contents.sh](99_Utility/01_tree_to_contents.sh)  
-
-Table of Contents  
-║ ╠══ [02_modify_contents.py](99_Utility/02_modify_contents.py)  
-║ ╠══ [03_modify_README.sh](99_Utility/03_modify_number_of_file_on_README.sh)  
-║ ╠══ [change_A_to_B](99_Utility/change_A_to_B.txt)  
-║ ╠══ [contents](99_Utility/contents.txt)  
-║ ╠══ [jupyter notebook](99_Utility/jn_jupyter_notebook.sh)  
-║ ╚══ [source activate](99_Utility/sa_source_activate.sh)  
-╚══ README.md  
+99.02.0.00.00.00 ║ - ╠═99.2 [02_modify_contents.py](99_Utility/02_modify_contents.py)  
+99.03.0.00.00.00 ║ - ╠═99.3 [03_modify_README.sh](99_Utility/03_modify_number_of_file_on_README.sh)  
+99.04.0.00.00.00 ║ - ╠═99.4 [change_A_to_B](99_Utility/change_A_to_B.txt)  
+99.05.0.00.00.00 ║ - ╠═99.5 [contents](99_Utility/contents.txt)  
+99.06.0.00.00.00 ║ - ╠═99.6 [jupyter notebook](99_Utility/jn_jupyter_notebook.sh)  
+99.07.0.00.00.00 ║ - ╠═99.7 [reNumberFolder](99_Utility/reNumberFolder.sh)  
+99.08.0.00.00.00 ║ - ╚═99.8 [source activate](99_Utility/sa_source_activate.sh)  
+99.99.9.99.99.99 ╚═README.md  
 ( ║ ╠ ═ ╚ )  
-
