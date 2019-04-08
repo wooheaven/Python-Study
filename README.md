@@ -134,7 +134,9 @@
 06.02.x.00.00.00 ║ - ╠═6.2.14 [DataFrame : set_index](06_Pandas/02_Tutorial/14_df_set_index.ipynb)  
 06.02.x.00.00.00 ║ - ╠═6.2.15 [DataFrame : stack](06_Pandas/02_Tutorial/15_df_stack.ipynb)  
 06.02.x.00.00.00 ║ - ╠═6.2.16 [DataFrame : groupby](06_Pandas/02_Tutorial/17_series_df_groupby.ipynb)  
-06.02.x.00.00.00 ║ - ╚═6.2.21 [Lecutre 01 Korea SiDo df to plot](06_Pandas/02_Tutorial/21_df_matplotlib_basic_with_korean_sido.ipynb)  
+06.02.x.00.00.00 ║ - ╠═6.2.21 [Lecutre 01 Korea SiDo df to plot](06_Pandas/02_Tutorial/21_df_matplotlib_basic_with_korean_sido.ipynb)  
+06.02.x.00.00.00 ║ - ╠═6.2.22 [Lecutre 02 Seoul Bike Station](06_Pandas/02_Tutorial/22_seoul_bike_station.ipynb)  
+06.02.x.00.00.00 ║ - ╚═6.2.23 [Lecutre 03 Seoul Bike History](06_Pandas/02_Tutorial/23_seoul_bike_history.ipynb)  
 07.00.0.00.00.00 ╠═7 Plotly  
 07.01.0.00.00.00 ║ ╚═7.1 [Plotly : Time Series Interactive Visualization](08_Plotly/01_plotly-time-series.ipynb)  
 08.00.0.00.00.00 ╠═8 MultiProcessing  
