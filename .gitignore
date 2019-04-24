@@ -2,6 +2,7 @@
 99_Utility/my-venv/
 .idea/
 06_MatrixProfile/02_matrixprofile-ts/train.csv
+.DS_Store
 
 # Created by https://www.gitignore.io/api/python,pycharm,jupyternotebook
 # Edit at https://www.gitignore.io/?templates=python,pycharm,jupyternotebook
