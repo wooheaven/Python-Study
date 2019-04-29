@@ -94,8 +94,9 @@
 08.01.00.00.00 ║ ╠═8.1 [ETC : array into fair divided and combiled array of array](08_Numpy/01_ETC/01_array_to_fair_divided_matrix.ipynb)  
 08.02.00.00.00 ║ ╠═8.2 [multiply](https://docs.scipy.org/doc/numpy/reference/generated/numpy.multiply.html)  
 08.02.01.00.00 ║ ║ - ╚═8.2.1 [example1 : multiply array by array](08_Numpy/02_multiply/01_multiply_array_by_array.ipynb)  
-08.03.00.00.00 ║ ╠═8.3 [random.normal](https://docs.scipy.org/doc/numpy-1.18.1/reference/generated/numpy.random.normal.html#numpy.random.normal)  
-08.03.01.00.00 ║ ║ - ╚═8.3.1 [example : Draw random samples from a normal (Gaussian) distribution](08_Numpy/03_random/01_np.random.normal.ipynb)  
+08.03.00.00.00 ║ ╠═8.3 [Random sampling : numpy.random](https://docs.scipy.org/doc/numpy/reference/routines.random.html)  
+08.03.01.00.00 ║ ║ - ╠═8.3.1 [normal](https://docs.scipy.org/doc/numpy/reference/generated/numpy.random.normal.html#numpy.random.normal) / [example : Draw random samples from a normal (Gaussian) distribution](08_Numpy/03_random/01_np.random.normal.ipynb)  
+08.03.02.00.00 ║ ║ - ╚═8.3.2 [uniform](https://docs.scipy.org/doc/numpy/reference/generated/numpy.random.uniform.html#numpy.random.uniform) / [example : Draw samples from a uniform distribution](08_Numpy/03_random/02_np.random.uniform.ipynb)  
 09.00.00.00.00 ╠═9 Pandas  
 09.01.00.00.00 ║ ╠═9.1 [pandas documentation](https://pandas.pydata.org/pandas-docs/stable/index.html) / [API Reference](https://pandas.pydata.org/pandas-docs/stable/reference/index.html)  
 09.01.01.00.00 ║ ║ ╠═9.1.1 [Input/Output](https://pandas.pydata.org/pandas-docs/stable/reference/io.html#)  
