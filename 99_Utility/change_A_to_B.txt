@@ -1,2 +1,7 @@
-09_Pandas/01_documentation_API_Reference/04_DataFrame/01_Constructor_DataFrame/03_Methods/11_sum/01_df.sum.ipynb -> 09_Pandas/01_documentation_API_Reference/04_DataFrame/01_Constructor_DataFrame/03_Methods/10_sum/01_df.sum.ipynb
-09_Pandas/01_documentation_API_Reference/04_DataFrame/01_Constructor_DataFrame/03_Methods/10_to_numpy/01_df.to_numpy.ipynb -> 09_Pandas/01_documentation_API_Reference/04_DataFrame/01_Constructor_DataFrame/03_Methods/11_to_numpy/01_df.to_numpy.ipynb
+01_Python_Env_and_ETC/02_conda/01_Install_anaconda.md -> 01_Python_Env_and_ETC/02_conda/01_Install_anaconda_on_linux.md
+01_Python_Env_and_ETC/02_conda/02_conda_create_envs.md -> 01_Python_Env_and_ETC/02_conda/03_conda_create_envs.md
+01_Python_Env_and_ETC/02_conda/04_coda_env_upgrade_python.md -> 01_Python_Env_and_ETC/02_conda/04_conda_env_upgrade_python.md
+01_Python_Env_and_ETC/02_conda/03_conda_remove_envs.md -> 01_Python_Env_and_ETC/02_conda/05_conda_remove_envs.md
+01_Python_Env_and_ETC/02_conda/05_pip_install_package.md -> 01_Python_Env_and_ETC/02_conda/06_pip_install_package.md
+01_Python_Env_and_ETC/02_conda/06_pip_install_package_upgrade.md -> 01_Python_Env_and_ETC/02_conda/07_pip_install_package_upgrade.md
+01_Python_Env_and_ETC/02_conda/07_pip_upgrade.md -> 01_Python_Env_and_ETC/02_conda/08_pip_upgrade.md
