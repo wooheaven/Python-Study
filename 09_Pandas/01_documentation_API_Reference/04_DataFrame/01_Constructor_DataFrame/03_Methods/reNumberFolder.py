@@ -1,5 +1,4 @@
 import glob
-from collections import defaultdict
 
 
 def modify_idx(size, idx):
@@ -9,20 +8,25 @@ def modify_idx(size, idx):
     return idx_str
 
 
-pwd_folder_list = glob.glob('./*/')
-pwd_folder_dict = defaultdict(lambda: defaultdict(str))
+pwd_folder_list = glob.glob('*/')
 
-for idx, sub_folder in enumerate(pwd_folder_list):
-    tmp_folder = sub_folder[sub_folder.index('_')+1:-1]
-    pwd_folder_dict[tmp_folder]['old'] = sub_folder
-    pwd_folder_list[idx] = tmp_folder
+for idx, folder in enumerate(pwd_folder_list):
+    tmp_folder = folder[folder.index('_') + 1:-1]
+    pwd_folder_list[idx] = [folder, tmp_folder]
 
-pwd_folder_list.sort()
-size = int(len(pwd_folder_list) / 10) + 1
+pwd_folder_list.sort(key=lambda x: (x[1].lower(), x[0].lower()))
 
-for idx, tmp_folder in enumerate(pwd_folder_list):
-    pwd_folder_dict[tmp_folder]['new'] = modify_idx(size, idx) + '_' + tmp_folder
+size = len(str(len(pwd_folder_list)))
+if size == 1:
+    size = size + 1
+
+for idx, sub_list in enumerate(pwd_folder_list):
+    new_folder = modify_idx(size, idx) + '_' + sub_list[1]
+    pwd_folder_list[idx] = [sub_list[0], sub_list[1], new_folder]
 
 with open('git-move.sh', 'w') as f:
-    for key in pwd_folder_dict.keys():
-        f.writelines('git mv ' + pwd_folder_dict[key]['old'] + ' ' + pwd_folder_dict[key]['new'] + '\n')
+    for sub_list in pwd_folder_list:
+        pre_str = 'git mv '
+        if sub_list[0][:-1] == sub_list[2]:
+            pre_str = "# " + pre_str
+        f.writelines(pre_str + sub_list[0] + ' ' + sub_list[2] + '\n')
