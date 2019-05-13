@@ -64,24 +64,25 @@
 04.01.01.00.00 ║ ║ ╠═4.1.1 [argparse : add sub mul div](04_packages/01_argparse/calculation.py)  
 04.01.02.00.00 ║ ║ ╚═4.1.2 [argparse : sum](04_packages/01_argparse/sum.py)  
 04.02.00.00.00 ║ ╠═4.2 [collections defaultdict : defaultdict in defaultdict](04_packages/02_collections/01_defaultdict/01_dictionary_in_dictionary.py)  
-04.03.00.00.00 ║ ╠═4.3 [datetime now() strftime](04_packages/03_datetime/01_datetime_now_strftime.py)  
-04.04.00.00.00 ║ ╠═4.4 [glob : find folder and file](04_packages/04_glob/01_find_folder_and_file_by_glob.ipynb)  
-04.05.00.00.00 ║ ╠═4.5 [gzip : file write and read](04_packages/05_gzip/01_gzip_write_read.py)  
-04.06.00.00.00 ║ ╠═4.6 matplotlib  
-04.06.01.00.00 ║ ║ ╠═4.6.1 Tutorial  
-04.06.01.01.00 ║ ║ ║ ╠═4.6.1.1 [line plot](04_packages/06_matplotlib/01_Tutorial/01_line_plot.ipynb)  
-04.06.01.02.00 ║ ║ ║ ╠═4.6.1.2 [bar plot](04_packages/06_matplotlib/01_Tutorial/02_bar_plot.ipynb)  
-04.06.01.03.00 ║ ║ ║ ╠═4.6.1.3 [histogram](04_packages/06_matplotlib/01_Tutorial/03_histogram.ipynb)  
-04.06.01.04.00 ║ ║ ║ ╠═4.6.1.4 [scatter plot](04_packages/06_matplotlib/01_Tutorial/04_scatter_plot.ipynb)  
-04.06.01.05.00 ║ ║ ║ ╚═4.6.1.5 [figure, subplot, axes](04_packages/06_matplotlib/01_Tutorial/05_figure_subplot_axes_with_matplotlib_and_seaborn.ipynb)  
-04.06.02.00.00 ║ ║ ╠═4.6.2 create and visualize data  
-04.06.02.01.00 ║ ║ ║ ╠═4.6.2.1 Approximating to user defined equation Y = a + bX + cX^2 + dX^3 : [code](04_packages/06_matplotlib/02_create_and_visualize_data/01_approximating_to_user_defined_equation.py), [image](04_packages/06_matplotlib/02_create_and_visualize_data/02_user_defined_equation_scatter_plot.png)  
-04.06.02.02.00 ║ ║ ║ ╚═4.6.2.2 Approximating K-Means : [code](04_packages/06_matplotlib/02_create_and_visualize_data/01_approximating_to_kmeans.py), [image](04_packages/06_matplotlib/02_create_and_visualize_data/02_kmean_scatter_plot.png)  
-04.07.00.00.00 ║ ╠═4.7 [no package : convert float to str with a fixed number of digits](04_packages/07_no_package/01_float_to_str_with_a_fixed_number_of_digits.ipynb)  
-04.08.00.00.00 ║ ╠═4.8 [psycopg2 : string sql replace by dict](04_packages/09_psycopg2/01_replace_string_with_dictionary.py)  
-04.09.00.00.00 ║ ╠═4.9 [pyautogui : HandBrake GUI example](04_packages/10_pyautogui/01_HandBrake_GUI_example.py)  
-04.10.00.00.00 ║ ╠═4.10 [sys : sys.stdout.write with string.format(variable)](04_packages/11_sys/01_sys_stdout_write_with_string_format.py)  
-04.11.00.00.00 ║ ╚═4.11 [time : sleep](04_packages/12_time/01_sleep.md)  
+04.03.00.00.00 ║ ╠═4.3 [copy : shallow copy vs deep copy](04_packages/03_copy/01_shallow_copy_vs_deep_copy.ipynb)  
+04.04.00.00.00 ║ ╠═4.4 [datetime now() strftime](04_packages/04_datetime/01_datetime_now_strftime.py)  
+04.05.00.00.00 ║ ╠═4.5 [glob : find folder and file](04_packages/05_glob/01_find_folder_and_file_by_glob.ipynb)  
+04.06.00.00.00 ║ ╠═4.6 [gzip : file write and read](04_packages/06_gzip/01_gzip_write_read.py)  
+04.07.00.00.00 ║ ╠═4.7 matplotlib  
+04.07.01.00.00 ║ ║ ╠═4.7.1 Tutorial  
+04.07.01.01.00 ║ ║ ║ ╠═4.7.1.1 [line plot](04_packages/07_matplotlib/01_Tutorial/01_line_plot.ipynb)  
+04.07.01.02.00 ║ ║ ║ ╠═4.7.1.2 [bar plot](04_packages/07_matplotlib/01_Tutorial/02_bar_plot.ipynb)  
+04.07.01.03.00 ║ ║ ║ ╠═4.7.1.3 [histogram](04_packages/07_matplotlib/01_Tutorial/03_histogram.ipynb)  
+04.07.01.04.00 ║ ║ ║ ╠═4.7.1.4 [scatter plot](04_packages/07_matplotlib/01_Tutorial/04_scatter_plot.ipynb)  
+04.07.01.05.00 ║ ║ ║ ╚═4.7.1.5 [figure, subplot, axes](04_packages/07_matplotlib/01_Tutorial/05_figure_subplot_axes_with_matplotlib_and_seaborn.ipynb)  
+04.07.02.00.00 ║ ║ ╠═4.7.2 create and visualize data  
+04.07.02.01.00 ║ ║ ║ ╠═4.7.2.1 Approximating to user defined equation Y = a + bX + cX^2 + dX^3 : [code](04_packages/07_matplotlib/02_create_and_visualize_data/01_approximating_to_user_defined_equation.py), [image](04_packages/07_matplotlib/02_create_and_visualize_data/02_user_defined_equation_scatter_plot.png)  
+04.07.02.02.00 ║ ║ ║ ╚═4.7.2.2 Approximating K-Means : [code](04_packages/07_matplotlib/02_create_and_visualize_data/01_approximating_to_kmeans.py), [image](04_packages/07_matplotlib/02_create_and_visualize_data/02_kmean_scatter_plot.png)  
+04.08.00.00.00 ║ ╠═4.8 [no package : convert float to str with a fixed number of digits](04_packages/08_no_package/01_float_to_str_with_a_fixed_number_of_digits.ipynb)  
+04.09.00.00.00 ║ ╠═4.9 [psycopg2 : string sql replace by dict](04_packages/09_psycopg2/01_replace_string_with_dictionary.py)  
+04.10.00.00.00 ║ ╠═4.10 [pyautogui : HandBrake GUI example](04_packages/10_pyautogui/01_HandBrake_GUI_example.py)  
+04.11.00.00.00 ║ ╠═4.11 [sys : sys.stdout.write with string.format(variable)](04_packages/11_sys/01_sys_stdout_write_with_string_format.py)  
+04.12.00.00.00 ║ ╚═4.12 [time : sleep](04_packages/12_time/01_sleep.md)  
 05.00.00.00.00 ╠═5 [Django Girls Tutorial](05_Django/01_Django_Girls_Tutorial/memo.md)  
 06.00.00.00.00 ╠═6 Matrix Profile  
 06.01.00.00.00 ║ ╠═6.1 [Tutorial with fake data : sin signal data](06_MatrixProfile/02_matrixprofile-ts/01_Matrix_Profile_Tutorial.ipynb)  
