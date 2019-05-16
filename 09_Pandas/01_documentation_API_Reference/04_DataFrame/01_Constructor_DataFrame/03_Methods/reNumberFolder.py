@@ -1,4 +1,5 @@
 import glob
+import os
 
 
 def modify_idx(size, idx):
@@ -30,3 +31,5 @@ with open('git-move.sh', 'w') as f:
         if sub_list[0][:-1] == sub_list[2]:
             pre_str = "# " + pre_str
         f.writelines(pre_str + sub_list[0] + ' ' + sub_list[2] + '\n')
+
+os.chmod('git-move.sh', 0o755)
