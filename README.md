@@ -16,10 +16,11 @@
 01.04.00.00.00 ║ ╠═1.4 etc  
 01.04.01.00.00 ║ ║ ╚═1.4.1 [Zen of Python](01_Python_Env_and_ETC/04_etc/02_Zen_of_Python_English_Korean.md)  
 01.05.00.00.00 ║ ╠═1.5 jupyter  
-01.05.01.00.00 ║ ║ ╠═1.5.1 [convert jupyter notebook to markdown](01_Python_Env_and_ETC/05_jupyter/01_convert_jupyter_notebook_to_markdown.md)  
-01.05.02.00.00 ║ ║ ╠═1.5.2 [short cuts for jupyter](01_Python_Env_and_ETC/05_jupyter/02_Jupyter_notebook_shortcuts.md)  
-01.05.03.00.00 ║ ║ ╠═1.5.3 [set password by manually](01_Python_Env_and_ETC/05_jupyter/03_jupyter_notebook_passwd.md)  
-01.05.04.00.00 ║ ║ ╚═1.5.4 [change font](01_Python_Env_and_ETC/05_jupyter/04_change_font.md)  
+01.05.01.00.00 ║ ║ ╠═1.5.1 [short cuts for jupyter](01_Python_Env_and_ETC/05_jupyter/01_Jupyter_notebook_shortcuts.md)  
+01.05.02.00.00 ║ ║ ╠═1.5.2 [change font](01_Python_Env_and_ETC/05_jupyter/02_change_font.md)  
+01.05.03.00.00 ║ ║ ╠═1.5.3 [convert jupyter notebook to markdown](01_Python_Env_and_ETC/05_jupyter/03_convert_jupyter_notebook_to_markdown.md)  
+01.05.04.00.00 ║ ║ ╠═1.5.4 [set password by manually](01_Python_Env_and_ETC/05_jupyter/04_jupyter_notebook_passwd.md)  
+01.05.05.00.00 ║ ║ ╚═1.5.5 [move cell up](01_Python_Env_and_ETC/05_jupyter/05_move_cell_up.md)  
 01.06.00.00.00 ║ ╠═1.6 pip  
 01.06.01.00.00 ║ ║ ╠═1.6.1 [pip3 : install glob](01_Python_Env_and_ETC/06_pip/01_pip3_install_glob3.md)  
 01.06.02.00.00 ║ ║ ╚═1.6.2 [pip3 : install pyautogui](01_Python_Env_and_ETC/06_pip/02_pip3_install_pyautogui_python3_xlib.md)  
