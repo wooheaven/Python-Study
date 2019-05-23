@@ -20,7 +20,8 @@
 01.05.02.00.00 ║ ║ ╠═1.5.2 [change font](01_Python_Env_and_ETC/05_jupyter/02_change_font.md)  
 01.05.03.00.00 ║ ║ ╠═1.5.3 [convert jupyter notebook to markdown](01_Python_Env_and_ETC/05_jupyter/03_convert_jupyter_notebook_to_markdown.md)  
 01.05.04.00.00 ║ ║ ╠═1.5.4 [set password by manually](01_Python_Env_and_ETC/05_jupyter/04_jupyter_notebook_passwd.md)  
-01.05.05.00.00 ║ ║ ╚═1.5.5 [move cell up](01_Python_Env_and_ETC/05_jupyter/05_move_cell_up.md)  
+01.05.05.00.00 ║ ║ ╠═1.5.5 [move cell up](01_Python_Env_and_ETC/05_jupyter/05_move_cell_up.md)  
+01.05.06.00.00 ║ ║ ╚═1.5.6 [toggle scrolling of current cell](01_Python_Env_and_ETC/05_jupyter/06_toggle_scrolling_of_current_cell.md)  
 01.06.00.00.00 ║ ╠═1.6 pip  
 01.06.01.00.00 ║ ║ ╠═1.6.1 [pip3 : install glob](01_Python_Env_and_ETC/06_pip/01_pip3_install_glob3.md)  
 01.06.02.00.00 ║ ║ ╚═1.6.2 [pip3 : install pyautogui](01_Python_Env_and_ETC/06_pip/02_pip3_install_pyautogui_python3_xlib.md)  
