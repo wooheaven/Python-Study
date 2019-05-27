@@ -60,7 +60,7 @@
 02.05.01.00.00 ║ - ╚═2.5.1 [Explain DataSet](02_Data_Science_from_Scratch/05_Ch/05.01_Explain_DataSet.ipynb)  
 03.00.00.00.00 ╠═3 Everyday_Programming  
 03.01.00.00.00 ║ ╚═3.1 Question  
-03.01.01.00.00 ║ - ╚═3.1.1 [bigger_continue_sum](03_Everyday_Programming/01_Q/bigger_continue_sum.py)  
+03.01.01.00.00 ║ - ╚═3.1.1 [question](03_Everyday_Programming/01_Q/question.md), [note](03_Everyday_Programming/01_Q/note.md), [solution](03_Everyday_Programming/01_Q/solution.py)  
 04.00.00.00.00 ╠═4 Packages  
 04.01.00.00.00 ║ ╠═4.1 [argparse](https://docs.python.org/ko/3/howto/argparse.html)  
 04.01.01.00.00 ║ ║ ╠═4.1.1 [argparse : add sub mul div](04_packages/01_argparse/calculation.py)  
