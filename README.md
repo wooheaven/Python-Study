@@ -81,7 +81,9 @@
 04.07.02.01.00 ║ ║ ║ ╠═4.7.2.1 Approximating to user defined equation Y = a + bX + cX^2 + dX^3 : [code](04_packages/07_matplotlib/02_create_and_visualize_data/01_approximating_to_user_defined_equation.py), [image](04_packages/07_matplotlib/02_create_and_visualize_data/02_user_defined_equation_scatter_plot.png)  
 04.07.02.02.00 ║ ║ ║ ╚═4.7.2.2 Approximating K-Means : [code](04_packages/07_matplotlib/02_create_and_visualize_data/01_approximating_to_kmeans.py), [image](04_packages/07_matplotlib/02_create_and_visualize_data/02_kmean_scatter_plot.png)  
 04.08.00.00.00 ║ ╠═4.8 [no package : convert float to str with a fixed number of digits](04_packages/08_no_package/01_float_to_str_with_a_fixed_number_of_digits.ipynb)  
-04.09.00.00.00 ║ ╠═4.9 [os : chmod of file](04_packages/09_os/01_os.chmod_of_file.ipynb)  
+04.09.00.00.00 ║ ╠═4.9 os  
+04.09.01.00.00 ║ ║ ╠═4.9.1 [chmod : file](04_packages/09_os/01_os.chmod_of_file.ipynb)  
+04.09.02.00.00 ║ ║ ╚═4.9.2 [os.path.exists : file](04_packages/09_os/02_os.path.exists_of_file.ipynb)  
 04.10.00.00.00 ║ ╠═4.10 [psycopg2 : string sql replace by dict](04_packages/10_psycopg2/01_replace_string_with_dictionary.py)  
 04.11.00.00.00 ║ ╠═4.11 [pyautogui : HandBrake GUI example](04_packages/11_pyautogui/01_HandBrake_GUI_example.py)  
 04.12.00.00.00 ║ ╠═4.12 [sys : sys.stdout.write with string.format(variable)](04_packages/12_sys/01_sys_stdout_write_with_string_format.py)  

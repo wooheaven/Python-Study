@@ -10,6 +10,7 @@ class Rename():
         self.start_num = start_num
         self.end_num = end_num
         self.diff_num = diff_num
+        self.field_num_max = 0
 
     def do(self):
         cwd = os.getcwd()
@@ -45,7 +46,10 @@ class Rename():
                     full_head = line.split(' ')[0]
                     short_head = line.split(' ')[1]
                     head_list.append([full_head, short_head])
-                    print('  read head', i+1, full_head, short_head, line, sep='\t')
+                    filed_num_tmp = int(full_head.split('.')[self.field_num - 1])
+                    if self.field_num_max < filed_num_tmp:
+                        self.field_num_max = filed_num_tmp
+                    print('  read lineNum', i+1, full_head, short_head, line, sep='\t')
                 for i, line in enumerate(lines):
                     if self.start_num <= i+1 <= end_num:
                         full_head = head_list[i][0]
@@ -53,7 +57,7 @@ class Rename():
                         for j, tmp in enumerate(full_head.split('.')):
                             if j+1 == self.field_num:
                                 tmp = int(tmp) + self.diff_num
-                                if tmp < 10:
+                                if tmp < 10 and self.field_num_max > 9:
                                     tmp = '0' + str(tmp)
                                 else:
                                     tmp = str(tmp)
@@ -68,10 +72,11 @@ class Rename():
                             new_short_head += tmp + '.'
                         new_short_head = new_short_head[:-1]
 
+                        print('before lineNum', i+1, lines[i], sep='\t')
                         line = re.sub(full_head, new_full_head, line)
                         line = re.sub(short_head, new_short_head, line)
                         lines[i] = line
-                        print('change head', i+1, line, sep='\t')
+                        print(' after lineNum', i+1, line, sep='\t')
             with open(file=readme_path[0], mode='w') as fw:
                 for line in lines:
                     fw.write("%s\n" % line)
@@ -82,10 +87,10 @@ class Rename():
 
 if __name__ == "__main__":
     p = argparse.ArgumentParser("modify number of head on READMD.md")
-    p.add_argument('FILED_NUM', type=int, metavar='Field Number')
-    p.add_argument('START_NUM', type=int, metavar='Start Number')
-    p.add_argument('END_NUM', type=int, metavar='End Number')
-    p.add_argument('DIFF_NUM', type=int, metavar='Diff Number')
+    p.add_argument('FILED_NUM', type=int, metavar='Field_Number')
+    p.add_argument('START_NUM', type=int, metavar='Start_Number')
+    p.add_argument('END_NUM', type=int, metavar='End_Number')
+    p.add_argument('DIFF_NUM', type=int, metavar='Diff_Number')
     args = p.parse_args()
     filed_num = args.FILED_NUM
     start_num = args.START_NUM
