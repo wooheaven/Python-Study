@@ -1,4 +1,2 @@
-01_Python_Env_and_ETC/05_jupyter/02_Jupyter_notebook_shortcuts.md -> 01_Python_Env_and_ETC/05_jupyter/01_Jupyter_notebook_shortcuts.md
-01_Python_Env_and_ETC/05_jupyter/04_change_font.md -> 01_Python_Env_and_ETC/05_jupyter/02_change_font.md
-01_Python_Env_and_ETC/05_jupyter/01_convert_jupyter_notebook_to_markdown.md -> 01_Python_Env_and_ETC/05_jupyter/03_convert_jupyter_notebook_to_markdown.md
-01_Python_Env_and_ETC/05_jupyter/03_jupyter_notebook_passwd.md -> 01_Python_Env_and_ETC/05_jupyter/04_jupyter_notebook_passwd.md
+04_packages/12_sys/01_sys_stdout_write_with_string_format.py -> 04_packages/13_sys/01_sys_stdout_write_with_string_format.py
+04_packages/13_time/01_sleep.md -> 04_packages/14_time/01_sleep.md
