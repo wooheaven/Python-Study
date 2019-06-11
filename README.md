@@ -87,8 +87,9 @@
 04.09.03.00.00 ║ ║ ╚═4.9.3 [os.path.isfile : file](04_packages/09_os/03_os.path.isfile_of_file.ipynb)  
 04.10.00.00.00 ║ ╠═4.10 [psycopg2 : string sql replace by dict](04_packages/10_psycopg2/01_replace_string_with_dictionary.py)  
 04.11.00.00.00 ║ ╠═4.11 [pyautogui : HandBrake GUI example](04_packages/11_pyautogui/01_HandBrake_GUI_example.py)  
-04.12.00.00.00 ║ ╠═4.12 [sys : sys.stdout.write with string.format(variable)](04_packages/12_sys/01_sys_stdout_write_with_string_format.py)  
-04.13.00.00.00 ║ ╚═4.13 [time : sleep](04_packages/13_time/01_sleep.md)  
+04.12.00.00.00 ║ ╠═4.12 [shutil.copy : file](04_packages/12_shutil/01_shutil.copy_of_file.ipynb)  
+04.12.00.00.00 ║ ╠═4.12 [sys : sys.stdout.write with string.format(variable)](04_packages/13_sys/01_sys_stdout_write_with_string_format.py)  
+04.13.00.00.00 ║ ╚═4.13 [time : sleep](04_packages/14_time/01_sleep.md)  
 05.00.00.00.00 ╠═5 [Django Girls Tutorial](05_Django/01_Django_Girls_Tutorial/memo.md)  
 06.00.00.00.00 ╠═6 Matrix Profile  
 06.01.00.00.00 ║ ╠═6.1 [Tutorial with fake data : sin signal data](06_MatrixProfile/02_matrixprofile-ts/01_Matrix_Profile_Tutorial.ipynb)  
