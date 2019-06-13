@@ -82,14 +82,16 @@
 04.07.02.02.00 ║ ║ ║ ╚═4.7.2.2 Approximating K-Means : [code](04_packages/07_matplotlib/02_create_and_visualize_data/01_approximating_to_kmeans.py), [image](04_packages/07_matplotlib/02_create_and_visualize_data/02_kmean_scatter_plot.png)  
 04.08.00.00.00 ║ ╠═4.8 [no package : convert float to str with a fixed number of digits](04_packages/08_no_package/01_float_to_str_with_a_fixed_number_of_digits.ipynb)  
 04.09.00.00.00 ║ ╠═4.9 os  
-04.09.01.00.00 ║ ║ ╠═4.9.1 [chmod : file](04_packages/09_os/01_os.chmod_of_file.ipynb)  
+04.09.01.00.00 ║ ║ ╠═4.9.1 [os.chmod : file](04_packages/09_os/01_os.chmod_of_file.ipynb)  
 04.09.02.00.00 ║ ║ ╠═4.9.2 [os.path.exists : file](04_packages/09_os/02_os.path.exists_of_file.ipynb)  
 04.09.03.00.00 ║ ║ ╚═4.9.3 [os.path.isfile : file](04_packages/09_os/03_os.path.isfile_of_file.ipynb)  
 04.10.00.00.00 ║ ╠═4.10 [psycopg2 : string sql replace by dict](04_packages/10_psycopg2/01_replace_string_with_dictionary.py)  
 04.11.00.00.00 ║ ╠═4.11 [pyautogui : HandBrake GUI example](04_packages/11_pyautogui/01_HandBrake_GUI_example.py)  
-04.12.00.00.00 ║ ╠═4.12 [shutil.copy : file](04_packages/12_shutil/01_shutil.copy_of_file.ipynb)  
-04.12.00.00.00 ║ ╠═4.12 [sys : sys.stdout.write with string.format(variable)](04_packages/13_sys/01_sys_stdout_write_with_string_format.py)  
-04.13.00.00.00 ║ ╚═4.13 [time : sleep](04_packages/14_time/01_sleep.md)  
+04.12.00.00.00 ║ ╠═4.12 shutil  
+04.12.01.00.00 ║ ║ ╠═4.12.1 [shutil.copy : file](04_packages/12_shutil/01_shutil.copy_of_file.ipynb)  
+04.12.02.00.00 ║ ║ ╚═4.12.2 [shutil.move : file](04_packages/12_shutil/02_shutil.move_of_file.ipynb)  
+04.13.00.00.00 ║ ╠═4.13 [sys : sys.stdout.write with string.format(variable)](04_packages/13_sys/01_sys_stdout_write_with_string_format.py)  
+04.14.00.00.00 ║ ╚═4.14 [time : sleep](04_packages/14_time/01_sleep.md)  
 05.00.00.00.00 ╠═5 [Django Girls Tutorial](05_Django/01_Django_Girls_Tutorial/memo.md)  
 06.00.00.00.00 ╠═6 Matrix Profile  
 06.01.00.00.00 ║ ╠═6.1 [Tutorial with fake data : sin signal data](06_MatrixProfile/02_matrixprofile-ts/01_Matrix_Profile_Tutorial.ipynb)  
