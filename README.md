@@ -86,7 +86,8 @@
 04.09.02.00.00 ║ ║ ╠═4.9.2 [os.path.exists : file and folder](04_packages/09_os/02_os.path.exists_of_file_and_folder.ipynb)  
 04.09.03.00.00 ║ ║ ╠═4.9.3 [os.path.isdir : folder](04_packages/09_os/03_os.path.isdir_of_folder.ipynb)  
 04.09.04.00.00 ║ ║ ╠═4.9.4 [os.path.isfile : file](04_packages/09_os/04_os.path.isfile_of_file.ipynb)  
-04.09.05.00.00 ║ ║ ╚═4.9.5 [os.remove : file](04_packages/09_os/05_os.remove_of_file.ipynb)  
+04.09.05.00.00 ║ ║ ╠═4.9.5 [os.remove : file](04_packages/09_os/05_os.remove_of_file.ipynb)  
+04.09.06.00.00 ║ ║ ╚═4.9.6 [os.walk : search recursively of folder](04_packages/09_os/06_os.walk_of_folder.ipynb)  
 04.10.00.00.00 ║ ╠═4.10 [psycopg2 : string sql replace by dict](04_packages/10_psycopg2/01_replace_string_with_dictionary.py)  
 04.11.00.00.00 ║ ╠═4.11 [pyautogui : HandBrake GUI example](04_packages/11_pyautogui/01_HandBrake_GUI_example.py)  
 04.12.00.00.00 ║ ╠═4.12 shutil  
