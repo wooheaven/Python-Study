@@ -1,2 +1,9 @@
-04_packages/09_os/03_os.path.isfile_of_file.ipynb -> 04_packages/09_os/04_os.path.isfile_of_file.ipynb
-04_packages/09_os/04_os.remove_of_file.ipynb -> 04_packages/09_os/05_os.remove_of_file.ipynb
+04_packages/10_psycopg2/01_replace_string_with_dictionary.py -> 04_packages/11_psycopg2/01_replace_string_with_dictionary.py
+04_packages/11_pyautogui/01_HandBrake_GUI_example.py -> 04_packages/12_pyautogui/01_HandBrake_GUI_example.py
+04_packages/12_shutil/01_shutil.copy_of_file.ipynb -> 04_packages/13_shutil/01_shutil.copy_of_file.ipynb
+04_packages/12_shutil/02_shutil.copytree_of_folder.ipynb -> 04_packages/13_shutil/02_shutil.copytree_of_folder.ipynb
+04_packages/12_shutil/03_shutil.move_of_file_and_folder.ipynb -> 04_packages/13_shutil/03_shutil.move_of_file_and_folder.ipynb
+04_packages/12_shutil/04_shutil.rmtree_of_folder.ipynb -> 04_packages/13_shutil/04_shutil.rmtree_of_folder.ipynb
+04_packages/12_shutil/reNumberFiles.sh -> 04_packages/13_shutil/reNumberFiles.sh
+04_packages/13_sys/01_sys_stdout_write_with_string_format.py -> 04_packages/14_sys/01_sys_stdout_write_with_string_format.py
+04_packages/14_time/01_sleep.md -> 04_packages/15_time/01_sleep.md
