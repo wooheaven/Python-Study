@@ -92,7 +92,8 @@
 04.12.00.00.00 ║ ╠═4.12 shutil  
 04.12.01.00.00 ║ ║ ╠═4.12.1 [shutil.copy : file](04_packages/12_shutil/01_shutil.copy_of_file.ipynb)  
 04.12.02.00.00 ║ ║ ╠═4.12.2 [shutil.copytree : folder](04_packages/12_shutil/02_shutil.copytree_of_folder.ipynb)  
-04.12.03.00.00 ║ ║ ╚═4.12.3 [shutil.move : file and folder](04_packages/12_shutil/03_shutil.move_of_file_and_folder.ipynb)  
+04.12.03.00.00 ║ ║ ╠═4.12.3 [shutil.move : file and folder](04_packages/12_shutil/03_shutil.move_of_file_and_folder.ipynb)  
+04.12.04.00.00 ║ ║ ╚═4.12.4 [shutil.rmtree : folder](04_packages/12_shutil/04_shutil.rmtree_of_folder.ipynb)  
 04.13.00.00.00 ║ ╠═4.13 [sys : sys.stdout.write with string.format(variable)](04_packages/13_sys/01_sys_stdout_write_with_string_format.py)  
 04.14.00.00.00 ║ ╚═4.14 [time : sleep](04_packages/14_time/01_sleep.md)  
 05.00.00.00.00 ╠═5 [Django Girls Tutorial](05_Django/01_Django_Girls_Tutorial/memo.md)  
