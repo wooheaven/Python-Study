@@ -157,7 +157,8 @@
 09.02.0x.00.00 ║ - ╠═9.2.22 [Lecutre 02 Seoul Bike Station](09_Pandas/02_Tutorial/22_seoul_bike_station.ipynb)  
 09.02.0x.00.00 ║ - ╚═9.2.23 [Lecutre 03 Seoul Bike History](09_Pandas/02_Tutorial/23_seoul_bike_history.ipynb)  
 10.00.00.00.00 ╠═10 Plotly  
-10.01.00.00.00 ║ ╚═10.1 [Plotly : Time Series Interactive Visualization](10_Plotly/01_plotly-time-series.ipynb)  
+10.01.00.00.00 ║ ╠═10.1 [Plotly : Time Series Interactive Visualization](10_Plotly/01_plotly-time-series.ipynb)  
+10.02.00.00.00 ║ ╚═10.2 [Plotly : Introduction](10_Plotly/Plotly_Whirlwind_Introduction.ipynb)  
 11.00.00.00.00 ╠═11 [Python3 Document](https://docs.python.org/3/)  
 11.01.00.00.00 ║ ╠═11.1 [Language Reference](https://docs.python.org/3/reference/index.html) / [Compound statements](https://docs.python.org/3/reference/compound_stmts.html) / [with statement](https://docs.python.org/3/reference/compound_stmts.html#the-with-statement) / [example : file open by with](11_Python_Document/01_Language_Reference/01_Compound_statements/01_with_statement.ipynb)  
 11.02.00.00.00 ║ ╚═11.2 [Tutorial](https://docs.python.org/3/tutorial/index.html)  
