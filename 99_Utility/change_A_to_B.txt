@@ -1,2 +1,2 @@
-04_packages/12_sys/01_sys_stdout_write_with_string_format.py -> 04_packages/13_sys/01_sys_stdout_write_with_string_format.py
-04_packages/13_time/01_sleep.md -> 04_packages/14_time/01_sleep.md
+04_packages/09_os/03_os.path.isfile_of_file.ipynb -> 04_packages/09_os/04_os.path.isfile_of_file.ipynb
+04_packages/09_os/04_os.remove_of_file.ipynb -> 04_packages/09_os/05_os.remove_of_file.ipynb
