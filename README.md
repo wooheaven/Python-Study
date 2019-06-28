@@ -164,9 +164,10 @@
 ║░░░╚═23 [Lecutre 03 Seoul Bike History](09_Pandas/02_Tutorial/23_seoul_bike_history.ipynb)  
 ╠═10 Plotly  
 ║░╠═1 [Plotly : histogram](10_Plotly/01_histogram.ipynb)  
-║░╠═2 [Plotly : bar plot](10_Plotly/02_barplot.ipynb)  
-║░╠═3 [Plotly : Time Series Interactive Visualization](10_Plotly/03_plotly_TimeSeries.ipynb)  
-║░╚═4 [Plotly : Introduction](10_Plotly/Plotly_Whirlwind_Introduction.ipynb)  
+║░╠═2 [Plotly : bar plot](10_Plotly/02_bar_plot.ipynb)  
+║░╠═3 [Plotly : box plot](10_Plotly/03_box_plot.ipynb)  
+║░╠═4 [Plotly : Time Series Interactive Visualization](10_Plotly/04_TimeSeries.ipynb)  
+║░╚═5 [Plotly : Introduction](10_Plotly/Plotly_Whirlwind_Introduction.ipynb)  
 ╠═11 [Python3 Document](https://docs.python.org/3/)  
 ║░╠═1 [Language Reference](https://docs.python.org/3/reference/index.html)  
 ║░║░╚═1 [Compound statements](https://docs.python.org/3/reference/compound_stmts.html)  
