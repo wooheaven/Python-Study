@@ -47,6 +47,9 @@ class Rename():
                 if re.match('║░', tmp):
                     tmp = re.sub(r'║░', '', tmp, count=1)
                     tmp_field_num += 1
+                if re.match('░░', tmp):
+                    tmp = re.sub(r'░░', '', tmp, count=1)
+                    tmp_field_num += 1
             if tmp_field_num == self.field_num:
                 value['field_num'] = tmp_field_num
                 value['head_num'] = tmp.split(' ')[0]
