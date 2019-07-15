@@ -69,7 +69,9 @@
 ║░╠═2 [collections defaultdict : defaultdict in defaultdict](04_packages/02_collections/01_defaultdict/01_dictionary_in_dictionary.py)  
 ║░╠═3 [copy : shallow copy vs deep copy](04_packages/03_copy/01_shallow_copy_vs_deep_copy.ipynb)  
 ║░╠═4 [datetime now() strftime](04_packages/04_datetime/01_datetime_now_strftime.py)  
-║░╠═5 [glob : find folder and file](04_packages/05_glob/01_find_folder_and_file_by_glob.ipynb)  
+║░╠═5 [glob](https://docs.python.org/3/library/glob.html)  
+║░║░╠═1 [find folder and file by pathname](04_packages/05_glob/01_find_folder_and_file_with_pathname.ipynb)  
+║░║░╚═2 [find recursively](04_packages/05_glob/02_find_path_with_recursively.ipynb)  
 ║░╠═6 [gzip : file write and read](04_packages/06_gzip/01_gzip_write_read.py)  
 ║░╠═7 hashlib  
 ║░║░╚═1 [md5 example](04_packages/07_hashlib/01_hashlib_md5.ipynb)  
