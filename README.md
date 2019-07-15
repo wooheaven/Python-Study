@@ -85,9 +85,9 @@
 ║░║░║░╠═3 [histogram](04_packages/09_matplotlib/01_Tutorial/03_histogram.ipynb)  
 ║░║░║░╠═4 [scatter plot](04_packages/09_matplotlib/01_Tutorial/04_scatter_plot.ipynb)  
 ║░║░║░╚═5 [figure, subplot, axes](04_packages/09_matplotlib/01_Tutorial/05_figure_subplot_axes_with_matplotlib_and_seaborn.ipynb)  
-║░║░╠═2 create and visualize data  
-║░║░║░╠═1 Approximating to user defined equation Y = a + bX + cX^2 + dX^3 : [code](04_packages/09_matplotlib/02_create_and_visualize_data/01_approximating_to_user_defined_equation.py), [image](04_packages/09_matplotlib/02_create_and_visualize_data/02_user_defined_equation_scatter_plot.png)  
-║░║░║░╚═2 Approximating K-Means : [code](04_packages/09_matplotlib/02_create_and_visualize_data/01_approximating_to_kmeans.py), [image](04_packages/09_matplotlib/02_create_and_visualize_data/02_kmean_scatter_plot.png)  
+║░║░╚═2 create and visualize data  
+║░║░░░╠═1 Approximating to user defined equation Y = a + bX + cX^2 + dX^3 : [code](04_packages/09_matplotlib/02_create_and_visualize_data/01_approximating_to_user_defined_equation.py), [image](04_packages/09_matplotlib/02_create_and_visualize_data/02_user_defined_equation_scatter_plot.png)  
+║░║░░░╚═2 Approximating K-Means : [code](04_packages/09_matplotlib/02_create_and_visualize_data/01_approximating_to_kmeans.py), [image](04_packages/09_matplotlib/02_create_and_visualize_data/02_kmean_scatter_plot.png)  
 ║░╠═10 [no package : convert float to str with a fixed number of digits](04_packages/10_no_package/01_float_to_str_with_a_fixed_number_of_digits.ipynb)  
 ║░╠═11 [Numpy](https://www.numpy.org/) / [Numpy Document](https://www.numpy.org/devdocs/)  
 ║░║░╠═1 [Numpy Reference](https://www.numpy.org/devdocs/reference/index.html)  
@@ -112,7 +112,8 @@
 ║░║░╠═3 [os.path.isdir : folder](04_packages/12_os/03_os.path.isdir_of_folder.ipynb)  
 ║░║░╠═4 [os.path.isfile : file](04_packages/12_os/04_os.path.isfile_of_file.ipynb)  
 ║░║░╠═5 [os.remove : file](04_packages/12_os/05_os.remove_of_file.ipynb)  
-║░║░╚═6 [os.walk : search recursively of folder](04_packages/12_os/06_os.walk_of_folder.ipynb)  
+║░║░╠═6 [os.walk : search recursively of folder](04_packages/12_os/06_os.walk_of_folder.ipynb)  
+║░║░╚═99 [Sync a from b, Delete a form b](04_packages/12_os/99_etc.sync_delete_a_from_b.py)  
 ║░╠═13 [perfplot : map funcs over numpy array for sqrt](04_packages/13_perfplot/01_perfplot_map_func_over_numpy_array_for_sqrt.ipynb)  
 ║░╠═14 [psycopg2 : string sql replace by dict](04_packages/14_psycopg2/01_replace_string_with_dictionary.py)  
 ║░╠═15 [pyautogui : HandBrake GUI example](04_packages/15_pyautogui/01_HandBrake_GUI_example.py)  
