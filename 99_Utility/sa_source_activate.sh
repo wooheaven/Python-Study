@@ -1,2 +1,2 @@
-conda activate Python-Study
+# conda activate Python-Study
 # source venv/bin/activate
