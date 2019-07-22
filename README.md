@@ -1,36 +1,39 @@
 ╠═1 Python_Env_and_ETC  
-║░╠═1 brew  
-║░║░╠═1 [linux brew install python3](01_Python_Env_and_ETC/01_brew/01_linux_brew_install_python3.md)  
-║░║░╠═2 [linux brew python3 venv : create virtual env](01_Python_Env_and_ETC/01_brew/02_linux_brew_python3_venv_env.md)  
-║░║░╠═3 [mac brew install autoenv : activate/deactivate pyenv-virtualenv's env](01_Python_Env_and_ETC/01_brew/03_mac_brew_install_autoenv.md)  
-║░║░╠═4 [mac brew install pyenv : python env](01_Python_Env_and_ETC/01_brew/04_mac_brew_install_pyenv.md)  
-║░║░╠═5 [mac brew install pyenv-virtualenv : python virtual env](01_Python_Env_and_ETC/01_brew/05_mac_brew_install_pyenv-virtualenv.md)  
-║░║░╚═6 [mac brew python3.7 : debugging error with multiprocessing](01_Python_Env_and_ETC/01_brew/06_mac_brew_python3.7_venv_multiprocessing_error.md)  
-║░╠═2 conda  
-║░║░╠═1 [install anaconda on linux](01_Python_Env_and_ETC/02_conda/01_Install_anaconda_on_linux.md)  
-║░║░╠═2 [install mini conda on mac](01_Python_Env_and_ETC/02_conda/02_Install_miniconda_on_mac.md)  
-║░║░╠═3 [create envs](01_Python_Env_and_ETC/02_conda/03_conda_create_envs.md)  
-║░║░╠═4 [upgrade python on env](01_Python_Env_and_ETC/02_conda/04_conda_env_upgrade_python.md)  
-║░║░╠═5 [remove envs](01_Python_Env_and_ETC/02_conda/05_conda_remove_envs.md)  
-║░║░╠═6 [pip install package](01_Python_Env_and_ETC/02_conda/06_pip_install_package.md)  
-║░║░╠═7 [pip install package -upgrade](01_Python_Env_and_ETC/02_conda/07_pip_install_package_upgrade.md)  
-║░║░╚═8 [pip install pip -upgrade](01_Python_Env_and_ETC/02_conda/08_pip_upgrade.md)  
-║░╠═3 docker : [python3 jupyter by tensorflow official image](01_Python_Env_and_ETC/03_docker/tensorflow_image.md)  
-║░╠═4 etc  
-║░║░╚═1 [Zen of Python](01_Python_Env_and_ETC/04_etc/02_Zen_of_Python_English_Korean.md)  
-║░╠═5 jupyter  
-║░║░╠═1 [short cuts for jupyter](01_Python_Env_and_ETC/05_jupyter/01_Jupyter_notebook_shortcuts.md)  
-║░║░╠═2 [change font](01_Python_Env_and_ETC/05_jupyter/02_change_font.md)  
-║░║░╠═3 [convert jupyter notebook to markdown](01_Python_Env_and_ETC/05_jupyter/03_convert_jupyter_notebook_to_markdown.md)  
-║░║░╠═4 [set password by manually](01_Python_Env_and_ETC/05_jupyter/04_jupyter_notebook_passwd.md)  
-║░║░╠═5 [move cell up](01_Python_Env_and_ETC/05_jupyter/05_move_cell_up.md)  
-║░║░╚═6 [toggle scrolling of current cell](01_Python_Env_and_ETC/05_jupyter/06_toggle_scrolling_of_current_cell.md)  
-║░╠═6 pip  
-║░║░╠═1 [pip3 install glob](01_Python_Env_and_ETC/06_pip/01_pip3_install_glob3.md)  
-║░║░╠═2 [pip3 install pillow](01_Python_Env_and_ETC/06_pip/02_pip3_install_pillow.md)  
-║░║░╚═3 [pip3 install pyautogui](01_Python_Env_and_ETC/06_pip/03_pip3_install_pyautogui_python3_xlib.md)  
-║░╚═7 PyCharm  
-║░░░╚═1 [Warning Unresolved reference warning](01_Python_Env_and_ETC/07_PyCharm/01_unresolved_reference_warning.md)  
+║░╠═1 PyCharm  
+║░║░╚═1 [Warning Unresolved reference warning](01_Python_Env_and_ETC/01_PyCharm/01_unresolved_reference_warning.md)  
+║░╠═2 brew  
+║░║░╠═1 [linux brew install python3](01_Python_Env_and_ETC/02_brew/01_linux_brew_install_python3.md)  
+║░║░╠═2 [linux brew python3 venv : create virtual env](01_Python_Env_and_ETC/02_brew/02_linux_brew_python3_venv_env.md)  
+║░║░╠═3 [mac brew install autoenv : activate/deactivate pyenv-virtualenv's env](01_Python_Env_and_ETC/02_brew/03_mac_brew_install_autoenv.md)  
+║░║░╠═4 [mac brew install pyenv : python env](01_Python_Env_and_ETC/02_brew/04_mac_brew_install_pyenv.md)  
+║░║░╠═5 [mac brew install pyenv-virtualenv : python virtual env](01_Python_Env_and_ETC/02_brew/05_mac_brew_install_pyenv-virtualenv.md)  
+║░║░╚═6 [mac brew python3.7 : debugging error with multiprocessing](01_Python_Env_and_ETC/02_brew/06_mac_brew_python3.7_venv_multiprocessing_error.md)  
+║░╠═3 conda  
+║░║░╠═1 [install anaconda on linux](01_Python_Env_and_ETC/03_conda/01_Install_anaconda_on_linux.md)  
+║░║░╠═2 [install mini conda on mac](01_Python_Env_and_ETC/03_conda/02_Install_miniconda_on_mac.md)  
+║░║░╠═3 [create envs](01_Python_Env_and_ETC/03_conda/03_conda_create_envs.md)  
+║░║░╠═4 [upgrade python on env](01_Python_Env_and_ETC/03_conda/04_conda_env_upgrade_python.md)  
+║░║░╠═5 [remove envs](01_Python_Env_and_ETC/03_conda/05_conda_remove_envs.md)  
+║░║░╠═6 [pip install package](01_Python_Env_and_ETC/03_conda/06_pip_install_package.md)  
+║░║░╠═7 [pip install package -upgrade](01_Python_Env_and_ETC/03_conda/07_pip_install_package_upgrade.md)  
+║░║░╚═8 [pip install pip -upgrade](01_Python_Env_and_ETC/03_conda/08_pip_upgrade.md)  
+║░╠═4 docker : [python3 jupyter by tensorflow official image](01_Python_Env_and_ETC/04_docker/tensorflow_image.md)  
+║░╠═5 etc  
+║░║░╚═1 [Zen of Python](01_Python_Env_and_ETC/05_etc/02_Zen_of_Python_English_Korean.md)  
+║░╠═6 ipython  
+║░║░╚═1 [create profile with disable jedi](01_Python_Env_and_ETC/06_ipython/01_create_profile_with_disable_jedi.md)  
+║░╠═7 jupyter  
+║░║░╠═1 [change font](01_Python_Env_and_ETC/07_jupyter/01_change_font.md)  
+║░║░╠═2 [convert jupyter notebook to markdown](01_Python_Env_and_ETC/07_jupyter/02_convert_jupyter_notebook_to_markdown.md)  
+║░║░╠═3 [jupyter kernel ipython --profile](01_Python_Env_and_ETC/07_jupyter/03_jupyter_kernel_ipython_profile.md)  
+║░║░╠═4 [set password by manually](01_Python_Env_and_ETC/07_jupyter/04_jupyter_notebook_passwd.md)  
+║░║░╠═5 [short cuts for jupyter](01_Python_Env_and_ETC/07_jupyter/05_jupyter_notebook_shortcuts.md)  
+║░║░╠═6 [move cell up](01_Python_Env_and_ETC/07_jupyter/06_move_cell_up.md)  
+║░║░╚═7 [toggle scrolling of current cell](01_Python_Env_and_ETC/07_jupyter/07_toggle_scrolling_of_current_cell.md)  
+║░╚═8 pip  
+║░░░╠═1 [pip3 install glob](01_Python_Env_and_ETC/08_pip/01_pip3_install_glob3.md)  
+║░░░╠═2 [pip3 install pillow](01_Python_Env_and_ETC/08_pip/02_pip3_install_pillow.md)  
+║░░░╚═3 [pip3 install pyautogui](01_Python_Env_and_ETC/08_pip/03_pip3_install_pyautogui_python3_xlib.md)  
 ╠═2 Data Science from Scratch  
 ║░╠═1 ch1  
 ║░║░╠═7 [string](02_Data_Science_from_Scratch/02_Ch/02.01.07_string.md)  
@@ -198,6 +201,9 @@
 ║░░░║░╠═1 [example : list.append(4)](10_Python_Document/03_Tutorial/01_Data_Structures/01_list/01_append.ipynb)  
 ║░░░║░╚═2 [example : list.sort(key=lambda x:x\[1\])](10_Python_Document/03_Tutorial/01_Data_Structures/01_list/02_sort_key.ipynb)  
 ║░░░╚═2 [Errors and Exceptions](https://docs.python.org/3/tutorial/errors.html) / [example : Rasing Exception](10_Python_Document/03_Tutorial/02_Errors_and_Exceptions/01_Raising_Exceptions/01_raise_NameError.ipynb)  
+╠═11 Algorithm  
+║░╚═1 Sort  
+║░░░╚═1 [Bubble Sort](11_Algorithm/01_Sort/01_Bubble_Sort.ipynb)  
 ╚═99 Utility  
 ░░╠═1 [01_tree_to_contents.sh](99_Utility/01_tree_to_contents.sh)  
 ░░╠═2 [02_modify_contents.py](99_Utility/02_modify_contents.py)  
