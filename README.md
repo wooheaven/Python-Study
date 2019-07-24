@@ -203,7 +203,8 @@
 ║░░░╚═2 [Errors and Exceptions](https://docs.python.org/3/tutorial/errors.html) / [example : Rasing Exception](10_Python_Document/03_Tutorial/02_Errors_and_Exceptions/01_Raising_Exceptions/01_raise_NameError.ipynb)  
 ╠═11 Algorithm  
 ║░╚═1 Sort  
-║░░░╚═1 [Bubble Sort](11_Algorithm/01_Sort/01_Bubble_Sort.ipynb)  
+║░░░╠═1 [Bubble Sort](11_Algorithm/01_Sort/01_Bubble_Sort.ipynb)  
+║░░░╚═2 [Selection Sort](11_Algorithm/01_Sort/02_Selection_Sort.ipynb)  
 ╚═99 Utility  
 ░░╠═1 [01_tree_to_contents.sh](99_Utility/01_tree_to_contents.sh)  
 ░░╠═2 [02_modify_contents.py](99_Utility/02_modify_contents.py)  
