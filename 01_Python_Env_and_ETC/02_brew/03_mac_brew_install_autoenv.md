@@ -19,7 +19,7 @@ fi
 
 $ cd Python-Study
 $ vi .env
-if [ -n "$VIRTUAL_ENV" ] && [ `pwd` = "~/test/Python-Study" ] ; then
+if [ -z "$VIRTUAL_ENV" ] && [ `pwd` = "~/test/Python-Study" ] ; then
 echo “+++++++++++++++++++++++++++++++++++++++++++++++”
 echo “        pyenv virtualenv : Python-Study        "
 echo “+++++++++++++++++++++++++++++++++++++++++++++++”
