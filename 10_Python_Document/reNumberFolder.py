@@ -13,10 +13,11 @@ pwd_folder_list = glob.glob('*/')
 
 for idx, folder in enumerate(pwd_folder_list):
     tmp_folder = folder[folder.index('_') + 1:-1]
-    pwd_folder_list[idx] = [folder, tmp_folder]
+    pwd_folder_list[idx] = [folder, tmp_folder, tmp_folder.replace('-', '').lower()]
 
-pwd_folder_list.sort(key=lambda x: (x[1].lower(), x[0].lower()))
+pwd_folder_list.sort(key=lambda x: (x[2], x[1]))
 
+# 1 <= pwd_folder_list size <= 9
 size = len(str(len(pwd_folder_list)))
 if size == 1:
     size = size + 1
