@@ -53,7 +53,7 @@ class Rename():
             if tmp_field_num == self.field_num:
                 value['field_num'] = tmp_field_num
                 value['head_num'] = tmp.split(' ')[0]
-            print('key = ' + str(key), 'field_num = ' + str(tmp_field_num),
+            print('key = ' + self.digits_modify(key, 2), 'field_num = ' + str(tmp_field_num),
                   'head_num = ' + str(tmp[0]), 'line = ' + str(value.get('line')), sep='\t')
 
         # reduce head_numbers which has not field_num
@@ -69,15 +69,21 @@ class Rename():
         for key, value in head_numbers.items():
             new_line = value['line']
             new_line = re.sub(str(value['head_num']), str(int(value['head_num'])+self.diff_num), new_line, count=1)
-            print('line number = ' + str(key), 'old_line = ' + lines[key-1], sep='\t')
+            print('line number = ' + self.digits_modify(key, 2), 'old_line = ' + lines[key-1], sep='\t')
             lines[key-1] = new_line
-            print('line number = ' + str(key), 'new_line = ' + lines[key-1], sep='\t')
+            print('line number = ' + self.digits_modify(key, 2), 'new_line = ' + lines[key-1], sep='\t')
 
         # save lines
         print('\nSave lines')
         with open(file=readme_path[0], mode='w') as fw:
             for line in lines:
                 fw.write("%s\n" % line)
+
+    def digits_modify(self, key, digit):
+        key = str(key)
+        while len(key) < digit:
+            key = '0' + key
+        return key
 
 
 if __name__ == "__main__":
