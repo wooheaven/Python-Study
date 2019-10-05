@@ -1,8 +1,1 @@
-01_Python_Env_and_ETC/02_brew/01_linux_brew_install_pyenv.md -> 01_Python_Env_and_ETC/02_brew/02_linux_brew_install_pyenv.md
-01_Python_Env_and_ETC/02_brew/02_linux_brew_install_pyenv-virtualenv.md -> 01_Python_Env_and_ETC/02_brew/03_linux_brew_install_pyenv-virtualenv.md
-01_Python_Env_and_ETC/02_brew/03_linux_brew_install_python3.md -> 01_Python_Env_and_ETC/02_brew/04_linux_brew_install_python3.md
-01_Python_Env_and_ETC/02_brew/04_linux_brew_python3_venv_env.md -> 01_Python_Env_and_ETC/02_brew/05_linux_brew_python3_venv_env.md
-01_Python_Env_and_ETC/02_brew/05_mac_brew_install_autoenv.md -> 01_Python_Env_and_ETC/02_brew/06_mac_brew_install_autoenv.md
-01_Python_Env_and_ETC/02_brew/06_mac_brew_install_pyenv.md -> 01_Python_Env_and_ETC/02_brew/07_mac_brew_install_pyenv.md
-01_Python_Env_and_ETC/02_brew/07_mac_brew_install_pyenv-virtualenv.md -> 01_Python_Env_and_ETC/02_brew/08_mac_brew_install_pyenv-virtualenv.md
-01_Python_Env_and_ETC/02_brew/08_mac_brew_python3.7_venv_multiprocessing_error.md -> 01_Python_Env_and_ETC/02_brew/09_mac_brew_python3.7_venv_multiprocessing_error.md
+99_Utility/05_reNumberFiles.py -> 99_Utility/05_reNumber_Files.py
