@@ -28,7 +28,7 @@ class Rename():
             folder_list[idx] = [parent, now_name, new_name]
 
         # sort file_list
-        folder_list.sort(key=lambda x: (x[2], x[1]))
+        folder_list.sort(key=lambda x: (self.convert_str(x[2]), self.convert_str(x[1])))
 
         # 1 <= file_list's size <= 9
         size = len(str(len(folder_list)))
@@ -50,6 +50,10 @@ class Rename():
                     pre_str = "# " + pre_str
                 f.writelines(pre_str + folder[0] + folder[1] + ' ' + folder[0] + folder[2] + '\n')
         os.chmod('git-move.sh', 0o755)
+
+    def convert_str(self, path):
+        path = path.lower()
+        return path
 
     def modify_number(self, size, number):
         str_num = str(number + 1)

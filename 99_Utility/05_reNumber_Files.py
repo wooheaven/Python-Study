@@ -5,10 +5,7 @@ import os
 
 class Rename():
     def __init__(self, path):
-        if path[:-1].endswith('/'):
-            self.path = path[0:-1]
-        else:
-            self.path = path
+        self.path = path[0:-1] if path.endswith('/') else path
 
     def do(self):
         # find glob_list for path
@@ -28,7 +25,7 @@ class Rename():
             file_list[idx] = [parent, now_name, new_name]
 
         # sort file_list
-        file_list.sort(key=lambda x: (x[2], x[1]))
+        file_list.sort(key=lambda x: (self.convert_str(x[2]), self.convert_str(x[1])))
 
         # 1 <= file_list's size <= 9
         size = len(str(len(file_list)))
@@ -43,6 +40,7 @@ class Rename():
         # git-move.sh
         with open('git-move.sh', 'w') as f:
             f.writelines('#!/usr/bin/env bash\n')
+            f.writelines('\n')
             for file in file_list:
                 pre_str = 'git mv '
                 if file[1] == file[2]:
@@ -55,6 +53,10 @@ class Rename():
         while size > len(str_num):
             str_num = '0' + str_num
         return str_num
+
+    def convert_str(self, path):
+        path = str(path).replace('--', '-')
+        return path
 
 
 if __name__ == "__main__":
