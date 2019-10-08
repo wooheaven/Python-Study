@@ -1,1 +1,2 @@
-99_Utility/05_reNumberFiles.py -> 99_Utility/05_reNumber_Files.py
+10_Python_Document/02_Library_Reference/01_Data_Compression_and_Archiving/01_gzip_example.ipynb -> 10_Python_Document/02_Library_Reference/02_Data_Compression_and_Archiving/01_gzip_example.ipynb
+10_Python_Document/02_Library_Reference/02_Text_Processing_Services/01_re_example.ipynb -> 10_Python_Document/02_Library_Reference/03_Text_Processing_Services/01_re_example.ipynb
