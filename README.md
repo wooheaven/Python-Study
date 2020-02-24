@@ -126,7 +126,9 @@
 ║░║░╚═6 [os.walk : search recursively of folder](04_packages/12_os/06_os.walk_of_folder.ipynb)  
 ║░╠═13 [perfplot : map funcs over numpy array for sqrt](04_packages/13_perfplot/01_perfplot_map_func_over_numpy_array_for_sqrt.ipynb)  
 ║░╠═14 [psycopg2 : string sql replace by dict](04_packages/14_psycopg2/01_replace_string_with_dictionary.py)  
-║░╠═15 [pyautogui : HandBrake GUI example](04_packages/15_pyautogui/01_HandBrake_GUI_example.py)  
+║░╠═15 pyautogui  
+║░║░╠═1 [HandBrake GUI example](04_packages/15_pyautogui/01_HandBrake_GUI_example.py)  
+║░║░╚═2 [keyboard macro](04_packages/15_pyautogui/02_Keyboard_macro_example.py)  
 ║░╠═16 shutil  
 ║░║░╠═1 [shutil.copy : file](04_packages/16_shutil/01_shutil.copy_of_file.ipynb)  
 ║░║░╠═2 [shutil.copytree : folder](04_packages/16_shutil/02_shutil.copytree_of_folder.ipynb)  
