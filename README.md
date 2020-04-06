@@ -63,11 +63,12 @@
 ║░║░╠═2 [bar charts, historgram](02_밑바닥부터_시작하는_데이터_과학/03_Ch/03.02_bar_charts.ipynb)  
 ║░║░╠═3 [Line charts](02_밑바닥부터_시작하는_데이터_과학/03_Ch/03.03_line_charts.ipynb)  
 ║░║░╚═4 [Scatter plots](02_밑바닥부터_시작하는_데이터_과학/03_Ch/03.04_scatter_plots.ipynb)  
-║░╠═4 Ch4  
-║░║░╠═1 [Linear Algebra](02_밑바닥부터_시작하는_데이터_과학/04_Ch/04.01_Linear_Algebra.ipynb)  
-║░║░╚═2 [Matrix](02_밑바닥부터_시작하는_데이터_과학/04_Ch/04.02_Matrix.ipynb)  
+║░╠═4장 선형대수  
+║░║░╠═1 [Linear Algebra](02_밑바닥부터_시작하는_데이터_과학/4장 선형대수/04.01_Linear_Algebra.ipynb)  
+║░║░╚═2 [Matrix](02_밑바닥부터_시작하는_데이터_과학/4장 선형대수/04.02_Matrix.ipynb)  
 ║░╚═5장 통계  
-║░░░╚═1 [데이터셋 설명하기](02_밑바닥부터_시작하는_데이터_과학/5장_통계/5.1_데이터셋_설명하기.ipynb)  
+║░░░╠═5.1 [데이터셋 설명하기](02_밑바닥부터_시작하는_데이터_과학/5장 통계/5.1 데이터셋 설명하기.ipynb)  
+║░░░╚═5.1.1 [중심 경향성](02_밑바닥부터_시작하는_데이터_과학/5장 통계/5.1.1 중심 경향성.ipynb)  
 ╠═3 Everyday_Programming  
 ║░╚═1 Question  
 ║░░░╚═1 [question](03_Everyday_Programming/01_Q/question.md), [note](03_Everyday_Programming/01_Q/note.md), [solution](03_Everyday_Programming/01_Q/solution.py)  
