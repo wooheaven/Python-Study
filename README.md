@@ -58,17 +58,18 @@
 ║░║░╠═8 [enumerate : Use index and elements of list at the same time](02_밑바닥부터_시작하는_데이터_과학/02_Ch/02.02.08_enumerate.md)  
 ║░║░╠═9 [zip_argument_unpacking : Use zip and unzip for list](02_밑바닥부터_시작하는_데이터_과학/02_Ch/02.02.09_zip_argument_unpacking.ipynb)  
 ║░║░╚═10 [args_kwargs : Unnamed args tuple and KeyWord args dict](02_밑바닥부터_시작하는_데이터_과학/02_Ch/02.02.10_args_kwargs.ipynb)  
-║░╠═2 ch3  
-║░║░╠═1 [matplotlib : simple bar graph, line graph, scatter plot](02_밑바닥부터_시작하는_데이터_과학/03_Ch/03.01_matplotlib.ipynb)  
-║░║░╠═2 [bar charts, historgram](02_밑바닥부터_시작하는_데이터_과학/03_Ch/03.02_bar_charts.ipynb)  
-║░║░╠═3 [Line charts](02_밑바닥부터_시작하는_데이터_과학/03_Ch/03.03_line_charts.ipynb)  
-║░║░╚═4 [Scatter plots](02_밑바닥부터_시작하는_데이터_과학/03_Ch/03.04_scatter_plots.ipynb)  
+║░╠═3장 데이터 시각화  
+║░║░╠═1 [matplotlib : simple bar graph, line graph, scatter plot](02_밑바닥부터_시작하는_데이터_과학/3장 데이터 시각화/03.01_matplotlib.ipynb)  
+║░║░╠═2 [bar charts, historgram](02_밑바닥부터_시작하는_데이터_과학/3장 데이터 시각화/03.02_bar_charts.ipynb)  
+║░║░╠═3 [Line charts](02_밑바닥부터_시작하는_데이터_과학/3장 데이터 시각화/03.03_line_charts.ipynb)  
+║░║░╚═4 [Scatter plots](02_밑바닥부터_시작하는_데이터_과학/3장 데이터 시각화/03.04_scatter_plots.ipynb)  
 ║░╠═4장 선형대수  
 ║░║░╠═1 [Linear Algebra](02_밑바닥부터_시작하는_데이터_과학/4장 선형대수/04.01_Linear_Algebra.ipynb)  
 ║░║░╚═2 [Matrix](02_밑바닥부터_시작하는_데이터_과학/4장 선형대수/04.02_Matrix.ipynb)  
 ║░╚═5장 통계  
 ║░░░╠═5.1 [데이터셋 설명하기](02_밑바닥부터_시작하는_데이터_과학/5장 통계/5.1 데이터셋 설명하기.ipynb)  
-║░░░╚═5.1.1 [중심 경향성](02_밑바닥부터_시작하는_데이터_과학/5장 통계/5.1.1 중심 경향성.ipynb)  
+║░░░╠═5.1.1 [중심 경향성](02_밑바닥부터_시작하는_데이터_과학/5장 통계/5.1.1 중심 경향성.ipynb)  
+║░░░╚═5.1.2 [산포도](02_밑바닥부터_시작하는_데이터_과학/5장 통계/5.1.2 산포도.ipynb)  
 ╠═3 Everyday_Programming  
 ║░╚═1 Question  
 ║░░░╚═1 [question](03_Everyday_Programming/01_Q/question.md), [note](03_Everyday_Programming/01_Q/note.md), [solution](03_Everyday_Programming/01_Q/solution.py)  
