@@ -70,7 +70,8 @@
 ║░░░╠═5.1 [데이터셋 설명하기](02_밑바닥부터_시작하는_데이터_과학/5장 통계/5.1 데이터셋 설명하기.ipynb)  
 ║░░░╠═5.1.1 [중심 경향성 central tendency](02_밑바닥부터_시작하는_데이터_과학/5장 통계/5.1.1 중심 경향성 central tendency.ipynb)  
 ║░░░╠═5.1.2 [산포도 disperision](02_밑바닥부터_시작하는_데이터_과학/5장 통계/5.1.2 산포도 disperision.ipynb)  
-║░░░╚═5.1.3 [상관관계 correlation](02_밑바닥부터_시작하는_데이터_과학/5장 통계/5.2 상관관계 Correlation.ipynb)  
+║░░░╠═5.2 [상관관계 correlation](02_밑바닥부터_시작하는_데이터_과학/5장 통계/5.2 상관관계 Correlation.ipynb)  
+║░░░╚═5.3 [심슨의 역설 Simpson's paradox](02_밑바닥부터_시작하는_데이터_과학/5장 통계/5.3 심슨의 역설 Simpson's paradox.ipynb)  
 ╠═3 Everyday_Programming  
 ║░╚═1 Question  
 ║░░░╚═1 [question](03_Everyday_Programming/01_Q/question.md), [note](03_Everyday_Programming/01_Q/note.md), [solution](03_Everyday_Programming/01_Q/solution.py)  
