@@ -2,15 +2,9 @@
 ║░╠═1 PyCharm  
 ║░║░╚═1 [Warning Unresolved reference warning](01_Python_Env_and_ETC/01_PyCharm/01_unresolved_reference_warning.md)  
 ║░╠═2 brew  
-║░║░╠═1 [linux brew install autoenv](01_Python_Env_and_ETC/02_brew/01_linux_brew_install_autoenv.md)  
-║░║░╠═2 [linux brew install pyenv](01_Python_Env_and_ETC/02_brew/02_linux_brew_install_pyenv.md)  
-║░║░╠═3 [linux brew install pyenv-virtualenv](01_Python_Env_and_ETC/02_brew/03_linux_brew_install_pyenv-virtualenv.md)  
-║░║░╠═4 [linux brew install python3](01_Python_Env_and_ETC/02_brew/04_linux_brew_install_python3.md)  
-║░║░╠═5 [linux brew python3 venv : create virtual env](01_Python_Env_and_ETC/02_brew/05_linux_brew_python3_venv_env.md)  
-║░║░╠═6 [mac brew install autoenv : activate/deactivate pyenv-virtualenv's env](01_Python_Env_and_ETC/02_brew/06_mac_brew_install_autoenv.md)  
-║░║░╠═7 [mac brew install pyenv : python env](01_Python_Env_and_ETC/02_brew/07_mac_brew_install_pyenv.md)  
-║░║░╠═8 [mac brew install pyenv-virtualenv : python virtual env](01_Python_Env_and_ETC/02_brew/08_mac_brew_install_pyenv-virtualenv.md)  
-║░║░╚═9 [mac brew python3.7 : debugging error with multiprocessing](01_Python_Env_and_ETC/02_brew/09_mac_brew_python3.7_venv_multiprocessing_error.md)  
+║░║░╠═1 linux brew install [python3](01_Python_Env_and_ETC/02_brew/04_linux_brew_install_python3.md) [pyenv](01_Python_Env_and_ETC/02_brew/02_linux_brew_install_pyenv.md) [pyenv-virtualenv](01_Python_Env_and_ETC/02_brew/03_linux_brew_install_pyenv-virtualenv.md) [autoenv](01_Python_Env_and_ETC/02_brew/01_linux_brew_install_autoenv.md)  
+║░║░╠═2 mac brew install [pyenv](01_Python_Env_and_ETC/02_brew/06_mac_brew_install_pyenv.md) [pyenv-virtualenv](01_Python_Env_and_ETC/02_brew/07_mac_brew_install_pyenv-virtualenv.md) [autoenv](01_Python_Env_and_ETC/02_brew/05_mac_brew_install_autoenv.md)  
+║░║░╚═3 [mac brew python3.7 : debugging error with multiprocessing](01_Python_Env_and_ETC/02_brew/08_mac_brew_python3.7_venv_multiprocessing_error.md)  
 ║░╠═3 conda  
 ║░║░╠═1 [install anaconda on linux](01_Python_Env_and_ETC/03_conda/01_Install_anaconda_on_linux.md)  
 ║░║░╠═2 [install mini conda on mac](01_Python_Env_and_ETC/03_conda/02_Install_miniconda_on_mac.md)  
@@ -158,7 +152,8 @@
 ║░║░╠═4 [DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/frame.html) / [Constructor DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html#pandas.DataFrame)  
 ║░║░║░╠═1 [pd.DataFrame : create df](08_Pandas/01_documentation_API_Reference/04_DataFrame/01_Constructor_DataFrame/01_pd.DataFrame_example.ipynb)  
 ║░║░║░╠═2 Attribues  
-║░║░║░║░╚═1 [values](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.values.html#pandas.DataFrame.values) : [example : df.values](08_Pandas/01_documentation_API_Reference/04_DataFrame/01_Constructor_DataFrame/02_Attributes/01_values/01_df_values.md)  
+║░║░║░║░╠═1 [columns](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.columns.html#pandas.DataFrame.columns) : [example : df.columns](08_Pandas/01_documentation_API_Reference/04_DataFrame/01_Constructor_DataFrame/02_Attributes/01_columns/01_df_columns.ipynb)  
+║░║░║░║░╚═2 [values](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.values.html#pandas.DataFrame.values) : [example : df.values](08_Pandas/01_documentation_API_Reference/04_DataFrame/01_Constructor_DataFrame/02_Attributes/02_values/01_df_values.md)  
 ║░║░║░╚═3 Methods  
 ║░║░║░░░╠═1 [apply](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.apply.html#pandas.DataFrame.apply) : [example : df.apply()](08_Pandas/01_documentation_API_Reference/04_DataFrame/01_Constructor_DataFrame/03_Methods/01_apply/01_df.apply.ipynb)  
 ║░║░║░░░╠═2 [copy](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.copy.html#pandas.DataFrame.copy) : [example : df.copy()](08_Pandas/01_documentation_API_Reference/04_DataFrame/01_Constructor_DataFrame/03_Methods/02_copy/01_df.dopy.ipynb)  
