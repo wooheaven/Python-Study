@@ -147,8 +147,8 @@
 ╠═8 Pandas  
 ║░╠═1 [pandas documentation](https://pandas.pydata.org/pandas-docs/stable/index.html) / [API Reference](https://pandas.pydata.org/pandas-docs/stable/reference/index.html)  
 ║░║░╠═1 [Input/Output](https://pandas.pydata.org/pandas-docs/stable/reference/io.html#)  
-║░║░║░╚═11 [SQL](https://pandas.pydata.org/pandas-docs/stable/reference/io.html#sql)  
-║░║░║░░░╚═3 [read_sql](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_sql.html#pandas.read_sql) : [example](08_Pandas/01_documentation_API_Reference/01_Input_Output/11_SQL/03_read_sql.md)  
+║░║░║░╚═1 [SQL](https://pandas.pydata.org/pandas-docs/stable/reference/io.html#sql)  
+║░║░║░░░╚═1 [read_sql](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_sql.html#pandas.read_sql) : [example](08_Pandas/01_documentation_API_Reference/01_Input_Output/11_SQL/03_read_sql.md)  
 ║░║░╠═4 [DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/frame.html) / [Constructor DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html#pandas.DataFrame)  
 ║░║░║░╠═1 [pd.DataFrame : create df](08_Pandas/01_documentation_API_Reference/04_DataFrame/01_Constructor_DataFrame/01_pd.DataFrame_example.ipynb)  
 ║░║░║░╠═2 Attribues  
