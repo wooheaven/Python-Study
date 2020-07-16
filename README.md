@@ -171,8 +171,11 @@
 ║░║░║░░░╠═9 [squeeze](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.squeeze.html#pandas.DataFrame.squeeze) : [example : df.squeeze()](08_Pandas/01_documentation_API_Reference/03_DataFrame/01_Constructor_DataFrame/03_Methods/09_squeeze/01_df.squeeze.ipynb)  
 ║░║░║░░░╠═10 [sum](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sum.html#pandas.DataFrame.sum) : [example : df.sum()](08_Pandas/01_documentation_API_Reference/03_DataFrame/01_Constructor_DataFrame/03_Methods/10_sum/01_df.sum.ipynb)  
 ║░║░║░░░╚═11 [to_numpy](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy) : [example : df.to_numpy(), df.values](08_Pandas/01_documentation_API_Reference/03_DataFrame/01_Constructor_DataFrame/03_Methods/11_to_numpy/01_df.to_numpy.ipynb)  
+║░║░╠═4 [Index objects](https://pandas.pydata.org/docs/reference/indexing.html)  
+║░║░║░░░╠═1 [pandas.Index.astype](https://pandas.pydata.org/docs/reference/api/pandas.Index.astype.html) : [example](08_Pandas/01_documentation_API_Reference/04_Index_objects/01_pandas.Index.ipynb)  
+║░║░║░░░╚═2 [pandas.Index.dtype](https://pandas.pydata.org/docs/reference/api/pandas.Index.dtype.html) : [example](08_Pandas/01_documentation_API_Reference/04_Index_objects/01_pandas.Index.ipynb)  
 ║░║░╚═5 [General utility functions](https://pandas.pydata.org/pandas-docs/stable/reference/general_utility_functions.html)  
-║░║░░░╚═1 [Working with options](https://pandas.pydata.org/pandas-docs/stable/reference/general_utility_functions.html#working-with-options) / [tmporarily use option : option_context()](08_Pandas/01_documentation_API_Reference/15_General_utility_functions/01_Working_with_options/01_option_context.ipynb)  
+║░║░░░╚═1 [Working with options](https://pandas.pydata.org/pandas-docs/stable/reference/general_utility_functions.html#working-with-options) : [example : tmporarily use option_context()](08_Pandas/01_documentation_API_Reference/05_General_utility_functions/01_Working_with_options/01_option_context.ipynb)  
 ║░╚═2 Tutorial  
 ║░░░╠═1 [Series : Create](08_Pandas/02_Tutorial/01_Series_Create.ipynb)  
 ║░░░╠═2 [DataFrame : Create](08_Pandas/02_Tutorial/02_DataFrame_Create.ipynb)  
