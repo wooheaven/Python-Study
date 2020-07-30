@@ -46,8 +46,8 @@ class Sync():
 
     def find_with_md5sum(self, path_dict):
         cmd = 'find ' + path_dict['common_root_folder']
-        cmd += ' -type f'
-        cmd += ' -name ' + path_dict['reference_file']
+        cmd += ' -type d ! -perm -g+r,u+r,o+r -prune -o'
+        cmd += ' -type f -name ' + path_dict['reference_file']
         cmd += ' -exec md5sum {} \\;'
         print('\n' + cmd)
         md5sum_list = subprocess.check_output(
@@ -57,8 +57,8 @@ class Sync():
 
     def find_with_rsync(self, path_dict):
         cmd = 'find ' + path_dict['common_root_folder']
-        cmd += ' -type f'
-        cmd += ' -name ' + path_dict['reference_file']
+        cmd += ' -type d ! -perm -g+r,u+r,o+r -prune -o'
+        cmd += ' -type f -name ' + path_dict['reference_file']
         cmd += ' ! -path ' + path_dict['reference_path']
         cmd += ' -exec rsync ' + path_dict['reference_path'] + ' {} \\;'
         print(cmd)
