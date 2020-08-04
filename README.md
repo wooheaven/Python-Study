@@ -152,8 +152,11 @@
 ║░║░║░╚═2 [SQL](https://pandas.pydata.org/pandas-docs/stable/reference/io.html#sql)  
 ║░║░║░░░╚═1 [read_sql](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_sql.html#pandas.read_sql) : [example](08_Pandas/01_documentation_API_Reference/01_Input_Output/02_SQL/01_read_sql.md)  
 ║░║░╠═2 [General functions](https://pandas.pydata.org/docs/reference/general_functions.html)  
-║░║░║░╚═1 [Top-level dealing with datetimelike](https://pandas.pydata.org/docs/reference/general_functions.html#top-level-dealing-with-datetimelike)  
-║░║░║░░░╚═1 [to_datetime](https://pandas.pydata.org/docs/reference/api/pandas.to_datetime.html) : [example with pd.read_csv date_parser](08_Pandas/01_documentation_API_Reference/02_General_functions/01_pandas.to_datetime.ipynb)  
+║░║░║░╠═1 [Data manipulations](https://pandas.pydata.org/docs/reference/general_functions.html#data-manipulations)  
+║░║░║░║░╠═1 [melt](https://pandas.pydata.org/docs/reference/api/pandas.melt.html#pandas.melt) : [example with pd.melt](08_Pandas/01_documentation_API_Reference/02_General_functions/01_pandas.melt.ipynb)  
+║░║░║░║░╚═2 [pivot](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.pivot.html) : [example with pd.pivot](08_Pandas/01_documentation_API_Reference/02_General_functions/02_pandas.pivot.ipynb)  
+║░║░║░╚═2 [Top-level dealing with datetimelike](https://pandas.pydata.org/docs/reference/general_functions.html#top-level-dealing-with-datetimelike)  
+║░║░║░░░╚═1 [to_datetime](https://pandas.pydata.org/docs/reference/api/pandas.to_datetime.html) : [example with pd.read_csv date_parser](08_Pandas/01_documentation_API_Reference/02_General_functions/03_pandas.to_datetime.ipynb)  
 ║░║░╠═3 [DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/frame.html) / [Constructor DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html#pandas.DataFrame)  
 ║░║░║░╠═1 [pd.DataFrame : create df](08_Pandas/01_documentation_API_Reference/03_DataFrame/01_Constructor_DataFrame/01_pd.DataFrame_example.ipynb)  
 ║░║░║░╠═2 Attribues  
