@@ -16,6 +16,15 @@ eval "$(pyenv init -)"
 $ source ~/.bashrc
 ```
 
+# pre requirement
+```
+# Ubuntu/Debian
+$ sudo apt-get install -y build-essential libssl-dev zlib1g-dev libbz2-dev \
+libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
+xz-utils tk-dev libffi-dev liblzma-dev python-openssl git
+```
+[ref pyenv Github](https://github.com/pyenv/pyenv/wiki/Common-build-problems)  
+
 # use pyenv
 ```
 $ pyenv install -l | grep 3.7.7
