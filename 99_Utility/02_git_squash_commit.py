@@ -16,7 +16,7 @@ class Rename():
         cwd = os.getcwd()
         if cwd.endswith('99_Utility'):
             study_path = glob.glob(cwd + '/../')
-        elif cwd.endswith('-Study'):
+        elif cwd.endswith('-study'):
             study_path = glob.glob(cwd + '/')
         elif cwd.endswith('-work'):
             study_path = glob.glob(cwd + '/')

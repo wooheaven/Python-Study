@@ -16,7 +16,8 @@
 ║░║░╚═8 [pip install pip -upgrade](01_Python_Env_and_ETC/03_conda/08_pip_upgrade.md)  
 ║░╠═4 docker : [python3 jupyter by tensorflow official image](01_Python_Env_and_ETC/04_docker/tensorflow_image.md)  
 ║░╠═5 etc  
-║░║░╚═1 [Zen of Python](01_Python_Env_and_ETC/05_etc/02_Zen_of_Python_English_Korean.md)  
+║░║░╠═1 [monkey path on python](01_Python_Env_and_ETC/05_etc/01_monkey_patch_on_python.md)  
+║░║░╚═2 [Zen of Python](01_Python_Env_and_ETC/05_etc/02_Zen_of_Python_English_Korean.md)  
 ║░╠═6 ipython  
 ║░║░╚═1 [create profile with disable jedi](01_Python_Env_and_ETC/06_ipython/01_create_profile_with_disable_jedi.md)  
 ║░╠═7 jupyter  
