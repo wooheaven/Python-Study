@@ -1,1 +1,1 @@
-10_Python_Document/03_Library_Reference/06_Text_Processing_Services/01_re_example.ipynb -> 10_Python_Document/03_Library_Reference/07_Text_Processing_Services/01_re_example.ipynb
+04_packages/12_os/06_os.walk_of_folder.ipynb -> 10_Python_Document/03_Library_Reference/06_Generic_Operating_System_Services/02_os.walk_of_folder.ipynb
