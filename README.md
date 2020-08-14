@@ -78,17 +78,16 @@
 ║░║░╚═2 [argparse : sum](04_packages/01_argparse/sum.py)  
 ║░╠═2 [collections defaultdict : defaultdict in defaultdict](04_packages/02_collections/01_defaultdict/01_dictionary_in_dictionary.py)  
 ║░╠═3 [copy : shallow copy vs deep copy](04_packages/03_copy/01_shallow_copy_vs_deep_copy.ipynb)  
-║░╠═4 [datetime now() strftime](04_packages/04_datetime/01_datetime_now_strftime.py)  
-║░╠═5 [glob](https://docs.python.org/3/library/glob.html)  
+║░╠═4 [glob](https://docs.python.org/3/library/glob.html)  
 ║░║░╠═1 [find folder and file by pathname](04_packages/05_glob/01_find_folder_and_file_with_pathname.ipynb)  
 ║░║░╚═2 [find recursively](04_packages/05_glob/02_find_path_with_recursively.ipynb)  
-║░╠═6 [gzip : file write and read](04_packages/06_gzip/01_gzip_write_read.py)  
-║░╠═7 hashlib  
+║░╠═5 [gzip : file write and read](04_packages/06_gzip/01_gzip_write_read.py)  
+║░╠═6 hashlib  
 ║░║░╚═1 [md5 example](04_packages/07_hashlib/01_hashlib_md5.ipynb)  
-║░╠═8 ipywidgets  
+║░╠═7 ipywidgets  
 ║░║░╠═1 [Button example](04_packages/08_ipywidgets/01_Buttons/01_Button_example.ipynb)  
 ║░║░╚═2 [Widgets example](04_packages/08_ipywidgets/02_Widgets/01_Widgets_example.ipynb)   
-║░╠═9 matplotlib  
+║░╠═8 matplotlib  
 ║░║░╠═1 Tutorial  
 ║░║░║░╠═1 [line plot](04_packages/09_matplotlib/01_Tutorial/01_line_plot.ipynb)  
 ║░║░║░╠═2 [bar plot](04_packages/09_matplotlib/01_Tutorial/02_bar_plot.ipynb)  
@@ -98,8 +97,8 @@
 ║░║░╚═2 create and visualize data  
 ║░║░░░╠═1 Approximating to user defined equation Y = a + bX + cX^2 + dX^3 : [code](04_packages/09_matplotlib/02_create_and_visualize_data/01_approximating_to_user_defined_equation.py), [image](04_packages/09_matplotlib/02_create_and_visualize_data/02_user_defined_equation_scatter_plot.png)  
 ║░║░░░╚═2 Approximating K-Means : [code](04_packages/09_matplotlib/02_create_and_visualize_data/01_approximating_to_kmeans.py), [image](04_packages/09_matplotlib/02_create_and_visualize_data/02_kmean_scatter_plot.png)  
-║░╠═10 [no package : convert float to str with a fixed number of digits](04_packages/10_no_package/01_float_to_str_with_a_fixed_number_of_digits.ipynb)  
-║░╠═11 [Numpy](https://www.numpy.org/) / [Numpy Document](https://www.numpy.org/devdocs/)  
+║░╠═9 [no package : convert float to str with a fixed number of digits](04_packages/10_no_package/01_float_to_str_with_a_fixed_number_of_digits.ipynb)  
+║░╠═10 [Numpy](https://www.numpy.org/) / [Numpy Document](https://www.numpy.org/devdocs/)  
 ║░║░╠═1 [Numpy Reference](https://www.numpy.org/devdocs/reference/index.html)  
 ║░║░║░╚═1 [Routines](https://www.numpy.org/devdocs/reference/routines.html)  
 ║░║░║░░░╠═1 [Array creation routines](https://www.numpy.org/devdocs/reference/routines.array-creation.html)  
@@ -118,24 +117,24 @@
 ║░║░║░░░╚═6 [Sorting, searching, and counting](https://www.numpy.org/devdocs/reference/routines.sort.html)  
 ║░║░║░░░░░╚═1 [numpy.argmax](https://www.numpy.org/devdocs/reference/generated/numpy.argmax.html#numpy.argmax) / [example](04_packages/11_numpy/01_Numpy_Reference/01_Routines/06_Sorting_searching_counting/01_numpy_argmax.ipynb)  
 ║░║░╚═2 [ETC : array into fair divided and combiled array of array](04_packages/11_numpy/02_ETC/01_array_to_fair_divided_matrix.ipynb)  
-║░╠═12 os  
+║░╠═11 os  
 ║░║░╠═1 [os.chmod : file](04_packages/12_os/01_os.chmod_of_file.ipynb)  
 ║░║░╠═2 [os.path.exists : file and folder](04_packages/12_os/02_os.path.exists_of_file_and_folder.ipynb)  
 ║░║░╠═3 [os.path.isdir : folder](04_packages/12_os/03_os.path.isdir_of_folder.ipynb)  
 ║░║░╠═4 [os.path.isfile : file](04_packages/12_os/04_os.path.isfile_of_file.ipynb)  
 ║░║░╚═5 [os.remove : file](04_packages/12_os/05_os.remove_of_file.ipynb)  
-║░╠═13 [perfplot : map funcs over numpy array for sqrt](04_packages/13_perfplot/01_perfplot_map_func_over_numpy_array_for_sqrt.ipynb)  
-║░╠═14 [psycopg2 : string sql replace by dict](04_packages/14_psycopg2/01_replace_string_with_dictionary.py)  
-║░╠═15 pyautogui  
+║░╠═12 [perfplot : map funcs over numpy array for sqrt](04_packages/13_perfplot/01_perfplot_map_func_over_numpy_array_for_sqrt.ipynb)  
+║░╠═13 [psycopg2 : string sql replace by dict](04_packages/14_psycopg2/01_replace_string_with_dictionary.py)  
+║░╠═14 pyautogui  
 ║░║░╠═1 [HandBrake GUI example](04_packages/15_pyautogui/01_HandBrake_GUI_example.py)  
 ║░║░╚═2 [keyboard macro](04_packages/15_pyautogui/02_Keyboard_macro_example.py)  
-║░╠═16 shutil  
+║░╠═15 shutil  
 ║░║░╠═1 [shutil.copy : file](04_packages/16_shutil/01_shutil.copy_of_file.ipynb)  
 ║░║░╠═2 [shutil.copytree : folder](04_packages/16_shutil/02_shutil.copytree_of_folder.ipynb)  
 ║░║░╠═3 [shutil.move : file and folder](04_packages/16_shutil/03_shutil.move_of_file_and_folder.ipynb)  
 ║░║░╚═4 [shutil.rmtree : folder](04_packages/16_shutil/04_shutil.rmtree_of_folder.ipynb)  
-║░╠═17 [sys : sys.stdout.write with string.format(variable)](04_packages/17_sys/01_sys_stdout_write_with_string_format.py)  
-║░╚═18 [time : sleep](04_packages/18_time/01_sleep.md)  
+║░╠═16 [sys : sys.stdout.write with string.format(variable)](04_packages/17_sys/01_sys_stdout_write_with_string_format.py)  
+║░╚═17 [time : sleep](04_packages/18_time/01_sleep.md)  
 ╠═5 [Django Girls Tutorial](05_Django/01_Django_Girls_Tutorial/memo.md)  
 ╠═6 Matrix Profile  
 ║░╠═1 [Tutorial with fake data : sin signal data](06_MatrixProfile/02_matrixprofile-ts/01_Matrix_Profile_Tutorial.ipynb)  
@@ -229,8 +228,14 @@
 ║░║░║░╚═1 [gzip](https://docs.python.org/3/library/gzip.html)  
 ║░║░║░░░╚═1 [gzip example : binary <-> gz, txt <-> gz](10_Python_Document/03_Library_Reference/03_Data_Compression_and_Archiving/01_gzip_example.ipynb)  
 ║░║░╠═4 [Data Types](https://docs.python.org/3/library/datatypes.html)  
-║░║░║░╚═1 [calendar](https://docs.python.org/3/library/calendar.html)  
-║░║░║░░░╚═1 [calendar.monthrange](https://docs.python.org/3/library/calendar.html#calendar.monthrange) : example [get weekdays of first day of month, last day of month](10_Python_Document/03_Library_Reference/04_Data_Types/01_calendar.monthrange.ipynb)  
+║░║░║░╠═1 [calendar](https://docs.python.org/3/library/calendar.html)  
+║░║░║░║░╚═1 [calendar.monthrange](https://docs.python.org/3/library/calendar.html#calendar.monthrange) : example [get weekdays of first day of month, last day of month](10_Python_Document/03_Library_Reference/04_Data_Types/01_calendar.monthrange.ipynb)  
+║░║░║░╚═2 [datetime](https://docs.python.org/3/library/datetime.html)  
+║░║░║░░░╠═1 [datetime.datetime.now()](https://docs.python.org/3/library/datetime.html#datetime.datetime.now), example : [current local date and time](10_Python_Document/03_Library_Reference/04_Data_Types/02_datetime/01_datetime.datetime.now.ipynb)  
+║░║░║░░░╠═2 [datetime.datetime.strftime()](https://docs.python.org/3/library/datetime.html#datetime.datetime.strftime) : example [datetime to string](10_Python_Document/03_Library_Reference/04_Data_Types/02_datetime/02_datetime.datetime.strftime.ipynb)  
+║░║░║░░░╠═3 [datetime.datetime.strftime() strptime() format](https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes)  
+║░║░║░░░╠═4 [datetime.datetime.strptime()](https://docs.python.org/3/library/datetime.html#datetime.datetime.strptime) : example [string to datetime](10_Python_Document/03_Library_Reference/04_Data_Types/02_datetime/03_datetime.datetime.strptime.ipynb)  
+║░║░║░░░╚═5 [datetime.datetime.timedelta()](https://docs.python.org/3/library/datetime.html#datetime.datetime.timedelta) : example [difference between datetime](10_Python_Document/03_Library_Reference/04_Data_Types/02_datetime/04.datetime.datetime.timedelta.ipynb)  
 ║░║░╠═5 [Functional Programming Modules](https://docs.python.org/3/library/functional.html)  
 ║░║░║░╚═1 [Standard operators as functions](https://docs.python.org/3/library/operator.html)  
 ║░║░║░░░╚═1 [string : operator is and ==](10_Python_Document/03_Library_Reference/03_Functional_Programming_Modules/01_Standard_operators_as_functions/01_operator_is_equal_on_string_example.ipynb)  
