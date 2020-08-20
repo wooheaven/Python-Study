@@ -1,1 +1,1 @@
-04_packages/04_datetime/01_datetime_now_strftime.py -> 10_Python_Document/03_Library_Reference/04_Data_Types/02_datetime/01_datetime_now_strftime.py
+08_Pandas/01_documentation_API_Reference/03_DataFrame/01_Constructor_DataFrame/03_Methods/01_apply/01_df.apply.ipynb -> 08_Pandas/01_documentation_API_Reference/03_DataFrame/01_Constructor_DataFrame/03_Methods/01_apply/02_df.apply_to_get_min_idxmin.ipynb
