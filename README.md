@@ -115,7 +115,8 @@
 ║░║░║░░░║░░░╠═1 [normal](https://www.numpy.org/devdocs/reference/random/generated/numpy.random.Generator.normal.html#numpy.random.Generator.normal) / [example : Draw random samples from a normal (Gaussian) distribution](04_packages/11_numpy/01_Numpy_Reference/01_Routines/05_Random_sampling/01_Random_Generator/01_np.random.Generator.normal.ipynb)  
 ║░║░║░░░║░░░╚═2 [uniform](https://www.numpy.org/devdocs/reference/random/generated/numpy.random.Generator.uniform.html#numpy.random.Generator.uniform) / [example : Draw samples from a uniform distribution](04_packages/11_numpy/01_Numpy_Reference/01_Routines/05_Random_sampling/01_Random_Generator/02_np.random.Generator.uniform.ipynb)  
 ║░║░║░░░╚═6 [Sorting, searching, and counting](https://www.numpy.org/devdocs/reference/routines.sort.html)  
-║░║░║░░░░░╚═1 [numpy.argmax](https://www.numpy.org/devdocs/reference/generated/numpy.argmax.html#numpy.argmax) / [example](04_packages/11_numpy/01_Numpy_Reference/01_Routines/06_Sorting_searching_counting/01_numpy_argmax.ipynb)  
+║░║░║░░░░░╠═1 [numpy.argmax](https://www.numpy.org/devdocs/reference/generated/numpy.argmax.html#numpy.argmax) / [example](04_packages/11_numpy/01_Numpy_Reference/01_Routines/06_Sorting_searching_counting/01_numpy_argmax.ipynb)  
+║░║░║░░░░░╚═2 [numpy.argmin](https://numpy.org/doc/stable/reference/generated/numpy.argmin.html) / [example](04_packages/11_numpy/01_Numpy_Reference/01_Routines/06_Sorting_searching_counting/02_numpy_argmin.ipynb)  
 ║░║░╚═2 [ETC : array into fair divided and combiled array of array](04_packages/11_numpy/02_ETC/01_array_to_fair_divided_matrix.ipynb)  
 ║░╠═11 os  
 ║░║░╠═1 [os.chmod : file](04_packages/12_os/01_os.chmod_of_file.ipynb)  
