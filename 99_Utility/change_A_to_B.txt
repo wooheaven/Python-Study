@@ -1,1 +1,3 @@
-08_Pandas/01_documentation_API_Reference/03_DataFrame/01_Constructor_DataFrame/03_Methods/01_apply/01_df.apply.ipynb -> 08_Pandas/01_documentation_API_Reference/03_DataFrame/01_Constructor_DataFrame/03_Methods/01_apply/02_df.apply_to_get_min_idxmin.ipynb
+08_Pandas/01_documentation_API_Reference/03_DataFrame/01_Constructor_DataFrame/03_Methods/10_squeeze/01_df.squeeze.ipynb -> 08_Pandas/01_documentation_API_Reference/03_DataFrame/01_Constructor_DataFrame/03_Methods/11_squeeze/01_df.squeeze.ipynb
+08_Pandas/01_documentation_API_Reference/03_DataFrame/01_Constructor_DataFrame/03_Methods/11_sum/01_df.sum.ipynb -> 08_Pandas/01_documentation_API_Reference/03_DataFrame/01_Constructor_DataFrame/03_Methods/12_sum/01_df.sum.ipynb
+08_Pandas/01_documentation_API_Reference/03_DataFrame/01_Constructor_DataFrame/03_Methods/12_to_numpy/01_df.to_numpy.ipynb -> 08_Pandas/01_documentation_API_Reference/03_DataFrame/01_Constructor_DataFrame/03_Methods/13_to_numpy/01_df.to_numpy.ipynb
