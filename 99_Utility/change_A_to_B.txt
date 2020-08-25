@@ -1,3 +1,8 @@
-08_Pandas/01_documentation_API_Reference/03_DataFrame/01_Constructor_DataFrame/03_Methods/10_squeeze/01_df.squeeze.ipynb -> 08_Pandas/01_documentation_API_Reference/03_DataFrame/01_Constructor_DataFrame/03_Methods/11_squeeze/01_df.squeeze.ipynb
-08_Pandas/01_documentation_API_Reference/03_DataFrame/01_Constructor_DataFrame/03_Methods/11_sum/01_df.sum.ipynb -> 08_Pandas/01_documentation_API_Reference/03_DataFrame/01_Constructor_DataFrame/03_Methods/12_sum/01_df.sum.ipynb
-08_Pandas/01_documentation_API_Reference/03_DataFrame/01_Constructor_DataFrame/03_Methods/12_to_numpy/01_df.to_numpy.ipynb -> 08_Pandas/01_documentation_API_Reference/03_DataFrame/01_Constructor_DataFrame/03_Methods/13_to_numpy/01_df.to_numpy.ipynb
+04_packages/13_perfplot/01_perfplot_map_func_over_numpy_array_for_sqrt.ipynb -> 04_packages/12_perfplot/01_perfplot_map_func_over_numpy_array_for_sqrt.ipynb
+04_packages/14_psycopg2/01_replace_string_with_dictionary.py -> 04_packages/13_psycopg2/01_replace_string_with_dictionary.py
+04_packages/15_pyautogui/01_HandBrake_GUI_example.py -> 04_packages/14_pyautogui/01_HandBrake_GUI_example.py
+04_packages/15_pyautogui/02_Keyboard_macro_example.py -> 04_packages/14_pyautogui/02_Keyboard_macro_example.py
+04_packages/16_shutil/01_shutil.copy_of_file.ipynb -> 04_packages/15_shutil/01_shutil.copy_of_file.ipynb
+04_packages/16_shutil/02_shutil.copytree_of_folder.ipynb -> 04_packages/15_shutil/02_shutil.copytree_of_folder.ipynb
+04_packages/16_shutil/03_shutil.move_of_file_and_folder.ipynb -> 04_packages/15_shutil/03_shutil.move_of_file_and_folder.ipynb
+04_packages/16_shutil/04_shutil.rmtree_of_folder.ipynb -> 04_packages/15_shutil/04_shutil.rmtree_of_folder.ipynb
