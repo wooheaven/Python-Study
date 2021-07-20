@@ -18,6 +18,8 @@ class Rename():
             study_path = glob.glob(cwd + '/../')
         elif cwd.endswith('-study'):
             study_path = glob.glob(cwd + '/')
+        elif cwd.endswith('-Study'):
+            study_path = glob.glob(cwd + '/')
         elif cwd.endswith('-work'):
             study_path = glob.glob(cwd + '/')
         else:
