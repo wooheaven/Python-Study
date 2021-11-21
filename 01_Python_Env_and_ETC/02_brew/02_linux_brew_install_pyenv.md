@@ -61,3 +61,35 @@ Already downloaded: /home/bigdata/.cache/Homebrew/downloads/f15c19dac959687a1fd7
 
 $ pyenv uninstall 3.7.7
 ```
+# Before pyenv local
+```
+woo@woo:~/Documents/02_Python_WorkSpace/Python-Study$ pyenv local
+pyenv: no local version configured for this directory
+
+woo@woo:~/Documents/02_Python_WorkSpace/Python-Study$ python -V
+Python 2.7.17
+
+woo@woo:~/Documents/02_Python_WorkSpace/Python-Study$ cat .python-version 
+cat: .python-version: No such file or directory
+```
+
+# After pyenv local
+```
+woo@woo:~/Documents/02_Python_WorkSpace/Python-Study$ pyenv local Python-Study
+(Python-Study) 
+
+(Python-Study) woo@woo:~/Documents/02_Python_WorkSpace/Python-Study$ python -V
+Python 3.9.7
+
+(Python-Study) woo@woo:~/Documents/02_Python_WorkSpace/Python-Study$ cat .python-version 
+Python-Study
+
+woo@woo:~/Documents/02_Python_WorkSpace/Python-Study$ pyenv local
+Python-Study
+```
+
+# unset pyenv local
+```
+(Python-Study) woo@woo:~/Documents/02_Python_WorkSpace/Python-Study$ pyenv local --unset 
+woo@woo:~/Documents/02_Python_WorkSpace/Python-Study$ 
+```
