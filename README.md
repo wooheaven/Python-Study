@@ -140,7 +140,8 @@
 ║░║░╚═2 [Preprocessing MinmaxScaler](04_packages/17_sklearn/02_MinMax_Scaler.ipynb)  
 ║░╠═18 [sys : sys.stdout.write with string.format(variable)](04_packages/18_sys/01_sys_stdout_write_with_string_format.py)  
 ║░╚═19 [time : sleep](04_packages/19_time/01_sleep.md)  
-╠═5 [Django Girls Tutorial](05_Django/01_Django_Girls_Tutorial/memo.md)  
+╠═5 Django  
+║░╚═1 [Jump to Django on Wiki Docs](05_Django/01_WikiDocs_Jump_to_Django)  
 ╠═6 Matrix Profile  
 ║░╠═1 [Tutorial with fake data : sin signal data](06_MatrixProfile/02_matrixprofile-ts/01_Matrix_Profile_Tutorial.ipynb)  
 ║░╠═2 [Tutorial with real data : Kaggle Dataset NAB NYC Taxi](06_MatrixProfile/02_matrixprofile-ts/02_Matrix_Profile_NYC_Taxi.ipynb)  
