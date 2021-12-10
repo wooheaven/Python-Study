@@ -28,7 +28,7 @@ xz-utils tk-dev libffi-dev liblzma-dev python-openssl git
 ```
 [ref pyenv Github](https://github.com/pyenv/pyenv/wiki/Common-build-problems)  
 
-# use pyenv
+# pyenv install
 ```
 $ pyenv install -l | grep 3.7.7
   3.7.7
@@ -44,6 +44,18 @@ pyenv: remove /home/bigdata/.pyenv/versions/3.7.7? y
 
 $ brew uninstall --ignore-dependencies readline
 Uninstalling /home/linuxbrew/.linuxbrew/Cellar/readline/8.0.4... (53 files, 1.9MB)
+
+$ brew uninstall --ignore-dependencies libffi
+Uninstalling /home/linuxbrew/.linuxbrew/Cellar/libffi/3.4.2... (18 files, 665.8KB)
+libffi 3.3_3 is still installed.
+To remove all versions, run:
+  brew uninstall --force libffi
+
+$ brew uninstall --force libffi
+Uninstalling libffi... (18 files, 575.8KB)
+
+# use ubuntu's libffi because brew's libffi error [ModuleNotFoundError: No module named '_ctypes']
+$ sudo apt-get install libffi-dev
 
 $ pyenv install 3.7.7
 Installing Python-3.7.7...
