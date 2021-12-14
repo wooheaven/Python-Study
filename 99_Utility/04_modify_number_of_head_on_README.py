@@ -1,7 +1,6 @@
-import os
-import glob
-import re
-import argparse
+import os, glob, re, sys, argparse, io
+sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding='utf-8')
+sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding='utf-8')
 
 
 class Rename():
@@ -13,7 +12,7 @@ class Rename():
 
     def do(self):
         # find READMD.md
-        cwd = os.getcwd()
+        cwd = os.getcwd().replace('\\', '/')
         if cwd.endswith('99_Utility'):
             readme_path = glob.glob(cwd + '/../README.md')
         elif cwd.endswith('-Study'):
@@ -23,7 +22,7 @@ class Rename():
             raise NameError("Can't find README.md")
 
         # read lines
-        with open(file=readme_path[0], mode='r') as f_in:
+        with open(file=readme_path[0], mode='r', encoding='utf-8') as f_in:
             lines = f_in.read().splitlines()
 
         # create head_numbers by read lines from start_num to end_num
@@ -75,7 +74,7 @@ class Rename():
 
         # save lines
         print('\nSave lines')
-        with open(file=readme_path[0], mode='w') as fw:
+        with open(file=readme_path[0], mode='w', encoding='utf-8') as fw:
             for line in lines:
                 fw.write("%s\n" % line)
 
