@@ -13,6 +13,7 @@ class Rename():
     def do(self):
         # find glob_list for path
         glob_list = glob.glob(self.path + '/*/')
+        glob_list = self.path_to_unix(glob_list)
 
         # find folder_list for glob_list
         folder_list = list()
@@ -66,6 +67,13 @@ class Rename():
         now_name = now_name.replace('/', '', 1)
         now_name = now_name[0:now_name.index('/')]
         return now_name[::-1]
+
+    def path_to_unix(self, path_list):
+        for my_idx, my_path_str in enumerate(path_list):
+            if '\\' in my_path_str:
+                my_path_str_tmp = my_path_str.replace('\\', '/')
+                path_list[my_idx] = my_path_str_tmp
+        return path_list
 
 
 if __name__ == "__main__":
