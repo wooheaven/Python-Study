@@ -13,7 +13,7 @@ class Rename():
 
     def do(self):
         # 1st find *-Study/ folder
-        cwd = os.getcwd()
+        cwd = os.getcwd().replace('\\', '/')
         if cwd.endswith('99_Utility'):
             study_path = glob.glob(cwd + '/../')
         elif cwd.endswith('-study'):
@@ -28,8 +28,7 @@ class Rename():
         print(study_path[0])
 
         # 2nd git log -n 2
-        cmd = "cd " + study_path[0]
-        cmd += " && /home/linuxbrew/.linuxbrew/bin/"
+        cmd = "cd " + study_path[0] + " && "
         cmd += "git log -n " + str(self.commit_num) + " "
         cmd += "--format=\"%p,%h,%s\" | awk 'BEGIN{FS=\" ```\"; OFS=\",\"} {print $1}'"
         update_str = subprocess.check_output(args=cmd, universal_newlines=True, shell=True)
@@ -72,7 +71,7 @@ class Rename():
         # 7th git reset --soft HEAD^ & git status
         print('\n# 7th git reset --soft HEAD^ && git status')
         cmd = "cd " + study_path[0]
-        cmd += " && /home/linuxbrew/.linuxbrew/bin/git reset --soft HEAD^ && /home/linuxbrew/.linuxbrew/bin/git status"
+        cmd += " && git reset --soft HEAD^ && git status"
         for i in range(self.commit_num):
             update_str = subprocess.check_output(args=cmd, universal_newlines=True, shell=True)
             print('# 7th ' + str(i + 1) + ' : git reset --soft HEAD^ && git status')
