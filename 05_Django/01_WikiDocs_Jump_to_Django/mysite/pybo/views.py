@@ -1,13 +1,23 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.utils import timezone
+from django.core.paginator import Paginator
 
 from .forms import QuestionForm, AnswerForm
 from .models import Question, Answer
 
 
 def index(request):
+    # 입력 파라미터
+    page = request.GET.get('page', '1')  # 페이지
+
+    # 조회
     question_list = Question.objects.order_by('-create_date')
-    context = {'question_list': question_list}
+
+    # 페이징처리
+    paginator = Paginator(object_list=question_list, per_page=10)  # 페이지당 10개씩 보여주기
+    page_obj = paginator.get_page(page)
+
+    context = {'question_list': page_obj}
     return render(request, 'pybo/question_list.html', context)
 
 
@@ -28,12 +38,8 @@ def answer_create(request, question_id):
             answer.save()
             return redirect('pybo:detail', question_id=question.id)
     else:
-       form = AnswerForm()
+        form = AnswerForm()
     context = {'question': question, 'form': form}
-    # question.answer_set.create(content=request.POST.get('content'), create_date=timezone.now())
-    # answer = Answer(question=question, content=request.POST.get('content'), create_date=timezone.now())
-    # answer.save()
-    # return redirect('pybo:detail', question_id=question_id)
     return render(request, 'pybo/question_detail.html', context)
 
 
