@@ -30,8 +30,9 @@
 ║░║░╚═7 [toggle scrolling of current cell](01_Python_Env_and_ETC/07_jupyter/07_toggle_scrolling_of_current_cell.md)  
 ║░╚═8 pip  
 ║░░░╠═1 [pip3 install glob](01_Python_Env_and_ETC/08_pip/01_pip3_install_glob3.md)  
-║░░░╠═2 [pip3 install pillow](01_Python_Env_and_ETC/08_pip/02_pip3_install_pillow.md)  
-║░░░╚═3 [pip3 install pyautogui](01_Python_Env_and_ETC/08_pip/03_pip3_install_pyautogui_python3_xlib.md)  
+║░░░╠═2 [pip3 install offline](01_Python_Env_and_ETC/08_pip/02_pip3_install_offline.md)  
+║░░░╠═3 [pip3 install pillow](01_Python_Env_and_ETC/08_pip/03_pip3_install_pillow.md)  
+║░░░╚═4 [pip3 install pyautogui](01_Python_Env_and_ETC/08_pip/04_pip3_install_pyautogui_python3_xlib.md)  
 ╠═2 [밑바닥부터 시작하는 데이터 과학] 책  
 ║░╠═1장 들어가기  
 ║░║░╠═07 [string](02_밑바닥부터_시작하는_데이터_과학/1장__들어가기/02.01.07__string.md)  
