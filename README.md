@@ -1,38 +1,40 @@
 ╠═1 Python_Env_and_ETC  
-║░╠═1 PyCharm  
-║░║░╚═1 [Warning Unresolved reference warning](01_Python_Env_and_ETC/01_PyCharm/01_unresolved_reference_warning.md)  
-║░╠═2 brew  
-║░║░╠═1 linux brew install [python3](01_Python_Env_and_ETC/02_brew/04_linux_brew_install_python3.md) [pyenv](01_Python_Env_and_ETC/02_brew/02_linux_brew_install_pyenv.md) [pyenv-virtualenv](01_Python_Env_and_ETC/02_brew/03_linux_brew_install_pyenv-virtualenv.md) [autoenv](01_Python_Env_and_ETC/02_brew/01_linux_brew_install_autoenv.md)  
-║░║░╠═2 mac brew install [pyenv](01_Python_Env_and_ETC/02_brew/06_mac_brew_install_pyenv.md) [pyenv-virtualenv](01_Python_Env_and_ETC/02_brew/07_mac_brew_install_pyenv-virtualenv.md) [autoenv](01_Python_Env_and_ETC/02_brew/05_mac_brew_install_autoenv.md)  
-║░║░╚═3 [mac brew python3.7 : debugging error with multiprocessing](01_Python_Env_and_ETC/02_brew/08_mac_brew_python3.7_venv_multiprocessing_error.md)  
-║░╠═3 conda  
-║░║░╠═1 [install anaconda on linux](01_Python_Env_and_ETC/03_conda/01_Install_anaconda_on_linux.md)  
-║░║░╠═2 [install mini conda on mac](01_Python_Env_and_ETC/03_conda/02_Install_miniconda_on_mac.md)  
-║░║░╠═3 [create envs](01_Python_Env_and_ETC/03_conda/03_conda_create_envs.md)  
-║░║░╠═4 [upgrade python on env](01_Python_Env_and_ETC/03_conda/04_conda_env_upgrade_python.md)  
-║░║░╠═5 [remove envs](01_Python_Env_and_ETC/03_conda/05_conda_remove_envs.md)  
-║░║░╠═6 [pip install package](01_Python_Env_and_ETC/03_conda/06_pip_install_package.md)  
-║░║░╠═7 [pip install package -upgrade](01_Python_Env_and_ETC/03_conda/07_pip_install_package_upgrade.md)  
-║░║░╚═8 [pip install pip -upgrade](01_Python_Env_and_ETC/03_conda/08_pip_upgrade.md)  
-║░╠═4 docker : [python3 jupyter by tensorflow official image](01_Python_Env_and_ETC/04_docker/tensorflow_image.md)  
-║░╠═5 etc  
-║░║░╠═1 [monkey path on python](01_Python_Env_and_ETC/05_etc/01_monkey_patch_on_python.md)  
-║░║░╚═2 [Zen of Python](01_Python_Env_and_ETC/05_etc/02_Zen_of_Python_English_Korean.md)  
-║░╠═6 ipython  
-║░║░╚═1 [create profile with disable jedi](01_Python_Env_and_ETC/06_ipython/01_create_profile_with_disable_jedi.md)  
-║░╠═7 jupyter  
-║░║░╠═1 [change font](01_Python_Env_and_ETC/07_jupyter/01_change_font.md)  
-║░║░╠═2 [convert jupyter notebook to markdown](01_Python_Env_and_ETC/07_jupyter/02_convert_jupyter_notebook_to_markdown.md)  
-║░║░╠═3 [jupyter kernel ipython --profile](01_Python_Env_and_ETC/07_jupyter/03_jupyter_kernel_ipython_profile.md)  
-║░║░╠═4 [set password by manually](01_Python_Env_and_ETC/07_jupyter/04_jupyter_notebook_passwd.md)  
-║░║░╠═5 [short cuts for jupyter](01_Python_Env_and_ETC/07_jupyter/05_jupyter_notebook_shortcuts.md)  
-║░║░╠═6 [move cell up](01_Python_Env_and_ETC/07_jupyter/06_move_cell_up.md)  
-║░║░╚═7 [toggle scrolling of current cell](01_Python_Env_and_ETC/07_jupyter/07_toggle_scrolling_of_current_cell.md)  
-║░╚═8 pip  
-║░░░╠═1 [pip3 install glob](01_Python_Env_and_ETC/08_pip/01_pip3_install_glob3.md)  
-║░░░╠═2 [pip3 install offline](01_Python_Env_and_ETC/08_pip/02_pip3_install_offline.md)  
-║░░░╠═3 [pip3 install pillow](01_Python_Env_and_ETC/08_pip/03_pip3_install_pillow.md)  
-║░░░╚═4 [pip3 install pyautogui](01_Python_Env_and_ETC/08_pip/04_pip3_install_pyautogui_python3_xlib.md)  
+║░╠═1 brew  
+║░║░╠═1 linux brew install [python3](01_Python_Env_and_ETC/01_brew/04_linux_brew_install_python3.md) [pyenv](01_Python_Env_and_ETC/01_brew/02_linux_brew_install_pyenv.md) [pyenv-virtualenv](01_Python_Env_and_ETC/01_brew/03_linux_brew_install_pyenv-virtualenv.md) [autoenv](01_Python_Env_and_ETC/01_brew/01_linux_brew_install_autoenv.md)  
+║░║░╠═2 mac brew install [pyenv](01_Python_Env_and_ETC/01_brew/06_mac_brew_install_pyenv.md) [pyenv-virtualenv](01_Python_Env_and_ETC/01_brew/07_mac_brew_install_pyenv-virtualenv.md) [autoenv](01_Python_Env_and_ETC/01_brew/05_mac_brew_install_autoenv.md)  
+║░║░╚═3 [mac brew python3.7 : debugging error with multiprocessing](01_Python_Env_and_ETC/01_brew/08_mac_brew_python3.7_venv_multiprocessing_error.md)  
+║░╠═2 conda  
+║░║░╠═1 [install anaconda on linux](01_Python_Env_and_ETC/02_conda/01_Install_anaconda_on_linux.md)  
+║░║░╠═2 [install mini conda on mac](01_Python_Env_and_ETC/02_conda/02_Install_miniconda_on_mac.md)  
+║░║░╠═3 [create envs](01_Python_Env_and_ETC/02_conda/03_conda_create_envs.md)  
+║░║░╠═4 [upgrade python on env](01_Python_Env_and_ETC/02_conda/04_conda_env_upgrade_python.md)  
+║░║░╠═5 [remove envs](01_Python_Env_and_ETC/02_conda/05_conda_remove_envs.md)  
+║░║░╠═6 [pip install package](01_Python_Env_and_ETC/02_conda/06_pip_install_package.md)  
+║░║░╠═7 [pip install package -upgrade](01_Python_Env_and_ETC/02_conda/07_pip_install_package_upgrade.md)  
+║░║░╚═8 [pip install pip -upgrade](01_Python_Env_and_ETC/02_conda/08_pip_upgrade.md)  
+║░╠═3 docker : [python3 jupyter by tensorflow official image](01_Python_Env_and_ETC/03_docker/tensorflow_image.md)  
+║░╠═4 etc  
+║░║░╠═1 [monkey path on python](01_Python_Env_and_ETC/04_etc/01_monkey_patch_on_python.md)  
+║░║░╚═2 [Zen of Python](01_Python_Env_and_ETC/04_etc/02_Zen_of_Python_English_Korean.md)  
+║░╠═5 ipython  
+║░║░╚═1 [create profile with disable jedi](01_Python_Env_and_ETC/05_ipython/01_create_profile_with_disable_jedi.md)  
+║░╠═6 jupyter  
+║░║░╠═1 [change font](01_Python_Env_and_ETC/06_jupyter/01_change_font.md)  
+║░║░╠═2 [convert jupyter notebook to markdown](01_Python_Env_and_ETC/06_jupyter/02_convert_jupyter_notebook_to_markdown.md)  
+║░║░╠═3 [jupyter kernel ipython --profile](01_Python_Env_and_ETC/06_jupyter/03_jupyter_kernel_ipython_profile.md)  
+║░║░╠═4 [set password by manually](01_Python_Env_and_ETC/06_jupyter/04_jupyter_notebook_passwd.md)  
+║░║░╠═5 [short cuts for jupyter](01_Python_Env_and_ETC/06_jupyter/05_jupyter_notebook_shortcuts.md)  
+║░║░╠═6 [move cell up](01_Python_Env_and_ETC/06_jupyter/06_move_cell_up.md)  
+║░║░╚═7 [toggle scrolling of current cell](01_Python_Env_and_ETC/06_jupyter/07_toggle_scrolling_of_current_cell.md)  
+║░╠═7 pip  
+║░║░╠═1 [pip3 install glob](01_Python_Env_and_ETC/07_pip/01_pip3_install_glob3.md)  
+║░║░╠═2 [pip3 install offline](01_Python_Env_and_ETC/07_pip/02_pip3_install_offline.md)  
+║░║░╠═3 [pip3 install pillow](01_Python_Env_and_ETC/07_pip/03_pip3_install_pillow.md)  
+║░║░╚═4 [pip3 install pyautogui](01_Python_Env_and_ETC/07_pip/04_pip3_install_pyautogui_python3_xlib.md)  
+║░╠═8 PyCharm  
+║░║░╚═1 [Warning Unresolved reference warning](01_Python_Env_and_ETC/08_PyCharm/01_unresolved_reference_warning.md)  
+║░╚═9 Visual Studio Code  
+║░░░╚═1 [Remote Server Debugging](01_Python_Env_and_ETC/09_VSC/01_enable_remote_debug.md)  
 ╠═2 [밑바닥부터 시작하는 데이터 과학] 책  
 ║░╠═1장 들어가기  
 ║░║░╠═07 [string](02_밑바닥부터_시작하는_데이터_과학/1장__들어가기/02.01.07__string.md)  
