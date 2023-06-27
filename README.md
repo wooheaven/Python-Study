@@ -27,10 +27,9 @@
 ║░║░╠═6 [move cell up](01_Python_Env_and_ETC/06_jupyter/06_move_cell_up.md)  
 ║░║░╚═7 [toggle scrolling of current cell](01_Python_Env_and_ETC/06_jupyter/07_toggle_scrolling_of_current_cell.md)  
 ║░╠═7 pip  
-║░║░╠═1 [pip3 install glob](01_Python_Env_and_ETC/07_pip/01_pip3_install_glob3.md)  
-║░║░╠═2 [pip3 install offline](01_Python_Env_and_ETC/07_pip/02_pip3_install_offline.md)  
-║░║░╠═3 [pip3 install pillow](01_Python_Env_and_ETC/07_pip/03_pip3_install_pillow.md)  
-║░║░╚═4 [pip3 install pyautogui](01_Python_Env_and_ETC/07_pip/04_pip3_install_pyautogui_python3_xlib.md)  
+║░║░╠═1 pip install [package](01_Python_Env_and_ETC/07_pip/01_pip3_install_glob3.md) # online  
+║░║░╠═2 pip install [package](01_Python_Env_and_ETC/07_pip/02_pip3_install_offline.md) # offline  
+║░║░╚═3 pip install [xgboost==0.90](01_Python_Env_and_ETC/07_pip/03_pip_install_xgboost_version.md) # specific version  
 ║░╠═8 PyCharm  
 ║░║░╚═1 [Warning Unresolved reference warning](01_Python_Env_and_ETC/08_PyCharm/01_unresolved_reference_warning.md)  
 ║░╚═9 Visual Studio Code  
