@@ -29,7 +29,8 @@
 ║░╠═7 pip  
 ║░║░╠═1 pip install [package](01_Python_Env_and_ETC/07_pip/01_pip3_install_glob3.md) # online  
 ║░║░╠═2 pip install [package](01_Python_Env_and_ETC/07_pip/02_pip3_install_offline.md) # offline  
-║░║░╚═3 pip install [xgboost==0.90](01_Python_Env_and_ETC/07_pip/03_pip_install_xgboost_version.md) # specific version  
+║░║░╠═3 pip install [xgboost==0.90](01_Python_Env_and_ETC/07_pip/03_pip_install_xgboost_version.md) # specific version  
+║░║░╚═4 pip install [pydot pydotplus graphviz](01_Python_Env_and_ETC/07_pip/04_pip_install_pydot_pydotplus_graphviz.md) # Need to installl the original graphviz (python package graphviz is just a wrapper)  
 ║░╠═8 PyCharm  
 ║░║░╚═1 [Warning Unresolved reference warning](01_Python_Env_and_ETC/08_PyCharm/01_unresolved_reference_warning.md)  
 ║░╚═9 Visual Studio Code  
